@@ -11,8 +11,7 @@ Supports lynx, w3m, eww, and mothra
 ## Parsing articles
 
 ```
-⍝   separate date and author    remove left-over tags   split on attr="value"   remove surrounding blanks   separate tags                               separate articles
-↑{⊃,/⊆¨{(~0@1≠', '⍳⍵)⊆⍵}¨@(1↑⍨∘-≢)'/a' 'span' '/span' ~⍨ {⊃⌽'"'(≠⊆⊢)⍵}¨@1 2 {⍵/⍨~(∧/∊∘(⎕json '"\n "'))¨⍵} {⍵⊆⍨~⍵∊'<>'} ⍵}¨'<div id="article"' '</div>'{⍵⊆⍨(≠\∨⊢)⍺(⊃∨.⍷)⊂⍵}⊃⎕NGET'index.html'
+'htx'⎕CY'dfns' ⋄ ↑('(class|href)="(.*?)"'⎕S{⊃⌽'"'(≠⊆⊢)⍵.Match} , 'a'∘htx , ({', '(⊢⊆⍨⌽⍤⍷⍥⌽=⍷)⊃⍵}'span'∘htx)) ¨ '<div>' htx ⊃⎕NGET'index.html'
 ```
 
 This erroneous one-liner returns a matrix with columns: `Topic | URL | Title | Date | Author`
