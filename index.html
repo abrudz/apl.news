@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
   <title>Jot Dot Times - News</title>
-  <meta name="description" content="The modern APL news aggregator."/>
+  <meta name="description" content="The modern APL news aggregator." />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" href="favicon.png">
+  <link rel="icon" href="favicon.png" />
   <style>
   html { padding: 1em; }
   body { line-height: 1.5; text-align: center; width: 35rem; margin: 0 auto; overflow-y: scroll; }
@@ -44,7 +44,7 @@
 </head>
 <body>
 
-  <span style="display:inline-block;line-height:100%;font-size:1.5em;font-weight:bold;padding:0.1em;">The<br><i>APL</i></span><img style="max-width:100%;height:auto;" alt="Jot Dot Times" src="title.svg">
+  <span style="display:inline-block;line-height:100%;font-size:1.5em;font-weight:bold;padding:0.1em;">The<br /><i>APL</i></span><img style="max-width:100%;height:auto;" alt="Jot Dot Times" src="title.svg" />
   <h5 id="notice">*Updated every Friday at 15:00 GMT</h5>
 
   <div id="article" class="Commentary">
@@ -213,7 +213,7 @@
   </div>
 
   <div id="article" class="Commentary">
-    <a href="https://mathspp.com/blog/counting-mosaics-with-apl">Aaron Hsu at Function Conf 2022</a>
+    <a href="https://www.toolofthought.com/posts/aaronhsuquote">Aaron Hsu at Function Conf 2022</a>
     <span>2022-01-27, Paul Mansour</span>
   </div>
 
@@ -245,17 +245,19 @@
 <script>
   document.getElementById("notice").insertAdjacentHTML('afterend',
   `
-  <input type="checkbox" id="Challenge"    checked=""><label for="Challenge"></label>
-  <input type="checkbox" id="Pointfree"    checked=""><label for="Pointfree"></label>
-  <input type="checkbox" id="Mathematics"  checked=""><label for="Mathematics"></label>
-  <input type="checkbox" id="Idiom"        checked=""><label for="Idiom"></label>
-  <input type="checkbox" id="Design"       checked=""><label for="Design"></label>
-  <input type="checkbox" id="Commentary"   checked=""><label for="Commentary"></label>
-  <input type="checkbox" id="Announcement" checked=""><label for="Announcement"></label>
-  <input type="checkbox" id="Example"      checked=""><label for="Example"></label>
-  <input type="checkbox" id="Anecdote"     checked=""><label for="Anecdote"></label>
+  <input type="checkbox" id="Challenge"    checked="" /><label for="Challenge"   ></label>
+  <input type="checkbox" id="Pointfree"    checked="" /><label for="Pointfree"   ></label>
+  <input type="checkbox" id="Mathematics"  checked="" /><label for="Mathematics" ></label>
+  <input type="checkbox" id="Idiom"        checked="" /><label for="Idiom"       ></label>
+  <input type="checkbox" id="Design"       checked="" /><label for="Design"      ></label>
+  <input type="checkbox" id="Commentary"   checked="" /><label for="Commentary"  ></label>
+  <input type="checkbox" id="Announcement" checked="" /><label for="Announcement"></label>
+  <input type="checkbox" id="Example"      checked="" /><label for="Example"     ></label>
+  <input type="checkbox" id="Anecdote"     checked="" /><label for="Anecdote"    ></label>
   `
   );
 </script>
 </body>
 </html>
+
+<!-- ⊃{⍵/⍨=\(('<',⍺,'>')∘(¯1⌽⌽⍤⍷⍥⌽)⍱('</',⍺,'>')∘⍷)⍵}/'script' 'style',⊂html -->
