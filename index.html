@@ -45,7 +45,8 @@
 <body>
 
   <span style="display:inline-block;line-height:100%;font-size:1.5em;font-weight:bold;padding:0.1em;">The<br /><i>APL</i></span><img style="max-width:100%;height:auto;" alt="Jot Dot Times" src="title.svg" />
-  <h5 id="notice">*Updated every Friday at 15:00 GMT</h5>
+  <h5 id="notice">*Updated every Friday at 15:00 GMT | <a style="font-size:small;color:gray;" href="rss.xml">[rss feed]</a></h5>
+  
 
   <div id="article" class="Commentary">
     <a href="https://razetime.github.io/blog/2023/03/02/apl-assumptions.html">Common misconceptions about APL</a>
@@ -229,20 +230,22 @@
 
   <div id="article" class="Mathematics">
     <a href="https://palaiologos.rocks/essays/posts/linalg-apl">Implementing the Faddeev-LeVerrier algorithm in APL</a>
-    <span>2022/01/10, Kamila Szewczyk</span>
+    <span>2022-01-10, Kamila Szewczyk</span>
   </div>
   
   <div id="article" class="Mathematics">
     <a href="https://palaiologos.rocks/essays/posts/poly-root-apl">Finding roots of a polynomial - numerical methods in APL </a>
-    <span>2022/01/09, Kamila Szewczyk</span>
+    <span>2022-01-09, Kamila Szewczyk</span>
   </div>
 
   <div id="article" class="Mathematics">
     <a href="https://palaiologos.rocks/essays/posts/taylor-apl">Implementing Taylor Series in APL</a>
-    <span>2022/01/06, Kamila Szewczyk</span>
+    <span>2022-01-06, Kamila Szewczyk</span>
   </div>
 
 <script>
+//<![CDATA[
+
   document.getElementById("notice").insertAdjacentHTML('afterend',
   `
   <input type="checkbox" id="Challenge"    checked="" /><label for="Challenge"   ></label>
@@ -256,6 +259,7 @@
   <input type="checkbox" id="Anecdote"     checked="" /><label for="Anecdote"    ></label>
   `
   );
+//]]>
 </script>
 </body>
 </html>
