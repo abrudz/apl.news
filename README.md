@@ -4,7 +4,7 @@ Supports lynx, w3m, eww, and mothra
 
 ## To-do
 
-- [ ] RSS feed
+- [X] RSS feed
 - [ ] Accessible scaling
 - [ ] Backup articles on archive.org
 
