@@ -1,0 +1,26 @@
+Rss ← {
+    xml ← '<?xml version="1.0" encoding="UTF-8" ?>'
+    xml,← '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">'
+    xml,← '<channel>'
+    xml,← '<title>The APL Jot Dot Times</title>'
+    xml,← '<link>https://apl.news/rss.xml</link>'
+    xml,← '<atom:link href="https://apl.news/rss.xml" rel="self" type="application/rss+xml" />'
+    xml,← '<description>The modern APL news aggregator</description>'
+    xml,←∊{
+       link title date author ← 1↓⍵
+       uuid ← '-'@(4+5×⍳4)⊢(⎕D,⎕C⎕A)[4(9+|)@20⊢5@15?36⍴16]
+       date ← 'Ddd, DD Mmm YYYY hh:mm:ss "GMT"'(⊃1200⌶)1⎕DT'-'(//⎕VFI)date,'-15-0-0-0'
+       out ← '<item>'
+       out,← '<link>',link,'</link>'
+       out,← '<title>',title,'</title>'
+       out,← '<pubDate>',date,'</pubDate>'
+       out,← '<description>',author,'</description>'
+       out,← '<guid isPermaLink="false">',uuid,'</guid>'
+       out,← '</item>'
+       ⊂out
+    }⍤1⊢⍵
+
+    xml,← '</channel>'
+    xml,← '</rss>'
+    xml
+}
