@@ -6,388 +6,367 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" href="favicon.png" />
   <style>
-  html { padding: 1em; }
-  body { line-height: 1.5; text-align: center; width: 35rem; margin: 0 auto; overflow-y: scroll; }
-
-  h1,h2,h3,h4,h5,h6 { margin:0 }
+  body {  text-align: center; width: 35rem; margin: 1em auto;  }
+  a { text-decoration: none; }
   
-  #article { text-align: left; display: flex; flex-direction: column; }
-  #article:not(:last-child) { border-bottom: 1px solid rgb(190, 190, 190); }
-  #article::after{ content: attr(class); color: rgb(100, 100, 100); font-size: 1.25em; }
+  h1 { font-size: 400% ; margin: 0}
+  h1>a { vertical-align:top; margin-top: 3ex; display: inline-block}
   
-  a { text-decoration: none; font-size: 1.5em; }
-  #article::after,label{ font-variant: all-small-caps; }
-
-  label { cursor: pointer; user-select: none; padding: 0 0.5em; border-bottom: .67ex solid transparent; display: inline-block; transition: .1s; }
-
-  label::before { content: attr(for); }
+  article { text-align: left; display: flex; flex-direction: column; transition: 200ms; max-height: 0; padding-top: 0; padding-bottom: 0; opacity: 0;}
+  article::after,label{ content: attr(class); color: rgb(100, 100, 100); font-size: 1.25em; font-variant: all-small-caps ; word-spacing: 200%}
+  article a{font-size:150%}
+  
+  input { position:absolute; top:-100% }  
   input:checked + label { border-color: rgb(170, 220, 180); }
-
-  input { display: none; }
-  #article,input:checked ~ p { overflow: hidden; max-height: 0; padding: 0; opacity: 0;
-    transition: max-height 0ms 200ms ease-out, padding 0ms 200ms ease-out, opacity 200ms 0ms; }
-
-  #Challenge:checked    ~ .Challenge,
-  #Pointfree:checked    ~ .Pointfree,
-  #Mathematics:checked  ~ .Mathematics,
-  #Idiom:checked        ~ .Idiom,
-  #Design:checked       ~ .Design,
-  #Commentary:checked   ~ .Commentary,
-  #Announcement:checked ~ .Announcement,
-  #Example:checked      ~ .Example,
-  #Anecdote:checked     ~ .Anecdote,
-  p { max-height: 100%; opacity: 1; padding: 1.5em; 
-    transition: max-height 0ms 0ms ease-in, padding 0ms 0ms ease-in, opacity 200ms 200ms; }
+  label { cursor: pointer; user-select: none; padding: 0 0.5em; border-bottom: .67ex solid transparent; display: inline-block; transition: .1s; }
+  label::before { content: attr(for); }
 
   @media only screen and (max-width: 1200px) { body { font-size: 75%; } }
   </style>
 </head>
 <body>
+  <h1><span style="display:inline-block;line-height:100%;font-size:1.5rem;font-weight:bold;padding:0.1em;">The<br /><a tabindex="1" href="https://apl.wiki"><i>APL</i></a></span>Jo̊t Dȯt Ti̽mes<a tabindex="1" style="font-size:small" href="rss.xml">RSS FEED</a></h1>
 
-  <span style="display:inline-block;line-height:100%;font-size:1.5em;font-weight:bold;padding:0.1em;">The<br /><i>APL</i></span><img style="max-width:100%;height:auto;" alt="Jot Dot Times" src="title.svg" />
-  <h5 id="notice">*Updated every Friday at 15:00 GMT | <a style="font-size:small;color:gray;" href="rss.xml">[rss feed]</a></h5>
-  
-  <div id="article" class="Design ; Announcement">
-    <a href="https://www.dyalog.com/blog/2023/04/formal-proposal-for-apl-array-notation-seeking-feedback">Formal Proposal for APL Array Notation – Seeking Feedback</a>
-    <span>2023-04-21, Morten Kromberg</span>
-  </div>
-
-  <div id="article" class="Example">
-    <a href="https://www.toolofthought.com/posts/dom-via-json-performance">DOM via JSON Performance</a>
-    <span>2023-04-12, Paul Mansour</span>
-  </div>
-
-  <div id="article" class="Announcement">
-    <a href="https://www.dyalog.com/blog/2023/04/11-april-2023-a-day-to-celebrate">11 April 2023 – A Day to Celebrate!</a>
-    <span>2023-04-11, Morten Kromberg</span>
-  </div>
-
-  <div id="article" class="Example">
-    <a href="https://www.toolofthought.com/posts/the-dom-via-json">The DOM via JSON</a>
-    <span>2023-04-11, Paul Mansour</span>
-  </div>
-
-  <div id="article" class="Design ; Announcement">
-    <a href="https://www.dyalog.com/blog/2023/04/extending-structural-functions-to-scalars">Extending Structural Functions to Scalars</a>
-    <span>2023-04-01, Morten Kromberg</span>
-  </div>
-
-  <div id="article" class="Announcement">
-    <a href="https://www.dyalog.com/blog/2023/03/apl-seeds-23-wednesday-22-march">APL Seeds ’23: Wednesday 22 March</a>
-    <span>2023-03-30, Dyalog</span>
-  </div>
-
-  <div id="article" class="Example">
-    <a href="https://www.toolofthought.com/posts/validating-dates">Validating Dates</a>
-    <span>2023-03-27, Paul Mansour</span>
-  </div>
-
-  <div id="article" class="Example ; Challenge">
-    <a href="https://www.toolofthought.com/posts/grade-up-of-grade-down">Grade Down of Grade Up</a>
-    <span>2023-03-21, Paul Mansour</span>
-  </div>
-
-  <div id="article" class="Announcement ; Commentary">
-    <a href="https://www.sacrideo.us/2023-apl-problem-solving-competition">2023 APL Problem Solving Competition</a>
-    <span>2023-03-10, Aaron Hsu</span>
-  </div>
-
-  <div id="article" class="Design ; Idiom">
-    <a href="https://www.toolofthought.com/posts/how-would-you-write-this">How Would You Write This?</a>
-    <span>2023-03-05, Paul Mansour</span>
-  </div>
-
-  <div id="article" class="Commentary">
-    <a href="https://razetime.github.io/blog/2023/03/02/apl-assumptions.html">Common misconceptions about APL</a>
-    <span>2023-03-02, Raghu Ranganathan</span>
-  </div>
-
-  <div id="article" class="Announcement">
-    <a href="https://www.toolofthought.com/posts/text2date">Text2Date, a New Repository</a>
-    <span>2023-02-27, Paul Mansour</span>
-  </div>
-
-  <div id="article" class="Example">
-    <a href="https://www.toolofthought.com/posts/error-trapping">Error Trapping</a>
-    <span>2023-02-20, Paul Mansour</span>
-  </div>
-
-  <div id="article" class="Design">
-    <a href="https://www.toolofthought.com/posts/provanto">Provanto: A Test Framework</a>
-    <span>2023-02-13, Paul Mansour</span>
-  </div>
-
-  <div id="article" class="Design ; Example">
-    <a href="https://blog.dhsdevelopments.com/returning-from-functions-in-kap">Returning from functions in KAP</a>
-    <span>2023-02-04, Elias Mårtenson</span>
-  </div>
-
-  <div id="article" class="Design">
-    <a href="https://www.dyalog.com/blog/2023/01/structural-vs-mathematical-under">Structural vs. Mathematical “Under”</a>
-    <span>2023-01-26, Morten Kromberg</span>
-  </div>
-
-  <div id="article" class="Example">
-    <a href="https://www.toolofthought.com/posts/text-to-date">Converting Text to Date</a>
-    <span>2023-01-23, Paul Mansour</span>
-  </div>
-
-  <div id="article" class="Design">
-    <a href="https://www.toolofthought.com/posts/an-issue-with-xml-revisited">An Issue With ⎕XML Revisited</a>
-    <span>2023-01-09, Paul Mansour</span>
-  </div>
-
-  <div id="article" class="Example ; Idiom">
-    <a href="https://www.toolofthought.com/posts/anatomy-of-a-query-iii">Anatomy of a Query, Part 3</a>
-    <span>2022-12-27, Paul Mansour</span>
-  </div>
-
-  <div id="article" class="Example ; Idiom">
-    <a href="https://www.toolofthought.com/posts/anatomy-of-a-query-ii">Anatomy of a Query, Part 2</a>
-    <span>2022-12-20, Paul Mansour</span>
-  </div>
-
-  <div id="article" class="Challenge">
-    <a href="https://www.toolofthought.com/posts/secret-santa">Secret Santa</a>
-    <span>2022-12-12, Paul Mansour</span>
-  </div>
-
-  <div id="article" class="Challenge">
-    <a href="https://blog.dhsdevelopments.com/kap-solution-to-day-2-of-advent-of-code">KAP solution to day 2 of Advent of Code</a>
-    <span>2022-12-04, Elias Mårtenson</span>
-  </div>
-  
-  <div id="article" class="Example">
-    <a href="https://razetime.github.io/blog/2022/12/01/apl-willans.html">Willans' Formula in APL</a>
-    <span>2022-12-01, Raghu Ranganathan</span>
-  </div>
-
-  <div id="article" class="Example">
-    <a href="https://www.toolofthought.com/posts/parsing-markdown">Parsing Markdown</a>
-    <span>2022-10-24, Paul Mansour</span>
-  </div>
-
-  <div id="article" class="Example ; Idiom">
-    <a href="https://www.toolofthought.com/posts/anatomy-of-a-query">Anatomy of a Query, Part 1</a>
-    <span>2022-10-23, Paul Mansour</span>
-  </div>
-
-  <div id="article" class="Announcement ; Commentary">
-    <a href="https://optima-systems.co.uk/dyalog22-apl-user-meeting-portugal">Dyalog’22 APL User Meeting, Portugal</a>
-    <span>2022-10-19, Paul Grosvenor</span>
-  </div>
-
-  <div id="article" class="Example">
-    <a href="https://www.toolofthought.com/posts/composerules-revisited">ComposeRules Revisited</a>
-    <span>2022-10-07, Paul Mansour</span>
-  </div>
-
-  <div id="article" class="Example">
-    <a href="https://razetime.github.io/blog/2022/10/03/apl-balanced-trees.html">Some balanced binary trees in APL</a>
-    <span>2022-10-03, Raghu Ranganathan</span>
-  </div>
-
-  <div id="article" class="Commentary">
-    <a href="https://futhark-lang.org/blog/2022-10-03-futhark-on-arraycast.html">Futhark on The Array Cast</a>
-    <span>2022-10-03, Troels Henriksen</span>
-  </div>
-
-  <div id="article" class="Example">
-    <a href="https://www.toolofthought.com/posts/constructing-css-in-apl">Constructing CSS in APL</a>
-    <span>2022-09-30, Paul Mansour</span>
-  </div>
-
-  <div id="article" class="Example">
-    <a href="https://www.toolofthought.com/posts/threading-the-htmlrenderer">Threading the HTMLRenderer</a>
-    <span>2022-09-22, Paul Mansour</span>
-  </div>
-
-  <div id="article" class="Example ; Design">
-    <a href="https://www.toolofthought.com/posts/a-document-object-model-in-apl">A Document Object Model in APL</a>
-    <span>2022-09-21, Paul Mansour</span>
-  </div>
-
-  <div id="article" class="Commentary">
-    <a href="http://blog.vmchale.com/article/apl-different">APL Is Truly Different</a>
-    <span>2022-08-26, Vanessa McHale</span>
-  </div>
-
-  <div id="article" class="Anecdote">
-    <a href="https://www.dyalog.com/blog/2022/08/maintaining-pynapl-part-2-apl-arrays-python-objects-and-json">Maintaining Py’n’APL Part 2: APL Arrays, Python Objects, and JSON</a>
-    <span>2022-08-24, Rodrigo Girão Serrão</span>
-  </div>
-
-  <div id="article" class="Announcement">
-    <a href="http://apl2000.com">APL64 - first production release</a>
-    <span>2022-08-11, APL2000</span>
-  </div>
-
-  <div id="article" class="Example ; Challenge">
-    <a href="https://isaac-flath.github.io/APL-Exploration/posts/knapsack2.html">Knapsack II</a>
-    <span>2022-08-06, Felix Flath</span>
-  </div>
-
-  <div id="article" class="Example ; Challenge">
-    <a href="https://isaac-flath.github.io/APL-Exploration/posts/knapsack.html">Knapsack</a>
-    <span>2022-08-06, Felix Flath</span>
-  </div>
-  
-  <div id="article" class="Design">
-    <a href="https://www.toolofthought.com/posts/on-control-structures">On Control Structures</a>
-    <span>2022-08-01, Paul Mansour</span>
-  </div>
-
-  <div id="article" class="Design">
-    <a href="https://blog.dhsdevelopments.com/control-structures-in-kap">Control structures in KAP</a>
-    <span>2022-07-23, Elias Mårtenson</span>
-  </div>
-
-  <div id="article" class="Challenge">
-    <a href="https://www.toolofthought.com/posts/leetcode-601">LeetCode 601: Human Traffic of Stadium</a>
-    <span>2022-07-09, Paul Mansour</span>
-  </div>
-
-  <div id="article" class="Pointfree">
-    <a href="https://www.toolofthought.com/posts/trains">Trains</a>
-    <span>2022-07-08, Paul Mansour</span>
-  </div>
-
-  <div id="article" class="Challenge">
-    <a href="https://www.toolofthought.com/posts/leetcode-569">LeetCode 569: Median Employee Salary</a>
-    <span>2022-07-07, Paul Mansour</span>
-  </div>
-
-  <div id="article" class="Challenge">
-    <a href="https://www.toolofthought.com/posts/leetcode-571">LeetCode 571: Find Median Given Frequency of Numbers</a>
-    <span>2022-07-06, Paul Mansour</span>
-  </div>
-
-  <div id="article" class="Challenge">
-    <a href="https://www.toolofthought.com/posts/leetcode-262-trips-and-users">LeetCode 262: Trips and Users</a>
-    <span>2022-06-26, Paul Mansour</span>
-  </div>
-
-  <div id="article" class="Challenge">
-    <a href="https://www.toolofthought.com/posts/leetcode-185">LeetCode 185: Department Top Three Salaries</a>
-    <span>2022-06-25, Paul Mansour</span>
-  </div>
-
-  <div id="article" class="Announcement">
-    <a href="https://vector.org.uk/a-vendor-agnostic-logo-for-apl">A Vendor-Agnostic Logo for APL</a>
-    <span>2022-06-16, Adám Brudzewsky</span>
-  </div>
-  
-  <div id="article" class="Idiom">
-    <a href="https://www.toolofthought.com/posts/operators-in-a-dsl">Operators in a DSL</a>
-    <span>2022-05-28, Paul Mansour</span>
-  </div>
-
-  <div id="article" class="Commentary">
-    <a href="https://blog.dhsdevelopments.com/commentary-on-array-cast">Commentary on Array Cast</a>
-    <span>2022-05-18, Elias Mårtenson</span>
-  </div>
-
-  <div id="article" class="Anecdote">
-    <a href="https://www.dyalog.com/blog/2022/05/maintaining-pynapl-part-1-the-beginning">Maintaining Py’n’APL Part 1: The Beginning</a>
-    <span>2022-05-09, Rodrigo Girão Serrão</span>
-  </div>
-
-  <div id="article" class="Example ; Challenge">
-    <a href="https://mathspp.com/blog/solving-wordle-with-apl">Solving Wordle with APL</a>
-    <span>2022-03-28, Rodrigo Girão Serrão</span>
-  </div>
-
-  <div id="article" class="Commentary">
-    <a href="https://mathspp.com/blog/why-apl-is-a-language-worth-knowing">Why APL is a language worth knowing</a>
-    <span>2022-03-24, Rodrigo Girão Serrão</span>
-  </div>
-
-  <div id="article" class="Design">
-    <a href="https://blog.dhsdevelopments.com/lazy-evaluation-helping-implementation-of-transform-by-mask-in-kap">Lazy evaluation helping implementation of transform by mask in KAP</a>
-    <span>2022-03-13, Elias Mårtenson</span>
-  </div>
-  
-  <div id="article" class="Example">
-    <a href="https://blog.dhsdevelopments.com/an-example-of-lazy-evaluation-in-kap">An example of lazy evaluation in KAP</a>
-    <span>2022-03-12, Elias Mårtenson</span>
-  </div>
-  
-  <div id="article" class="Design">
-    <a href="https://outerproduct.net/2022-03-07_death-to-%E2%97%8B.html">Fixing APL’s Trigonometric Notation</a>
-    <span>2022-03-07, Moonchild</span>
-  </div>
-
-  <div id="article" class="Design">
-    <a href="https://www.toolofthought.com/posts/session-configuration">Session Configuration</a>
-    <span>2022-03-06, Paul Mansour</span>
-  </div>
-
-  <div id="article" class="Design">
-    <a href="https://www.toolofthought.com/posts/a-new-workspace-file-format">A New Workspace File Format</a>
-    <span>2022-02-26, Paul Mansour</span>
-  </div>
-
-  <div id="article" class="Mathematics">
-    <a href="https://mathspp.com/blog/til/034">TIL #034 – multi-channel transposed convolution</a>
-    <span>2022-02-23, Rodrigo Girão Serrão</span>
-  </div>
-
-  <div id="article" class="Mathematics">
-    <a href="https://mathspp.com/blog/til/033">TIL #033 – transposed convolution</a>
-    <span>2022-02-22, Rodrigo Girão Serrão</span>
-  </div>
-
-  <div id="article" class="Commentary">
-    <a href="https://www.toolofthought.com/posts/aaronhsuquote">Aaron Hsu at Function Conf 2022</a>
-    <span>2022-01-27, Paul Mansour</span>
-  </div>
-
-  <div id="article" class="Example ; Idiom">
-    <a href="https://www.toolofthought.com/posts/vfi-with-csv">⎕VFI with ⎕CSV</a>
-    <span>2022-01-25, Paul Mansour</span>
-  </div>
-  
-  <div id="article" class="Mathematics">
-    <a href="https://mathspp.com/blog/til/021">TIL #021 – Spouge's formula</a>
-    <span>2022-01-10, Rodrigo Girão Serrã</span>
-  </div>
-
-  <div id="article" class="Mathematics">
-    <a href="https://palaiologos.rocks/essays/posts/linalg-apl">Implementing the Faddeev-LeVerrier algorithm in APL</a>
-    <span>2022-01-10, Kamila Szewczyk</span>
-  </div>
-  
-  <div id="article" class="Mathematics">
-    <a href="https://palaiologos.rocks/essays/posts/poly-root-apl">Finding roots of a polynomial - numerical methods in APL </a>
-    <span>2022-01-09, Kamila Szewczyk</span>
-  </div>
-
-  <div id="article" class="Mathematics">
-    <a href="https://palaiologos.rocks/essays/posts/taylor-apl">Implementing Taylor Series in APL</a>
-    <span>2022-01-06, Kamila Szewczyk</span>
-  </div>
-
-  <div id="article" class="Example">
-    <a href="https://optima-systems.co.uk/creating-a-graphical-user-interface-gui-in-dyalog-apl-part-1">Creating a Graphical User Interface (GUI) in Dyalog APL (Part 1)</a>
-    <span>2021-05-28, Sam Gutsell</span>
-  </div>
-
+  <input type="checkbox" id="Challenge"    checked="" tabindex="2"/><label for="Challenge"   ></label>
+  <input type="checkbox" id="Pointfree"    checked="" tabindex="2"/><label for="Pointfree"   ></label>
+  <input type="checkbox" id="Mathematics"  checked="" tabindex="2"/><label for="Mathematics" ></label>
+  <input type="checkbox" id="Idiom"        checked="" tabindex="2"/><label for="Idiom"       ></label>
+  <input type="checkbox" id="Design"       checked="" tabindex="2"/><label for="Design"      ></label>
+  <input type="checkbox" id="Commentary"   checked="" tabindex="2"/><label for="Commentary"  ></label>
+  <input type="checkbox" id="Announcement" checked="" tabindex="2"/><label for="Announcement"></label>
+  <input type="checkbox" id="Example"      checked="" tabindex="2"/><label for="Example"     ></label>
 <script>
-//<![CDATA[
-  document.getElementById("notice").insertAdjacentHTML('afterend',
-  `
-  <input type="checkbox" id="Challenge"    checked="" /><label for="Challenge"   ></label>
-  <input type="checkbox" id="Pointfree"    checked="" /><label for="Pointfree"   ></label>
-  <input type="checkbox" id="Mathematics"  checked="" /><label for="Mathematics" ></label>
-  <input type="checkbox" id="Idiom"        checked="" /><label for="Idiom"       ></label>
-  <input type="checkbox" id="Design"       checked="" /><label for="Design"      ></label>
-  <input type="checkbox" id="Commentary"   checked="" /><label for="Commentary"  ></label>
-  <input type="checkbox" id="Announcement" checked="" /><label for="Announcement"></label>
-  <input type="checkbox" id="Example"      checked="" /><label for="Example"     ></label>
-  <input type="checkbox" id="Anecdote"     checked="" /><label for="Anecdote"    ></label>
-  `
-  );
-//]]>
+  inputs=[...document.getElementsByTagName`input`]
+  document.head.appendChild(document.createElement('style')).innerText=
+    inputs.flatMap(e=>"#"+e.id+":checked~."+e.id).join()+"{max-height:100%;opacity:1;padding-top:1.5em;padding-bottom: 1.5em;}"+
+    inputs.flatMap(e=>"#"+e.id+":focus+label").join()+"{color:#000;background:#eee}"
 </script>
+
+
+  <article class="Design Announcement">
+    <a href="https://www.dyalog.com/blog/2023/04/formal-proposal-for-apl-array-notation-seeking-feedback">Formal Proposal for APL Array Notation – Seeking Feedback</a>
+    2023-04-21, Morten Kromberg
+  </article>
+
+  <article class="Example">
+    <a href="https://www.toolofthought.com/posts/dom-via-json-performance">DOM via JSON Performance</a>
+    2023-04-12, Paul Mansour
+  </article>
+
+  <article class="Announcement">
+    <a href="https://www.dyalog.com/blog/2023/04/11-april-2023-a-day-to-celebrate">11 April 2023 – A Day to Celebrate!</a>
+    2023-04-11, Morten Kromberg
+  </article>
+
+  <article class="Example">
+    <a href="https://www.toolofthought.com/posts/the-dom-via-json">The DOM via JSON</a>
+    2023-04-11, Paul Mansour
+  </article>
+
+  <article class="Design Announcement">
+    <a href="https://www.dyalog.com/blog/2023/04/extending-structural-functions-to-scalars">Extending Structural Functions to Scalars</a>
+    2023-04-01, Morten Kromberg
+  </article>
+
+  <article class="Announcement">
+    <a href="https://www.dyalog.com/blog/2023/03/apl-seeds-23-wednesday-22-march">APL Seeds ’23: Wednesday 22 March</a>
+    2023-03-30, Dyalog
+  </article>
+
+  <article class="Example">
+    <a href="https://www.toolofthought.com/posts/validating-dates">Validating Dates</a>
+    2023-03-27, Paul Mansour
+  </article>
+
+  <article class="Example Challenge">
+    <a href="https://www.toolofthought.com/posts/grade-up-of-grade-down">Grade Down of Grade Up</a>
+    2023-03-21, Paul Mansour
+  </article>
+
+  <article class="Announcement Commentary">
+    <a href="https://www.sacrideo.us/2023-apl-problem-solving-competition">2023 APL Problem Solving Competition</a>
+    2023-03-10, Aaron Hsu
+  </article>
+
+  <article class="Design Idiom">
+    <a href="https://www.toolofthought.com/posts/how-would-you-write-this">How Would You Write This?</a>
+    2023-03-05, Paul Mansour
+  </article>
+
+  <article class="Commentary">
+    <a href="https://razetime.github.io/blog/2023/03/02/apl-assumptions.html">Common misconceptions about APL</a>
+    2023-03-02, Raghu Ranganathan
+  </article>
+
+  <article class="Announcement">
+    <a href="https://www.toolofthought.com/posts/text2date">Text2Date, a New Repository</a>
+    2023-02-27, Paul Mansour
+  </article>
+
+  <article class="Example">
+    <a href="https://www.toolofthought.com/posts/error-trapping">Error Trapping</a>
+    2023-02-20, Paul Mansour
+  </article>
+
+  <article class="Design">
+    <a href="https://www.toolofthought.com/posts/provanto">Provanto: A Test Framework</a>
+    2023-02-13, Paul Mansour
+  </article>
+
+  <article class="Design Example">
+    <a href="https://blog.dhsdevelopments.com/returning-from-functions-in-kap">Returning from functions in KAP</a>
+    2023-02-04, Elias Mårtenson
+  </article>
+
+  <article class="Design">
+    <a href="https://www.dyalog.com/blog/2023/01/structural-vs-mathematical-under">Structural vs. Mathematical “Under”</a>
+    2023-01-26, Morten Kromberg
+  </article>
+
+  <article class="Example">
+    <a href="https://www.toolofthought.com/posts/text-to-date">Converting Text to Date</a>
+    2023-01-23, Paul Mansour
+  </article>
+
+  <article class="Design">
+    <a href="https://www.toolofthought.com/posts/an-issue-with-xml-revisited">An Issue With ⎕XML Revisited</a>
+    2023-01-09, Paul Mansour
+  </article>
+
+  <article class="Example Idiom">
+    <a href="https://www.toolofthought.com/posts/anatomy-of-a-query-iii">Anatomy of a Query, Part 3</a>
+    2022-12-27, Paul Mansour
+  </article>
+
+  <article class="Example Idiom">
+    <a href="https://www.toolofthought.com/posts/anatomy-of-a-query-ii">Anatomy of a Query, Part 2</a>
+    2022-12-20, Paul Mansour
+  </article>
+
+  <article class="Challenge">
+    <a href="https://www.toolofthought.com/posts/secret-santa">Secret Santa</a>
+    2022-12-12, Paul Mansour
+  </article>
+
+  <article class="Challenge">
+    <a href="https://blog.dhsdevelopments.com/kap-solution-to-day-2-of-advent-of-code">KAP solution to day 2 of Advent of Code</a>
+    2022-12-04, Elias Mårtenson
+  </article>
+  
+  <article class="Example">
+    <a href="https://razetime.github.io/blog/2022/12/01/apl-willans.html">Willans' Formula in APL</a>
+    2022-12-01, Raghu Ranganathan
+  </article>
+
+  <article class="Example">
+    <a href="https://www.toolofthought.com/posts/parsing-markdown">Parsing Markdown</a>
+    2022-10-24, Paul Mansour
+  </article>
+
+  <article class="Example Idiom">
+    <a href="https://www.toolofthought.com/posts/anatomy-of-a-query">Anatomy of a Query, Part 1</a>
+    2022-10-23, Paul Mansour
+  </article>
+
+  <article class="Announcement Commentary">
+    <a href="https://optima-systems.co.uk/dyalog22-apl-user-meeting-portugal">Dyalog’22 APL User Meeting, Portugal</a>
+    2022-10-19, Paul Grosvenor
+  </article>
+
+  <article class="Example">
+    <a href="https://www.toolofthought.com/posts/composerules-revisited">ComposeRules Revisited</a>
+    2022-10-07, Paul Mansour
+  </article>
+
+  <article class="Example">
+    <a href="https://razetime.github.io/blog/2022/10/03/apl-balanced-trees.html">Some balanced binary trees in APL</a>
+    2022-10-03, Raghu Ranganathan
+  </article>
+
+  <article class="Commentary">
+    <a href="https://futhark-lang.org/blog/2022-10-03-futhark-on-arraycast.html">Futhark on The Array Cast</a>
+    2022-10-03, Troels Henriksen
+  </article>
+
+  <article class="Example">
+    <a href="https://www.toolofthought.com/posts/constructing-css-in-apl">Constructing CSS in APL</a>
+    2022-09-30, Paul Mansour
+  </article>
+
+  <article class="Example">
+    <a href="https://www.toolofthought.com/posts/threading-the-htmlrenderer">Threading the HTMLRenderer</a>
+    2022-09-22, Paul Mansour
+  </article>
+
+  <article class="Example Design">
+    <a href="https://www.toolofthought.com/posts/a-document-object-model-in-apl">A Document Object Model in APL</a>
+    2022-09-21, Paul Mansour
+  </article>
+
+  <article class="Commentary">
+    <a href="http://blog.vmchale.com/article/apl-different">APL Is Truly Different</a>
+    2022-08-26, Vanessa McHale
+  </article>
+
+  <article class="Anecdote">
+    <a href="https://www.dyalog.com/blog/2022/08/maintaining-pynapl-part-2-apl-arrays-python-objects-and-json">Maintaining Py’n’APL Part 2: APL Arrays, Python Objects, and JSON</a>
+    2022-08-24, Rodrigo Girão Serrão
+  </article>
+
+  <article class="Announcement">
+    <a href="http://apl2000.com">APL64 - first production release</a>
+    2022-08-11, APL2000
+  </article>
+
+  <article class="Example Challenge">
+    <a href="https://isaac-flath.github.io/APL-Exploration/posts/knapsack2.html">Knapsack II</a>
+    2022-08-06, Felix Flath
+  </article>
+
+  <article class="Example Challenge">
+    <a href="https://isaac-flath.github.io/APL-Exploration/posts/knapsack.html">Knapsack</a>
+    2022-08-06, Felix Flath
+  </article>
+  
+  <article class="Design">
+    <a href="https://www.toolofthought.com/posts/on-control-structures">On Control Structures</a>
+    2022-08-01, Paul Mansour
+  </article>
+
+  <article class="Design">
+    <a href="https://blog.dhsdevelopments.com/control-structures-in-kap">Control structures in KAP</a>
+    2022-07-23, Elias Mårtenson
+  </article>
+
+  <article class="Challenge">
+    <a href="https://www.toolofthought.com/posts/leetcode-601">LeetCode 601: Human Traffic of Stadium</a>
+    2022-07-09, Paul Mansour
+  </article>
+
+  <article class="Pointfree">
+    <a href="https://www.toolofthought.com/posts/trains">Trains</a>
+    2022-07-08, Paul Mansour
+  </article>
+
+  <article class="Challenge">
+    <a href="https://www.toolofthought.com/posts/leetcode-569">LeetCode 569: Median Employee Salary</a>
+    2022-07-07, Paul Mansour
+  </article>
+
+  <article class="Challenge">
+    <a href="https://www.toolofthought.com/posts/leetcode-571">LeetCode 571: Find Median Given Frequency of Numbers</a>
+    2022-07-06, Paul Mansour
+  </article>
+
+  <article class="Challenge">
+    <a href="https://www.toolofthought.com/posts/leetcode-262-trips-and-users">LeetCode 262: Trips and Users</a>
+    2022-06-26, Paul Mansour
+  </article>
+
+  <article class="Challenge">
+    <a href="https://www.toolofthought.com/posts/leetcode-185">LeetCode 185: Department Top Three Salaries</a>
+    2022-06-25, Paul Mansour
+  </article>
+
+  <article class="Announcement">
+    <a href="https://vector.org.uk/a-vendor-agnostic-logo-for-apl">A Vendor-Agnostic Logo for APL</a>
+    2022-06-16, Adám Brudzewsky
+  </article>
+  
+  <article class="Idiom">
+    <a href="https://www.toolofthought.com/posts/operators-in-a-dsl">Operators in a DSL</a>
+    2022-05-28, Paul Mansour
+  </article>
+
+  <article class="Commentary">
+    <a href="https://blog.dhsdevelopments.com/commentary-on-array-cast">Commentary on Array Cast</a>
+    2022-05-18, Elias Mårtenson
+  </article>
+
+  <article class="Anecdote">
+    <a href="https://www.dyalog.com/blog/2022/05/maintaining-pynapl-part-1-the-beginning">Maintaining Py’n’APL Part 1: The Beginning</a>
+    2022-05-09, Rodrigo Girão Serrão
+  </article>
+
+  <article class="Example Challenge">
+    <a href="https://mathspp.com/blog/solving-wordle-with-apl">Solving Wordle with APL</a>
+    2022-03-28, Rodrigo Girão Serrão
+  </article>
+
+  <article class="Commentary">
+    <a href="https://mathspp.com/blog/why-apl-is-a-language-worth-knowing">Why APL is a language worth knowing</a>
+    2022-03-24, Rodrigo Girão Serrão
+  </article>
+
+  <article class="Design">
+    <a href="https://blog.dhsdevelopments.com/lazy-evaluation-helping-implementation-of-transform-by-mask-in-kap">Lazy evaluation helping implementation of transform by mask in KAP</a>
+    2022-03-13, Elias Mårtenson
+  </article>
+  
+  <article class="Example">
+    <a href="https://blog.dhsdevelopments.com/an-example-of-lazy-evaluation-in-kap">An example of lazy evaluation in KAP</a>
+    2022-03-12, Elias Mårtenson
+  </article>
+  
+  <article class="Design">
+    <a href="https://outerproduct.net/2022-03-07_death-to-%E2%97%8B.html">Fixing APL’s Trigonometric Notation</a>
+    2022-03-07, Moonchild
+  </article>
+
+  <article class="Design">
+    <a href="https://www.toolofthought.com/posts/session-configuration">Session Configuration</a>
+    2022-03-06, Paul Mansour
+  </article>
+
+  <article class="Design">
+    <a href="https://www.toolofthought.com/posts/a-new-workspace-file-format">A New Workspace File Format</a>
+    2022-02-26, Paul Mansour
+  </article>
+
+  <article class="Mathematics">
+    <a href="https://mathspp.com/blog/til/034">TIL #034 – multi-channel transposed convolution</a>
+    2022-02-23, Rodrigo Girão Serrão
+  </article>
+
+  <article class="Mathematics">
+    <a href="https://mathspp.com/blog/til/033">TIL #033 – transposed convolution</a>
+    2022-02-22, Rodrigo Girão Serrão
+  </article>
+
+  <article class="Commentary">
+    <a href="https://www.toolofthought.com/posts/aaronhsuquote">Aaron Hsu at Function Conf 2022</a>
+    2022-01-27, Paul Mansour
+  </article>
+
+  <article class="Example Idiom">
+    <a href="https://www.toolofthought.com/posts/vfi-with-csv">⎕VFI with ⎕CSV</a>
+    2022-01-25, Paul Mansour
+  </article>
+  
+  <article class="Mathematics">
+    <a href="https://mathspp.com/blog/til/021">TIL #021 – Spouge's formula</a>
+    2022-01-10, Rodrigo Girão Serrã
+  </article>
+
+  <article class="Mathematics">
+    <a href="https://palaiologos.rocks/essays/posts/linalg-apl">Implementing the Faddeev-LeVerrier algorithm in APL</a>
+    2022-01-10, Kamila Szewczyk
+  </article>
+  
+  <article class="Mathematics">
+    <a href="https://palaiologos.rocks/essays/posts/poly-root-apl">Finding roots of a polynomial - numerical methods in APL </a>
+    2022-01-09, Kamila Szewczyk
+  </article>
+
+  <article class="Mathematics">
+    <a href="https://palaiologos.rocks/essays/posts/taylor-apl">Implementing Taylor Series in APL</a>
+    2022-01-06, Kamila Szewczyk
+  </article>
+
+  <article class="Example">
+    <a href="https://optima-systems.co.uk/creating-a-graphical-user-interface-gui-in-dyalog-apl-part-1">Creating a Graphical User Interface (GUI) in Dyalog APL (Part 1)</a>
+    2021-05-28, Sam Gutsell
+  </article>
+
 </body>
 </html>
