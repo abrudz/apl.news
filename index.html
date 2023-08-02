@@ -1,47 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Jot Dot Times - News</title>
-  <meta name="description" content="The modern APL news aggregator." />
+  <title>Jot Dot Times - APL news aggregator</title>
+  <meta name="description" content="APL news aggregator" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" href="favicon.png" />
   <style>
-  body {  text-align: center; width: 35rem; margin: 1em auto;  }
+  body { text-align: center; max-width: 35rem; margin: 1em auto; }
   a { text-decoration: none; }
+  i {font-family: sans-serif}
   
-  h1 { font-size: 400% ; margin: 0}
+  h1 { font-size: 400% ; margin: 0 ;font-weight:normal}
   h1>a { vertical-align:top; margin-top: 3ex; display: inline-block}
+  #ta { display: inline-block; line-height: 100%; font-size: 40%; padding: 0.1em; }
+  #tn {display:none; font-family:monospace}
   
-  article { text-align: left; display: flex; flex-direction: column; transition: 200ms; max-height: 0; padding-top: 0; padding-bottom: 0; opacity: 0;}
-  article::after,label{ content: attr(class); color: rgb(100, 100, 100); font-size: 1.25em; font-variant: all-small-caps ; word-spacing: 200%}
+  article { text-align: left; display: flex; flex-direction: column; transition: 150ms;
+    max-height:100%;padding-top:1.5em;opacity:1}
+  article::after,label{ content: attr(class); color: #666; font-size: 1.25em; font-variant: all-small-caps ; word-spacing: 200%}
   article a{font-size:150%}
   
   input { position:absolute; top:-100% }  
-  input:checked + label { border-color: rgb(170, 220, 180); }
-  label { cursor: pointer; user-select: none; padding: 0 0.5em; border-bottom: .67ex solid transparent; display: inline-block; transition: .1s; }
+  input:checked + label { border-color: #aadcb4; }
+  input:focus + label {color:#000;background:#eee}
+  input:checked:focus + label { border-color: #24a148; }
+  label { cursor: pointer; user-select: none; padding: 0 0.5em; border-bottom: .67ex solid transparent; display: inline-block; transition: 150ms; }
   label::before { content: attr(for); }
 
   @media only screen and (max-width: 1200px) { body { font-size: 75%; } }
+  @media only screen and (max-width: 600px) { #tw { display:none} #tn{display:inline}}
   </style>
 </head>
 <body>
-  <h1><span style="display:inline-block;line-height:100%;font-size:1.5rem;font-weight:bold;padding:0.1em;">The<br /><a tabindex="1" href="https://apl.wiki"><i>APL</i></a></span>Jo̊t Dȯt Ti̽mes<a tabindex="1" style="font-size:small" href="rss.xml">RSS FEED</a></h1>
+  <h1><span id="ta">The<br /><a tabindex="1" href="https://apl.wiki"><i>APL</i></a></span><span id="tw">Jo̊t Dọt Ti̽mes</span><span id="tn"> ∘.× </span><a tabindex="1" style="font-size:small" href="rss.xml">RSS FEED</a></h1>
 
-  <input type="checkbox" id="Challenge"    checked="" tabindex="2"/><label for="Challenge"   ></label>
-  <input type="checkbox" id="Pointfree"    checked="" tabindex="2"/><label for="Pointfree"   ></label>
-  <input type="checkbox" id="Mathematics"  checked="" tabindex="2"/><label for="Mathematics" ></label>
-  <input type="checkbox" id="Idiom"        checked="" tabindex="2"/><label for="Idiom"       ></label>
-  <input type="checkbox" id="Design"       checked="" tabindex="2"/><label for="Design"      ></label>
-  <input type="checkbox" id="Commentary"   checked="" tabindex="2"/><label for="Commentary"  ></label>
-  <input type="checkbox" id="Announcement" checked="" tabindex="2"/><label for="Announcement"></label>
-  <input type="checkbox" id="Example"      checked="" tabindex="2"/><label for="Example"     ></label>
-<script>
-  inputs=[...document.getElementsByTagName`input`]
-  document.head.appendChild(document.createElement('style')).innerText=
-    inputs.flatMap(e=>"#"+e.id+":checked~."+e.id).join()+"{max-height:100%;opacity:1;padding-top:1.5em;padding-bottom: 1.5em;}"+
-    inputs.flatMap(e=>"#"+e.id+":focus+label").join()+"{color:#000;background:#eee}"
-</script>
+  <article class="Example Commentary Idiom">
+    <a href="https://blog.rubenverg.com/suggestivity_and_idioms">On Wilson's "On Hsu's Suggestivity and Idioms"</a>
+    2023-07-27, Madeline Vergani
+  </article>
 
+  <article class="Example Commentary Idiom">
+    <a href="https://blog.wilsonb.com/posts/2023-07-24-suggestivity-and-idioms.html">On Hsu's Suggestivity and Idioms</a>
+    2023-07-24, Brandon Wilson
+  </article>
+
+  <article class="Example Commentary Idiom">
+    <a href="https://www.toolofthought.com/posts/boolean-techniques">Boolean Techniques</a>
+    2023-05-13, Paul Mansour
+  </article>
+
+  <article class="Design">
+    <a href="https://www.toolofthought.com/posts/dont-trap-when-you-can-verify">Don't Trap When You Can Verify</a>
+    2023-05-11, Paul Mansour
+  </article>
+
+  <article class="Challenge Commentary">
+    <a href="https://www.toolofthought.com/posts/excel-column-names">Excel Column Names</a>
+    2023-05-08, Paul Mansour
+  </article>
+
+  <article class="Example Idiom">
+    <a href="https://www.sacrideo.us/suggestivity-and-idioms-in-apl/">Suggestivity and Idioms in APL</a>
+    2023-05-02, Aaron Hsu
+  </article>
+
+  <article class="Commentary">
+    <a href="https://www.sacrideo.us/flat-program-organization-an-email-response/">Flat Program Organization: An Email Response</a>
+    2023-04-21, Aaron Hsu
+  </article>
 
   <article class="Design Announcement">
     <a href="https://www.dyalog.com/blog/2023/04/formal-proposal-for-apl-array-notation-seeking-feedback">Formal Proposal for APL Array Notation – Seeking Feedback</a>
@@ -121,6 +147,11 @@
   <article class="Design">
     <a href="https://www.dyalog.com/blog/2023/01/structural-vs-mathematical-under">Structural vs. Mathematical “Under”</a>
     2023-01-26, Morten Kromberg
+  </article>
+
+  <article class="Example">
+    <a href="https://mathspp.com/blog/connecting-python-and-dyalog-apl-with-sockets">Connecting Python and Dyalog APL with sockets</a>
+    2022-01-21, Rodrigo Girão Serrão
   </article>
 
   <article class="Example">
@@ -272,7 +303,12 @@
     <a href="https://vector.org.uk/a-vendor-agnostic-logo-for-apl">A Vendor-Agnostic Logo for APL</a>
     2022-06-16, Adám Brudzewsky
   </article>
-  
+
+  <article class="Example">
+    <a href="https://github.com/justin2004/weblog/blob/master/using_apl/README.md">How it Feels to Use APL</a>
+    2023-06-15, Justin Dowdy
+  </article>
+
   <article class="Idiom">
     <a href="https://www.toolofthought.com/posts/operators-in-a-dsl">Operators in a DSL</a>
     2022-05-28, Paul Mansour
@@ -333,6 +369,11 @@
     2022-02-22, Rodrigo Girão Serrão
   </article>
 
+  <article class="Example Anecdote">
+    <a href="https://github.com/justin2004/weblog/blob/master/a_random_permutation/README.md">A Random Permutation</a>
+    2023-02-17, Justin Dowdy
+  </article>
+
   <article class="Commentary">
     <a href="https://www.toolofthought.com/posts/aaronhsuquote">Aaron Hsu at Function Conf 2022</a>
     2022-01-27, Paul Mansour
@@ -349,17 +390,17 @@
   </article>
 
   <article class="Mathematics">
-    <a href="https://palaiologos.rocks/essays/posts/linalg-apl">Implementing the Faddeev-LeVerrier algorithm in APL</a>
+    <a href="https://palaiologos.rocks/posts/linalg-apl">Implementing the Faddeev-LeVerrier algorithm in APL</a>
     2022-01-10, Kamila Szewczyk
   </article>
   
   <article class="Mathematics">
-    <a href="https://palaiologos.rocks/essays/posts/poly-root-apl">Finding roots of a polynomial - numerical methods in APL </a>
+    <a href="https://palaiologos.rocks/posts/poly-root-apl">Finding roots of a polynomial - numerical methods in APL </a>
     2022-01-09, Kamila Szewczyk
   </article>
 
   <article class="Mathematics">
-    <a href="https://palaiologos.rocks/essays/posts/taylor-apl">Implementing Taylor Series in APL</a>
+    <a href="https://palaiologos.rocks/posts/taylor-apl">Implementing Taylor Series in APL</a>
     2022-01-06, Kamila Szewczyk
   </article>
 
@@ -368,5 +409,12 @@
     2021-05-28, Sam Gutsell
   </article>
 
+  <script>
+  tags=[...new Set([...document.getElementsByTagName`article`].map(e=>[...e.classList]).flat())].sort()
+    document.querySelector`h1`.insertAdjacentHTML('afterend',
+      tags.map(e=>`<input type="checkbox" id="${e}" checked="" tabindex="2"/><label for="${e}"></label>`).join` `+
+      "<style>"+tags.flatMap(e=>"#"+e+":not(:checked)~."+e).join()+"{max-height:0;padding-top:0;opacity:0}</style>"
+    )
+  </script>
 </body>
 </html>
