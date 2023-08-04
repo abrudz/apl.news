@@ -13,7 +13,7 @@
   h1 { font-size: 400% ; margin: 0 ;font-weight:normal}
   h1>a { vertical-align:top; margin-top: 3ex; display: inline-block}
   #ta { display: inline-block; line-height: 100%; font-size: 40%; padding: 0.1em; }
-  #tn {display:none; font-family:monospace}
+  #tn {display:none}
   
   article { text-align: left; display: flex; flex-direction: column; transition: 150ms;
     max-height:100%;padding-top:1.5em;opacity:1}
@@ -32,7 +32,7 @@
   </style>
 </head>
 <body>
-  <h1><span id="ta">The<br /><a tabindex="1" href="https://apl.wiki"><i>APL</i></a></span><span id="tw">Jo̊t Dọt Ti̽mes</span><span id="tn"> ∘.× </span><a tabindex="1" style="font-size:small" href="rss.xml">RSS FEED</a></h1>
+  <h1><span id="ta">The<br /><a tabindex="1" href="https://apl.wiki"><i>APL</i></a></span><span id="tw">Jo̊t Dọt Ti̽mes</span><code id="tn"> ∘.× </code><a tabindex="1" style="font-size:small" href="rss.xml">RSS FEED</a></h1>
 
   <article class="Example Commentary Idiom">
     <a href="https://blog.rubenverg.com/suggestivity_and_idioms">On Wilson's "On Hsu's Suggestivity and Idioms"</a>
@@ -416,5 +416,14 @@
       "<style>"+tags.flatMap(e=>"#"+e+":not(:checked)~."+e).join()+"{max-height:0;padding-top:0;opacity:0}</style>"
     )
   </script>
+  
+  <footer>
+    <pre>∘.×</pre>
+    Listing does not imply endorsement or accuracy.<br/>
+    No personal data is collected here.<br/>
+    Linked sites may do so.<br>
+    <a href="https://github.com/abrudz/Jot-Dot-Times/issues/new">Give suggestions!</a>
+    <pre>∘.×</pre>
+  </footer>
 </body>
 </html>
