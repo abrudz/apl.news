@@ -16,7 +16,7 @@
   #tn {display:none}
   
   article { text-align: left; display: flex; flex-direction: column; transition: 150ms;
-    max-height:100%;padding-top:1.5em;opacity:1}
+    max-height:100%;padding-top:1.5em;position:relative}
   article::after,label{ content: attr(class); color: #666; font-size: 1.25em; font-variant: all-small-caps ; word-spacing: 200%}
   article a{font-size:150%}
   
@@ -423,7 +423,7 @@
   tags=[...new Set([...document.getElementsByTagName`article`].map(e=>[...e.classList]).flat())].sort()
     document.querySelector`h1`.insertAdjacentHTML('afterend',
       tags.map(e=>`<input type="checkbox" id="${e}" checked="" tabindex="2"/><label for="${e}"></label>`).join` `+
-      "<style>"+tags.flatMap(e=>"#"+e+":not(:checked)~."+e).join()+"{max-height:0;padding-top:0;opacity:0}</style>"
+      "<style>"+tags.flatMap(e=>"#"+e+":not(:checked)~."+e).join()+"{max-height:0;padding-top:0;opacity:0;z-index:-1}</style>"
     )
   </script>
   
