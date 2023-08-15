@@ -7,7 +7,7 @@
      xml,←'<atom:link href="https://apl.news/rss.xml" rel="self" type="application/rss+xml" />'
      xml,←'<description>APL news aggregator</description>'
      xml,←∊{
-         (tags link title date author)←⍵
+         (tags link title date author)←{3↓¯4↓⎕XML 0 'a'⍵}¨⍵
          date←'Ddd, DD Mmm YYYY hh:mm:ss "GMT"'(⊃1200⌶)1 ⎕DT'-'(//⎕VFI)date,'-15-0-0-0'
          out←'<item>'
          out,←'<link>',link,'</link>'

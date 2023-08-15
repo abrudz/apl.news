@@ -9,5 +9,5 @@
  :If 3≠⎕NC'Rss'
      2 ⎕FIX(⊃path),'/Rss.aplf'
  :EndIf
- rss←Rss table
- rss ⎕NPUT((⊃path),'/rss.xml')1
+ rss←⎕XML⍣2 Rss table
+ rss ⎕NPUT⍠'NEOL'2⊢((⊃path),'/rss.xml')1
