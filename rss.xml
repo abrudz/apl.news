@@ -5,6 +5,15 @@
     <atom:link href="https://apl.news/rss.xml" rel="self" type="application/rss+xml"></atom:link>
     <description>APL news aggregator</description>
     <item>
+      <link>https://mathspp.com/blog/what-learning-apl-taught-me-about-python</link>
+      <title>What learning APL taught me about Python</title>
+      <pubDate>Tue, 15 Aug 2023 15:00:00 GMT</pubDate>
+      <description>Rodrigo Girão Serrão</description>
+      <guid>https://mathspp.com/blog/what-learning-apl-taught-me-about-python</guid>
+      <category>Example</category>
+      <category>Anecdote</category>
+    </item>
+    <item>
       <link>https://palaiologos.rocks/posts/lc-apl/</link>
       <title>Journey to the Center of the Lambda Calculus</title>
       <pubDate>Sun, 13 Aug 2023 15:00:00 GMT</pubDate>
