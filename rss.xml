@@ -5,6 +5,14 @@
     <atom:link href="https://apl.news/rss.xml" rel="self" type="application/rss+xml"></atom:link>
     <description>APL news aggregator</description>
     <item>
+      <link>https://www.toolofthought.com/posts/testing-guis-wrestling-with-events</link>
+      <title>Testing GUIs: Wrestling with Events</title>
+      <pubDate>Thu, 18 May 2023 15:00:00 GMT</pubDate>
+      <description>Paul Mansour</description>
+      <guid>https://www.toolofthought.com/posts/testing-guis-wrestling-with-events</guid>
+      <category>Testing</category>
+    </item>
+    <item>
       <link>https://mathspp.com/blog/what-learning-apl-taught-me-about-python</link>
       <title>What learning APL taught me about Python</title>
       <pubDate>Tue, 15 Aug 2023 15:00:00 GMT</pubDate>
@@ -12,6 +20,23 @@
       <guid>https://mathspp.com/blog/what-learning-apl-taught-me-about-python</guid>
       <category>Example</category>
       <category>Anecdote</category>
+    </item>
+    <item>
+      <link>https://www.toolofthought.com/posts/testing-guis</link>
+      <title>Testing GUIs</title>
+      <pubDate>Sun, 14 May 2023 15:00:00 GMT</pubDate>
+      <description>Paul Mansour</description>
+      <guid>https://www.toolofthought.com/posts/testing-guis</guid>
+      <category>Testing</category>
+    </item>
+    <item>
+      <link>https://palaiologos.rocks/posts/avg/</link>
+      <title>The nested means problem</title>
+      <pubDate>Sun, 13 Aug 2023 15:00:00 GMT</pubDate>
+      <description>Kamila Szewczyk</description>
+      <guid>https://palaiologos.rocks/posts/avg/</guid>
+      <category>Mathematics</category>
+      <category>Challenge</category>
     </item>
     <item>
       <link>https://palaiologos.rocks/posts/lc-apl/</link>
