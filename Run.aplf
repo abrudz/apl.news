@@ -1,13 +1,19 @@
- Run path;t;titles;date_author;urls;_;dates;authors;table;rss;_Delay;GetArchives;archives;mask
+ Run args;t;titles;date_author;urls;_;dates;authors;table;rss;_Delay;GetArchives;archives;mask;path
 ⍝ Parsing articles
- t←⎕XML⊃⎕NGET(⊃path),'/index.html'
+ :If 0=≢∊args
+     path←⊃⎕NPARTS 50 ⎕ATX⊃⎕SI
+ :Else
+     path←⊃args
+ :EndIf
+
+ t←⎕XML⊃⎕NGET path,'/index.html'
  ⍝ 1:title 2:tags 3:date_author 4:link 5:_ 6:_ 7:date 8:author
  table←(⊢⍴⍨6,⍨3÷⍨≢)1 0⊖{⊃⌽⊆⍵}¨0 0 1 1 0/t⌿⍨∨⌿0 ¯1 ¯2⌽⍤0 1⊢t[;2]∊⊂'article'
  ⍝ 1:tags 2:link 3:title 4:date 5:author
  table←table[;2 4 1],↑{(10↑⍵)(12↓⍵)}¨table[;3]
 ⍝ Generate RSS
  :If 3≠⎕NC'Rss'
-     2 ⎕FIX(⊃path),'/Rss.aplf'
+     2 ⎕FIX path,'/Rss.aplf'
  :EndIf
  rss←⎕XML⍣2 Rss table
- rss ⎕NPUT⍠'NEOL'2⊢((⊃path),'/rss.xml')1
+ rss ⎕NPUT⍠'NEOL' 2⊢(path,'/rss.xml')1
