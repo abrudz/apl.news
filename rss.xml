@@ -5,6 +5,14 @@
     <atom:link href="https://apl.news/rss.xml" rel="self" type="application/rss+xml"></atom:link>
     <description>APL news aggregator</description>
     <item>
+      <link>https://blog.wilsonb.com/posts/2023-08-29-mundane-exotic-number-system.html</link>
+      <title>A Mundane Exotic Number System</title>
+      <pubDate>Tue, 29 Aug 2023 15:00:00 GMT</pubDate>
+      <description>Brandon Wilson</description>
+      <guid>https://blog.wilsonb.com/posts/2023-08-29-mundane-exotic-number-system.html</guid>
+      <category>Mathematics</category>
+    </item>
+    <item>
       <link>https://www.toolofthought.com/posts/testing-guis-wrestling-with-events</link>
       <title>Testing GUIs: Wrestling with Events</title>
       <pubDate>Thu, 18 May 2023 15:00:00 GMT</pubDate>
