@@ -5,6 +5,89 @@
     <atom:link href="https://apl.news/rss.xml" rel="self" type="application/rss+xml"></atom:link>
     <description>APL news aggregator</description>
     <item>
+      <link>https://blog.dhsdevelopments.com/n-tuples-and-the-introduction-of-null-values-in-kap</link>
+      <title>N-tuples and the Introduction of Null values in Kap</title>
+      <pubDate>Mon, 06 Nov 2023 15:00:00 GMT</pubDate>
+      <description>Elias Mårtenson</description>
+      <guid>https://blog.dhsdevelopments.com/n-tuples-and-the-introduction-of-null-values-in-kap</guid>
+      <category>Design</category>
+    </item>
+    <item>
+      <link>https://jcarroll.com.au/2023/10/09/hooray-array/</link>
+      <title>Hooray, Array!</title>
+      <pubDate>Mon, 09 Oct 2023 15:00:00 GMT</pubDate>
+      <description>Jonathan Carroll</description>
+      <guid>https://jcarroll.com.au/2023/10/09/hooray-array/</guid>
+      <category>Language-comparison</category>
+    </item>
+    <item>
+      <link>https://palaiologos.rocks/posts/dan-baronets-microwave/</link>
+      <title>Dan Baronet’s Microwave</title>
+      <pubDate>Wed, 04 Oct 2023 15:00:00 GMT</pubDate>
+      <description>Kamila Szewczyk</description>
+      <guid>https://palaiologos.rocks/posts/dan-baronets-microwave/</guid>
+      <category>Mathematics</category>
+      <category>Anecdote</category>
+    </item>
+    <item>
+      <link>https://www.toolofthought.com/posts/charting-and-tidy-data</link>
+      <title>Charting and Tidy Data</title>
+      <pubDate>Thu, 28 Sep 2023 15:00:00 GMT</pubDate>
+      <description>Paul Mansour</description>
+      <guid>https://www.toolofthought.com/posts/charting-and-tidy-data</guid>
+      <category>Commentary</category>
+    </item>
+    <item>
+      <link>https://www.toolofthought.com/posts/project-playfair</link>
+      <title>Project Playfair</title>
+      <pubDate>Wed, 27 Sep 2023 15:00:00 GMT</pubDate>
+      <description>Paul Mansour</description>
+      <guid>https://www.toolofthought.com/posts/project-playfair</guid>
+      <category>Design</category>
+    </item>
+    <item>
+      <link>https://www.toolofthought.com/posts/ordered-namespaces</link>
+      <title>Ordered Namespaces</title>
+      <pubDate>Tue, 26 Sep 2023 15:00:00 GMT</pubDate>
+      <description>Paul Mansour</description>
+      <guid>https://www.toolofthought.com/posts/ordered-namespaces</guid>
+      <category>Example</category>
+    </item>
+    <item>
+      <link>https://blog.rubenverg.com/tinyapl_2_functions_operators</link>
+      <title>TinyAPL part 2: Functions &amp; Operators</title>
+      <pubDate>Sat, 23 Sep 2023 15:00:00 GMT</pubDate>
+      <description>Madeline Vergani</description>
+      <guid>https://blog.rubenverg.com/tinyapl_2_functions_operators</guid>
+      <category>Design</category>
+      <category>Implementation</category>
+    </item>
+    <item>
+      <link>https://www.toolofthought.com/posts/towards-a-chart-wizard</link>
+      <title>Towards a Chart Wizard</title>
+      <pubDate>Wed, 20 Sep 2023 15:00:00 GMT</pubDate>
+      <description>Paul Mansour</description>
+      <guid>https://www.toolofthought.com/posts/towards-a-chart-wizard</guid>
+      <category>Design</category>
+    </item>
+    <item>
+      <link>https://blog.rubenverg.com/float_indexing</link>
+      <title>Extending indices to floating-point values</title>
+      <pubDate>Fri, 01 Sep 2023 15:00:00 GMT</pubDate>
+      <description>Madeline Vergani</description>
+      <guid>https://blog.rubenverg.com/float_indexing</guid>
+      <category>Design</category>
+      <category>Humour</category>
+    </item>
+    <item>
+      <link>https://jcarroll.com.au/2023/08/29/now-you-re-thinking-with-arrays/</link>
+      <title>Now You're Thinking with Arrays</title>
+      <pubDate>Tue, 29 Aug 2023 15:00:00 GMT</pubDate>
+      <description>Jonathan Carroll</description>
+      <guid>https://jcarroll.com.au/2023/08/29/now-you-re-thinking-with-arrays/</guid>
+      <category>Language-comparison</category>
+    </item>
+    <item>
       <link>https://blog.wilsonb.com/posts/2023-08-29-mundane-exotic-number-system.html</link>
       <title>A Mundane Exotic Number System</title>
       <pubDate>Tue, 29 Aug 2023 15:00:00 GMT</pubDate>
@@ -102,6 +185,14 @@
       <category>Example</category>
       <category>Commentary</category>
       <category>Idiom</category>
+    </item>
+    <item>
+      <link>https://jcarroll.com.au/2023/07/07/array-languages-r-vs-apl/</link>
+      <title>Array Languages: R vs APL</title>
+      <pubDate>Fri, 07 Jul 2023 15:00:00 GMT</pubDate>
+      <description>Jonathan Carroll</description>
+      <guid>https://jcarroll.com.au/2023/07/07/array-languages-r-vs-apl/</guid>
+      <category>Language-comparison</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/boolean-techniques</link>
