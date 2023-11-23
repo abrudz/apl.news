@@ -5,6 +5,14 @@
     <atom:link href="https://apl.news/rss.xml" rel="self" type="application/rss+xml"></atom:link>
     <description>APL news aggregator</description>
     <item>
+      <link>https://blog.rubenverg.com/tinyapl_3_more_primitives</link>
+      <title>TinyAPL part 3: More Primitives</title>
+      <pubDate>Tue, 21 Nov 2023 15:00:00 GMT</pubDate>
+      <description>Madeline Vergani</description>
+      <guid>https://blog.rubenverg.com/tinyapl_3_more_primitives</guid>
+      <category>Implementation</category>
+    </item>
+    <item>
       <link>https://blog.dhsdevelopments.com/n-tuples-and-the-introduction-of-null-values-in-kap</link>
       <title>N-tuples and the Introduction of Null values in Kap</title>
       <pubDate>Mon, 06 Nov 2023 15:00:00 GMT</pubDate>
@@ -111,6 +119,7 @@
       <guid>https://mathspp.com/blog/what-learning-apl-taught-me-about-python</guid>
       <category>Example</category>
       <category>Anecdote</category>
+      <category>Language-comparison</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/testing-guis</link>
