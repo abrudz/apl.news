@@ -5,6 +5,22 @@
     <atom:link href="https://apl.news/rss.xml" rel="self" type="application/rss+xml"></atom:link>
     <description>APL news aggregator</description>
     <item>
+      <link>https://jcarroll.com.au/2023/12/10/advent-of-array-elegance/</link>
+      <title>Advent of Array Elegance (AoC2023 Day 7)</title>
+      <pubDate>Sun, 10 Dec 2023 15:00:00 GMT</pubDate>
+      <description>Jonathan Carroll</description>
+      <guid>https://jcarroll.com.au/2023/12/10/advent-of-array-elegance/</guid>
+      <category>Language-comparison</category>
+    </item>
+    <item>
+      <link>https://www.toolofthought.com/posts/on-categorical-data</link>
+      <title>On Categorical Data</title>
+      <pubDate>Wed, 06 Dec 2023 15:00:00 GMT</pubDate>
+      <description>Paul Mansour</description>
+      <guid>https://www.toolofthought.com/posts/on-categorical-data</guid>
+      <category>Mathematics</category>
+    </item>
+    <item>
       <link>https://blog.rubenverg.com/tinyapl_3_more_primitives</link>
       <title>TinyAPL part 3: More Primitives</title>
       <pubDate>Tue, 21 Nov 2023 15:00:00 GMT</pubDate>
