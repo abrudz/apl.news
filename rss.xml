@@ -5,6 +5,27 @@
     <atom:link href="https://apl.news/rss.xml" rel="self" type="application/rss+xml"></atom:link>
     <description>APL news aggregator</description>
     <item>
+      <link>https://github.com/justin2004/weblog/blob/master/design_implications/README.md</link>
+      <title>Design Implications (Python &amp; APL)</title>
+      <pubDate>Tue, 09 Jan 2024 15:00:00 GMT</pubDate>
+      <description>Justin Dowdy</description>
+      <guid>https://github.com/justin2004/weblog/blob/master/design_implications/README.md</guid>
+      <category>Language-comparison</category>
+      <category>Example</category>
+      <category>Commentary</category>
+    </item>
+    <item>
+      <link>https://medium.com/@solarbreeze69/exploring-the-apl-one-liner-solutions-to-logikers-christmas-challenge-2023-on-the-commodore-64-b027e6ee486b</link>
+      <title>Exploring the APL One-Liner Solutions to Logiker’s Christmas
+      Challenge on the Commodore 64</title>
+      <pubDate>Fri, 05 Jan 2024 15:00:00 GMT</pubDate>
+      <description>solarbreeze</description>
+      <guid>https://medium.com/@solarbreeze69/exploring-the-apl-one-liner-solutions-to-logikers-christmas-challenge-2023-on-the-commodore-64-b027e6ee486b</guid>
+      <category>Vintage</category>
+      <category>Challenge</category>
+      <category>Language-comparison</category>
+    </item>
+    <item>
       <link>https://medium.com/@solarbreeze69/two-apl-solutions-to-logikers-vintage-computing-christmas-challenge-2023-014feacc8a8f</link>
       <title>Two APL Solutions to Logiker’s Vintage Computing Christmas
       Challenge 2023</title>
