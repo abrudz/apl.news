@@ -5,6 +5,14 @@
     <atom:link href="https://apl.news/rss.xml" rel="self" type="application/rss+xml"></atom:link>
     <description>APL news aggregator</description>
     <item>
+      <link>https://scharenbroch.dev/projects/apl-interpreter/</link>
+      <title>APL Interpreter</title>
+      <pubDate>Wed, 11 Jan 2023 15:00:00 GMT</pubDate>
+      <description>Lucas Scharenbroch</description>
+      <guid>https://scharenbroch.dev/projects/apl-interpreter/</guid>
+      <category>Implementation</category>
+    </item>
+    <item>
       <link>https://github.com/justin2004/weblog/blob/master/design_implications/README.md</link>
       <title>Design Implications (Python &amp; APL)</title>
       <pubDate>Tue, 09 Jan 2024 15:00:00 GMT</pubDate>
@@ -59,6 +67,14 @@
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/on-categorical-data</guid>
       <category>Mathematics</category>
+    </item>
+    <item>
+      <link>https://scharenbroch.dev/blog/apl-tutorial/</link>
+      <title>APL Tutorial</title>
+      <pubDate>Mon, 27 Nov 2023 15:00:00 GMT</pubDate>
+      <description>Lucas Scharenbroch</description>
+      <guid>https://scharenbroch.dev/blog/apl-tutorial/</guid>
+      <category>Education</category>
     </item>
     <item>
       <link>https://blog.rubenverg.com/tinyapl_3_more_primitives</link>
