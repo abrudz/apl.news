@@ -5,6 +5,14 @@
     <atom:link href="https://apl.news/rss.xml" rel="self" type="application/rss+xml"></atom:link>
     <description>APL news aggregator</description>
     <item>
+      <link>https://palaiologos.rocks/posts/polygon-triangulation/</link>
+      <title>Triangulation of convex polygons</title>
+      <pubDate>Fri, 23 Feb 2024 15:00:00 GMT</pubDate>
+      <description>Kamila Szewczyk</description>
+      <guid>https://palaiologos.rocks/posts/polygon-triangulation/</guid>
+      <category>Mathematics</category>
+    </item>
+    <item>
       <link>https://scharenbroch.dev/projects/apl-interpreter/</link>
       <title>APL Interpreter</title>
       <pubDate>Wed, 11 Jan 2023 15:00:00 GMT</pubDate>
