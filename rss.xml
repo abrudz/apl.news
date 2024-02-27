@@ -5,6 +5,16 @@
     <atom:link href="https://apl.news/rss.xml" rel="self" type="application/rss+xml"></atom:link>
     <description>APL news aggregator</description>
     <item>
+      <link>https://blog.dhsdevelopments.com/array-languages-vs</link>
+      <title>Array languages vs. the curse of the spreadsheet</title>
+      <pubDate>Sun, 25 Feb 2024 15:00:00 GMT</pubDate>
+      <description>Elias Mårtenson</description>
+      <guid>https://blog.dhsdevelopments.com/array-languages-vs</guid>
+      <category>Design</category>
+      <category>Implementation</category>
+      <category>Language-comparison</category>
+    </item>
+    <item>
       <link>https://palaiologos.rocks/posts/polygon-triangulation/</link>
       <title>Triangulation of convex polygons</title>
       <pubDate>Fri, 23 Feb 2024 15:00:00 GMT</pubDate>
