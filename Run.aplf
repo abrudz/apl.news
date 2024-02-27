@@ -17,3 +17,4 @@
  :EndIf
  rss←⎕XML⍣2 Rss table
  rss ⎕NPUT⍠'NEOL' 2⊢(path,'/rss.xml')1
+ ⎕OFF
