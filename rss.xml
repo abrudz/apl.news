@@ -5,6 +5,14 @@
     <atom:link href="https://apl.news/rss.xml" rel="self" type="application/rss+xml"></atom:link>
     <description>APL news aggregator</description>
     <item>
+      <link>https://blog.rubenverg.com/tinyapl_5_array_notation_reductions</link>
+      <title>TinyAPL part 5: Array Notation and Reductions</title>
+      <pubDate>Thu, 14 Mar 2024 15:00:00 GMT</pubDate>
+      <description>Madeline Vergani</description>
+      <guid>https://blog.rubenverg.com/tinyapl_5_array_notation_reductions</guid>
+      <category>Implementation</category>
+    </item>
+    <item>
       <link>https://blog.rubenverg.com/tinyapl_4_parsing</link>
       <title>TinyAPL part 4: Finally, Parsing!</title>
       <pubDate>Mon, 11 Mar 2024 15:00:00 GMT</pubDate>
@@ -33,7 +41,7 @@
     <item>
       <link>https://scharenbroch.dev/projects/apl-interpreter/</link>
       <title>APL Interpreter</title>
-      <pubDate>Wed, 11 Jan 2023 15:00:00 GMT</pubDate>
+      <pubDate>Thu, 11 Jan 2024 15:00:00 GMT</pubDate>
       <description>Lucas Scharenbroch</description>
       <guid>https://scharenbroch.dev/projects/apl-interpreter/</guid>
       <category>Implementation</category>
