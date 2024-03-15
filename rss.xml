@@ -5,6 +5,16 @@
     <atom:link href="https://apl.news/rss.xml" rel="self" type="application/rss+xml"></atom:link>
     <description>APL news aggregator</description>
     <item>
+      <link>https://www.dyalog.com/blog/2024/03/the-apl-quest-series/</link>
+      <title>The APL Quest Series</title>
+      <pubDate>Fri, 15 Mar 2024 15:00:00 GMT</pubDate>
+      <description>Adám Brudzewsky</description>
+      <guid>https://www.dyalog.com/blog/2024/03/the-apl-quest-series/</guid>
+      <category>Announcement</category>
+      <category>Anecdote</category>
+      <category>Commentary</category>
+    </item>
+    <item>
       <link>https://blog.rubenverg.com/tinyapl_5_array_notation_reductions</link>
       <title>TinyAPL part 5: Array Notation and Reductions</title>
       <pubDate>Thu, 14 Mar 2024 15:00:00 GMT</pubDate>
