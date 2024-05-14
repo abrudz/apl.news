@@ -5,6 +5,47 @@
     <atom:link href="https://apl.news/rss.xml" rel="self" type="application/rss+xml"></atom:link>
     <description>APL news aggregator</description>
     <item>
+      <link>https://www.toolofthought.com/posts/uncle-bob-and-the-primeagen</link>
+      <title>Uncle Bob and The Primeagen</title>
+      <pubDate>Tue, 07 May 2024 15:00:00 GMT</pubDate>
+      <description>Paul Mansour</description>
+      <guid>https://www.toolofthought.com/posts/uncle-bob-and-the-primeagen</guid>
+      <category>Commentary</category>
+      <category>Testing</category>
+    </item>
+    <item>
+      <link>https://www.toolofthought.com/posts/modal-dialog-boxes-prompt</link>
+      <title>Modal Dialog Boxes 3: Prompt</title>
+      <pubDate>Mon, 06 May 2024 15:00:00 GMT</pubDate>
+      <description>Paul Mansour</description>
+      <guid>https://www.toolofthought.com/posts/modal-dialog-boxes-prompt</guid>
+      <category>Example</category>
+    </item>
+    <item>
+      <link>https://www.toolofthought.com/posts/modal-dialog-boxes-confirm</link>
+      <title>Modal Dialog Boxes 2: Confirm</title>
+      <pubDate>Tue, 30 Apr 2024 15:00:00 GMT</pubDate>
+      <description>Paul Mansour</description>
+      <guid>https://www.toolofthought.com/posts/modal-dialog-boxes-confirm</guid>
+      <category>Example</category>
+    </item>
+    <item>
+      <link>https://www.toolofthought.com/posts/modal-dialog-boxes-1</link>
+      <title>Modal Dialog Boxes 1: Alert</title>
+      <pubDate>Mon, 29 Apr 2024 15:00:00 GMT</pubDate>
+      <description>Paul Mansour</description>
+      <guid>https://www.toolofthought.com/posts/modal-dialog-boxes-1</guid>
+      <category>Example</category>
+    </item>
+    <item>
+      <link>https://www.toolofthought.com/posts/abacus-threading-model</link>
+      <title>The Abacus Threading Model</title>
+      <pubDate>Sun, 28 Apr 2024 15:00:00 GMT</pubDate>
+      <description>Paul Mansour</description>
+      <guid>https://www.toolofthought.com/posts/abacus-threading-model</guid>
+      <category>Example</category>
+    </item>
+    <item>
       <link>https://www.dyalog.com/blog/2024/03/the-apl-quest-series/</link>
       <title>The APL Quest Series</title>
       <pubDate>Fri, 15 Mar 2024 15:00:00 GMT</pubDate>
