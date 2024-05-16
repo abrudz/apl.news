@@ -2,7 +2,7 @@
      xml←'<?xml version="1.0" encoding="UTF-8" ?>'
      xml,←'<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">'
      xml,←'<channel>'
-     xml,←'<title>The APL Jot Dot Times</title>'
+     xml,←'<title>The APL Sign of the Times</title>'
      xml,←'<link>https://apl.news/rss.xml</link>'
      xml,←'<atom:link href="https://apl.news/rss.xml" rel="self" type="application/rss+xml" />'
      xml,←'<description>APL news aggregator</description>'
