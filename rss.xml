@@ -5,6 +5,38 @@
     <atom:link href="https://apl.news/rss.xml" rel="self" type="application/rss+xml"></atom:link>
     <description>APL news aggregator</description>
     <item>
+      <link>https://blog.rubenverg.com/tinyapl_6_tests_docs_each</link>
+      <title>TinyAPL part 6: Tests, Docs, Each</title>
+      <pubDate>Tue, 21 May 2024 15:00:00 GMT</pubDate>
+      <description>Madeline Vergani</description>
+      <guid>https://blog.rubenverg.com/tinyapl_6_tests_docs_each</guid>
+      <category>Implementation</category>
+    </item>
+    <item>
+      <link>https://www.toolofthought.com/posts/a-high-performance-data-grid-in-html</link>
+      <title>A High Performance Data Grid in HTML</title>
+      <pubDate>Mon, 20 May 2024 15:00:00 GMT</pubDate>
+      <description>Paul Mansour</description>
+      <guid>https://www.toolofthought.com/posts/a-high-performance-data-grid-in-html</guid>
+      <category>Example</category>
+    </item>
+    <item>
+      <link>https://www.toolofthought.com/posts/modal-dialog-boxes-progressbar-more</link>
+      <title>Modal Dialog Boxes 5: More on ProgressBar</title>
+      <pubDate>Sat, 18 May 2024 15:00:00 GMT</pubDate>
+      <description>Paul Mansour</description>
+      <guid>https://www.toolofthought.com/posts/modal-dialog-boxes-progressbar-more</guid>
+      <category>Example</category>
+    </item>
+    <item>
+      <link>https://www.toolofthought.com/posts/modal-dialog-boxes-progressbar</link>
+      <title>Modal Dialog Boxes 4: ProgressBar</title>
+      <pubDate>Tue, 14 May 2024 15:00:00 GMT</pubDate>
+      <description>Paul Mansour</description>
+      <guid>https://www.toolofthought.com/posts/modal-dialog-boxes-progressbar</guid>
+      <category>Example</category>
+    </item>
+    <item>
       <link>https://www.toolofthought.com/posts/uncle-bob-and-the-primeagen</link>
       <title>Uncle Bob and The Primeagen</title>
       <pubDate>Tue, 07 May 2024 15:00:00 GMT</pubDate>
