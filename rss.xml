@@ -5,6 +5,14 @@
     <atom:link href="https://apl.news/rss.xml" rel="self" type="application/rss+xml"></atom:link>
     <description>APL news aggregator</description>
     <item>
+      <link>https://blog.rubenverg.com/tinyapl_7_quads_key_index</link>
+      <title>TinyAPL part 7: Quads, Key, Index</title>
+      <pubDate>Thu, 30 May 2024 15:00:00 GMT</pubDate>
+      <description>Madeline Vergani</description>
+      <guid>https://blog.rubenverg.com/tinyapl_7_quads_key_index</guid>
+      <category>Implementation</category>
+    </item>
+    <item>
       <link>https://blog.rubenverg.com/tinyapl_6_tests_docs_each</link>
       <title>TinyAPL part 6: Tests, Docs, Each</title>
       <pubDate>Tue, 21 May 2024 15:00:00 GMT</pubDate>
