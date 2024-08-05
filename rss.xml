@@ -5,6 +5,30 @@
     <atom:link href="https://apl.news/rss.xml" rel="self" type="application/rss+xml"></atom:link>
     <description>APL news aggregator</description>
     <item>
+      <link>https://blog.rubenverg.com/tinyapl_8_rank_web</link>
+      <title>TinyAPL part 8: All About Rank, and a Web Interface</title>
+      <pubDate>Sat, 03 Aug 2024 15:00:00 GMT</pubDate>
+      <description>Madeline Vergani</description>
+      <guid>https://blog.rubenverg.com/tinyapl_8_rank_web</guid>
+      <category>Implementation</category>
+    </item>
+    <item>
+      <link>https://www.toolofthought.com/posts/rumba-threading-model</link>
+      <title>Rumba Threading Model</title>
+      <pubDate>Sun, 28 Jul 2024 15:00:00 GMT</pubDate>
+      <description>Paul Mansour</description>
+      <guid>https://www.toolofthought.com/posts/rumba-threading-model</guid>
+      <category>Implementation</category>
+    </item>
+    <item>
+      <link>https://www.toolofthought.com/posts/revisiting-rumba</link>
+      <title>Revisiting Rumba</title>
+      <pubDate>Wed, 17 Jul 2024 15:00:00 GMT</pubDate>
+      <description>Paul Mansour</description>
+      <guid>https://www.toolofthought.com/posts/revisiting-rumba</guid>
+      <category>Implementation</category>
+    </item>
+    <item>
       <link>https://blog.rubenverg.com/tinyapl_7_quads_key_index</link>
       <title>TinyAPL part 7: Quads, Key, Index</title>
       <pubDate>Thu, 30 May 2024 15:00:00 GMT</pubDate>
