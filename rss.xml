@@ -5,6 +5,14 @@
     <atom:link href="https://apl.news/rss.xml" rel="self" type="application/rss+xml"></atom:link>
     <description>APL news aggregator</description>
     <item>
+      <link>https://blog.rubenverg.com/tinyapl_9_more_tacit</link>
+      <title>TinyAPL part 9: More Tacit!</title>
+      <pubDate>Sat, 10 Aug 2024 15:00:00 GMT</pubDate>
+      <description>Madeline Vergani</description>
+      <guid>https://blog.rubenverg.com/tinyapl_9_more_tacit</guid>
+      <category>Implementation</category>
+    </item>
+    <item>
       <link>https://blog.rubenverg.com/tinyapl_8_rank_web</link>
       <title>TinyAPL part 8: All About Rank, and a Web Interface</title>
       <pubDate>Sat, 03 Aug 2024 15:00:00 GMT</pubDate>
