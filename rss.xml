@@ -5,6 +5,22 @@
     <atom:link href="https://apl.news/rss.xml" rel="self" type="application/rss+xml"></atom:link>
     <description>APL news aggregator</description>
     <item>
+      <link>https://blog.rubenverg.com/tinyapl_11_bases_searching</link>
+      <title>TinyAPL part 11: Bases and Searching</title>
+      <pubDate>Fri, 13 Sep 2024 15:00:00 GMT</pubDate>
+      <description>Madeline Vergani</description>
+      <guid>https://blog.rubenverg.com/tinyapl_11_bases_searching</guid>
+      <category>Implementation</category>
+    </item>
+    <item>
+      <link>https://blog.rubenverg.com/tinyapl_10_wraps_structs_stdlib</link>
+      <title>TinyAPL part 10: Wraps, Structs, a Standard Library</title>
+      <pubDate>Tue, 03 Sep 2024 15:00:00 GMT</pubDate>
+      <description>Madeline Vergani</description>
+      <guid>https://blog.rubenverg.com/tinyapl_10_wraps_structs_stdlib</guid>
+      <category>Implementation</category>
+    </item>
+    <item>
       <link>https://blog.rubenverg.com/tinyapl_9_more_tacit</link>
       <title>TinyAPL part 9: More Tacit!</title>
       <pubDate>Sat, 10 Aug 2024 15:00:00 GMT</pubDate>
