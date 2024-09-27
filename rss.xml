@@ -5,6 +5,15 @@
     <atom:link href="https://apl.news/rss.xml" rel="self" type="application/rss+xml"></atom:link>
     <description>APL news aggregator</description>
     <item>
+      <link>https://blog.wilsonb.com/posts/2024-09-27-brainfuck.html</link>
+      <title>Implementing Brainfuck</title>
+      <pubDate>Wed, 27 Sep 2023 15:00:00 GMT</pubDate>
+      <description>Brandon Wilson</description>
+      <guid>https://blog.wilsonb.com/posts/2024-09-27-brainfuck.html</guid>
+      <category>Example</category>
+      <category>Design</category>
+    </item>
+    <item>
       <link>https://blog.rubenverg.com/tinyapl_11_bases_searching</link>
       <title>TinyAPL part 11: Bases and Searching</title>
       <pubDate>Fri, 13 Sep 2024 15:00:00 GMT</pubDate>
