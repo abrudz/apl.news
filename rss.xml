@@ -5,6 +5,14 @@
     <atom:link href="https://apl.news/rss.xml" rel="self" type="application/rss+xml"></atom:link>
     <description>APL news aggregator</description>
     <item>
+      <link>https://blog.rubenverg.com/tinyapl_13_biggest_mistake_biggest_change</link>
+      <title>TinyAPL part 13: The Biggest Mistake, The Biggest Change</title>
+      <pubDate>Sun, 27 Oct 2024 15:00:00 GMT</pubDate>
+      <description>Madeline Vergani</description>
+      <guid>https://blog.rubenverg.com/tinyapl_13_biggest_mistake_biggest_change</guid>
+      <category>Implementation</category>
+    </item>
+    <item>
       <link>https://blog.rubenverg.com/tinyapl_12_at_depth_ordering</link>
       <title>TinyAPL part 12: At Depth and Ordering</title>
       <pubDate>Wed, 02 Oct 2024 15:00:00 GMT</pubDate>
