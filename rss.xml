@@ -13,6 +13,25 @@
       <category>Implementation</category>
     </item>
     <item>
+      <link>https://jcarroll.com.au/2024/10/26/polyglot-maxxie-and-minnie/</link>
+      <title>Polyglot Maxxie and Minnie</title>
+      <pubDate>Sat, 26 Oct 2024 15:00:00 GMT</pubDate>
+      <description>Jonathan Carroll</description>
+      <guid>https://jcarroll.com.au/2024/10/26/polyglot-maxxie-and-minnie/</guid>
+      <category>Language-comparison</category>
+      <category>Challenge</category>
+    </item>
+    <item>
+      <link>https://blog.dhsdevelopments.com/an-imperative-introduction-to-array-programming</link>
+      <title>An imperative introduction to array programming</title>
+      <pubDate>Mon, 07 Oct 2024 15:00:00 GMT</pubDate>
+      <description>Elias Mårtenson</description>
+      <guid>https://blog.dhsdevelopments.com/an-imperative-introduction-to-array-programming</guid>
+      <category>Design</category>
+      <category>Language-comparison</category>
+      <category>Education</category>
+    </item>
+    <item>
       <link>https://blog.rubenverg.com/tinyapl_12_at_depth_ordering</link>
       <title>TinyAPL part 12: At Depth and Ordering</title>
       <pubDate>Wed, 02 Oct 2024 15:00:00 GMT</pubDate>
@@ -157,6 +176,15 @@
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/abacus-threading-model</guid>
       <category>Example</category>
+    </item>
+    <item>
+      <link>https://grahamenos.com/apl-min-plus.html</link>
+      <title>Tropical Semiring in Dyalog APL</title>
+      <pubDate>Thu, 04 Apr 2024 15:00:00 GMT</pubDate>
+      <description>Graham Enos</description>
+      <guid>https://grahamenos.com/apl-min-plus.html</guid>
+      <category>Example</category>
+      <category>Mathematics</category>
     </item>
     <item>
       <link>https://www.dyalog.com/blog/2024/03/the-apl-quest-series/</link>
