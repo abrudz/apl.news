@@ -5,6 +5,34 @@
     <atom:link href="https://apl.news/rss.xml" rel="self" type="application/rss+xml"></atom:link>
     <description>APL news aggregator</description>
     <item>
+      <link>https://jcarroll.com.au/2024/11/28/these-languages-are-accumulating/</link>
+      <title>These Languages are Accumulating</title>
+      <pubDate>Thu, 28 Nov 2024 15:00:00 GMT</pubDate>
+      <description>Jonathan Carroll</description>
+      <guid>https://jcarroll.com.au/2024/11/28/these-languages-are-accumulating/</guid>
+      <category>Language-comparison</category>
+      <category>Idiom</category>
+    </item>
+    <item>
+      <link>https://medium.com/@solarbreeze69/presenting-queztcoapl-2cdc1b9d234b</link>
+      <title>Presenting QueztcoAPL!</title>
+      <pubDate>Tue, 28 Nov 2023 15:00:00 GMT</pubDate>
+      <description>solarbreeze</description>
+      <guid>https://medium.com/@solarbreeze69/presenting-queztcoapl-2cdc1b9d234b</guid>
+      <category>Vintage</category>
+      <category>Announcement</category>
+      <category>Example</category>
+    </item>
+    <item>
+      <link>https://www.toolofthought.com/posts/find-and-replace-with-interval-index</link>
+      <title>Find and Replace with Interval Index</title>
+      <pubDate>Thu, 07 Nov 2024 15:00:00 GMT</pubDate>
+      <description>Paul Mansour</description>
+      <guid>https://www.toolofthought.com/posts/find-and-replace-with-interval-index</guid>
+      <category>Education</category>
+      <category>Example</category>
+    </item>
+    <item>
       <link>https://blog.dhsdevelopments.com/an-imperative-introduction-to-array-programming</link>
       <title>An imperative introduction to array programming</title>
       <pubDate>Wed, 30 Oct 2024 15:00:00 GMT</pubDate>
