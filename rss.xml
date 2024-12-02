@@ -5,6 +5,14 @@
     <atom:link href="https://apl.news/rss.xml" rel="self" type="application/rss+xml"></atom:link>
     <description>APL news aggregator</description>
     <item>
+      <link>https://blog.rubenverg.com/tinyapl_14_dictionaries</link>
+      <title>TinyAPL part 14: (Wrap Your Head Around) Dictionaries</title>
+      <pubDate>Sat, 30 Nov 2024 15:00:00 GMT</pubDate>
+      <description>Madeline Vergani</description>
+      <guid>https://blog.rubenverg.com/tinyapl_14_dictionaries</guid>
+      <category>Implementation</category>
+    </item>
+    <item>
       <link>https://jcarroll.com.au/2024/11/28/these-languages-are-accumulating/</link>
       <title>These Languages are Accumulating</title>
       <pubDate>Thu, 28 Nov 2024 15:00:00 GMT</pubDate>
