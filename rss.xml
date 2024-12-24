@@ -5,6 +5,24 @@
     <atom:link href="https://apl.news/rss.xml" rel="self" type="application/rss+xml"></atom:link>
     <description>APL news aggregator</description>
     <item>
+      <link>https://blog.wilsonb.com/posts/2024-12-14-aoc-14.html</link>
+      <title>Advent of Code 2024, Day 14</title>
+      <pubDate>Sat, 14 Dec 2024 15:00:00 GMT</pubDate>
+      <description>Brandon Wilson</description>
+      <guid>https://blog.wilsonb.com/posts/2024-12-14-aoc-14.html</guid>
+      <category>Mathematics</category>
+      <category>Challenge</category>
+    </item>
+    <item>
+      <link>https://blog.wilsonb.com/posts/2024-12-14-aoc-13.html</link>
+      <title>Advent of Code 2024, Day 13</title>
+      <pubDate>Sat, 14 Dec 2024 15:00:00 GMT</pubDate>
+      <description>Brandon Wilson</description>
+      <guid>https://blog.wilsonb.com/posts/2024-12-14-aoc-13.html</guid>
+      <category>Mathematics</category>
+      <category>Challenge</category>
+    </item>
+    <item>
       <link>https://blog.rubenverg.com/tinyapl_14_dictionaries</link>
       <title>TinyAPL part 14: (Wrap Your Head Around) Dictionaries</title>
       <pubDate>Sat, 30 Nov 2024 15:00:00 GMT</pubDate>
