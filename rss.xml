@@ -5,6 +5,14 @@
     <atom:link href="https://apl.news/rss.xml" rel="self" type="application/rss+xml"></atom:link>
     <description>APL news aggregator</description>
     <item>
+      <link>https://blog.dhsdevelopments.com/advent-of-code-2024</link>
+      <title>Advent of code 2024</title>
+      <pubDate>Sat, 28 Dec 2024 15:00:00 GMT</pubDate>
+      <description>Elias Mårtenson</description>
+      <guid>https://blog.dhsdevelopments.com/advent-of-code-2024</guid>
+      <category>Challenge</category>
+    </item>
+    <item>
       <link>https://blog.wilsonb.com/posts/2024-12-14-aoc-14.html</link>
       <title>Advent of Code 2024, Day 14</title>
       <pubDate>Sat, 14 Dec 2024 15:00:00 GMT</pubDate>
