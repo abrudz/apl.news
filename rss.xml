@@ -5,6 +5,30 @@
     <atom:link href="https://apl.news/rss.xml" rel="self" type="application/rss+xml"></atom:link>
     <description>APL news aggregator</description>
     <item>
+      <link>https://www.toolofthought.com/posts/version-20-goodies</link>
+      <title>Version 20 Goodies</title>
+      <pubDate>Fri, 31 Jan 2025 15:00:00 GMT</pubDate>
+      <description>Paul Mansour</description>
+      <guid>https://www.toolofthought.com/posts/version-20-goodies</guid>
+      <category>Language-comparison</category>
+    </item>
+    <item>
+      <link>https://www.toolofthought.com/posts/new-tricks-for-old-dogs</link>
+      <title>New Tricks for Old Dogs</title>
+      <pubDate>Wed, 29 Jan 2025 15:00:00 GMT</pubDate>
+      <description>Paul Mansour</description>
+      <guid>https://www.toolofthought.com/posts/new-tricks-for-old-dogs</guid>
+      <category>Language-comparison</category>
+    </item>
+    <item>
+      <link>https://www.toolofthought.com/posts/html-templates</link>
+      <title>HTML Templates</title>
+      <pubDate>Tue, 07 Jan 2025 15:00:00 GMT</pubDate>
+      <description>Paul Mansour</description>
+      <guid>https://www.toolofthought.com/posts/html-templates</guid>
+      <category>Example</category>
+    </item>
+    <item>
       <link>https://blog.dhsdevelopments.com/advent-of-code-2024</link>
       <title>Advent of code 2024</title>
       <pubDate>Sat, 28 Dec 2024 15:00:00 GMT</pubDate>
