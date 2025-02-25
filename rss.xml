@@ -5,6 +5,32 @@
     <atom:link href="https://apl.news/rss.xml" rel="self" type="application/rss+xml"></atom:link>
     <description>APL news aggregator</description>
     <item>
+      <link>https://blog.dhsdevelopments.com/axis-labels-in-kap</link>
+      <title>Axis labels in Kap</title>
+      <pubDate>Fri, 17 Jan 2025 15:00:00 GMT</pubDate>
+      <description>Elias Mårtenson</description>
+      <guid>https://blog.dhsdevelopments.com/axis-labels-in-kap</guid>
+      <category>Challenge</category>
+    </item>
+    <item>
+      <link>https://www.toolofthought.com/posts/html-tables-revisited</link>
+      <title>HTML Tables Revisited</title>
+      <pubDate>Sun, 16 Feb 2025 15:00:00 GMT</pubDate>
+      <description>Paul Mansour</description>
+      <guid>https://www.toolofthought.com/posts/html-tables-revisited</guid>
+      <category>Example</category>
+      <category>Commentary</category>
+    </item>
+    <item>
+      <link>https://www.toolofthought.com/posts/rethinking-vset-and-vget</link>
+      <title>Rethinking ⎕VSET and ⎕VGET</title>
+      <pubDate>Wed, 05 Feb 2025 15:00:00 GMT</pubDate>
+      <description>Paul Mansour</description>
+      <guid>https://www.toolofthought.com/posts/rethinking-vset-and-vget</guid>
+      <category>Design</category>
+      <category>Commentary</category>
+    </item>
+    <item>
       <link>https://www.toolofthought.com/posts/version-20-goodies</link>
       <title>Version 20 Goodies</title>
       <pubDate>Fri, 31 Jan 2025 15:00:00 GMT</pubDate>
@@ -19,6 +45,14 @@
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/new-tricks-for-old-dogs</guid>
       <category>Language-comparison</category>
+    </item>
+    <item>
+      <link>https://blog.dhsdevelopments.com/advent-of-code-2024-part-2</link>
+      <title>Advent of Code 2024 day 1, part 2</title>
+      <pubDate>Sun, 12 Jan 2025 15:00:00 GMT</pubDate>
+      <description>Elias Mårtenson</description>
+      <guid>https://blog.dhsdevelopments.com/advent-of-code-2024-part-2</guid>
+      <category>Challenge</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/html-templates</link>
