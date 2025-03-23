@@ -5,9 +5,26 @@
     <atom:link href="https://apl.news/rss.xml" rel="self" type="application/rss+xml"></atom:link>
     <description>APL news aggregator</description>
     <item>
+      <link>https://blog.rubenverg.com/tinyapl_15_extra_arguments</link>
+      <title>TinyAPL part 15: Extra Arguments</title>
+      <pubDate>Thu, 13 Mar 2025 15:00:00 GMT</pubDate>
+      <description>Madeline Vergani</description>
+      <guid>https://blog.rubenverg.com/tinyapl_15_extra_arguments</guid>
+      <category>Implementation</category>
+    </item>
+    <item>
+      <link>https://blog.dhsdevelopments.com/finding-words-using-kap</link>
+      <title>Finding words using Kap</title>
+      <pubDate>Tue, 25 Feb 2025 15:00:00 GMT</pubDate>
+      <description>Elias Mårtenson</description>
+      <guid>https://blog.dhsdevelopments.com/finding-words-using-kap</guid>
+      <category>Example</category>
+      <category>Commentary</category>
+    </item>
+    <item>
       <link>https://blog.dhsdevelopments.com/axis-labels-in-kap</link>
       <title>Axis labels in Kap</title>
-      <pubDate>Fri, 17 Jan 2025 15:00:00 GMT</pubDate>
+      <pubDate>Mon, 17 Feb 2025 15:00:00 GMT</pubDate>
       <description>Elias Mårtenson</description>
       <guid>https://blog.dhsdevelopments.com/axis-labels-in-kap</guid>
       <category>Challenge</category>
