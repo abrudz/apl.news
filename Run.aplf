@@ -1,4 +1,5 @@
  Run args;t;titles;date_author;urls;_;dates;authors;table;rss;_Delay;GetArchives;archives;mask;path
+ ⎕IO←1
 ⍝ Parsing articles
  :If 0=≢∊args
      path←⊃⎕NPARTS 50 ⎕ATX⊃⎕SI
