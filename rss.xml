@@ -5,9 +5,28 @@
     <atom:link href="https://apl.news/rss.xml" rel="self" type="application/rss+xml"></atom:link>
     <description>APL news aggregator</description>
     <item>
+      <link>https://blog.wilsonb.com/posts/2025-06-06-readable-code-is-unreadable.html</link>
+      <title>Readable Code is Unreadable</title>
+      <pubDate>Fri, 06 Jun 2025 15:00:00 GMT</pubDate>
+      <description>Brandon Wilson</description>
+      <guid>https://blog.wilsonb.com/posts/2025-06-06-readable-code-is-unreadable.html</guid>
+      <category>Vintage</category>
+      <category>Implementation</category>
+      <category>Commentary</category>
+    </item>
+    <item>
+      <link>https://blog.dhsdevelopments.com/finding-words-using-kap</link>
+      <title>Finding words using Kap</title>
+      <pubDate>Tue, 25 Feb 2025 15:00:00 GMT</pubDate>
+      <description>Elias Mårtenson</description>
+      <guid>https://blog.dhsdevelopments.com/finding-words-using-kap</guid>
+      <category>Example</category>
+      <category>Commentary</category>
+    </item>
+    <item>
       <link>https://blog.dhsdevelopments.com/axis-labels-in-kap</link>
       <title>Axis labels in Kap</title>
-      <pubDate>Fri, 17 Jan 2025 15:00:00 GMT</pubDate>
+      <pubDate>Mon, 17 Feb 2025 15:00:00 GMT</pubDate>
       <description>Elias Mårtenson</description>
       <guid>https://blog.dhsdevelopments.com/axis-labels-in-kap</guid>
       <category>Challenge</category>
