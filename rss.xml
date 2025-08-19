@@ -5,9 +5,77 @@
     <atom:link href="https://apl.news/rss.xml" rel="self" type="application/rss+xml"></atom:link>
     <description>APL news aggregator</description>
     <item>
+      <link>https://www.toolofthought.com/posts/on-arguments</link>
+      <title>On Arguments</title>
+      <pubDate>Fri, 15 Aug 2025 15:00:00 GMT</pubDate>
+      <description>Paul Mansour</description>
+      <guid>https://www.toolofthought.com/posts/on-arguments</guid>
+      <category>Example</category>
+      <category>Commentary</category>
+    </item>
+    <item>
+      <link>https://www.toolofthought.com/posts/menus-revisited</link>
+      <title>Menus Revisited</title>
+      <pubDate>Sat, 09 Aug 2025 15:00:00 GMT</pubDate>
+      <description>Paul Mansour</description>
+      <guid>https://www.toolofthought.com/posts/menus-revisited</guid>
+      <category>Example</category>
+    </item>
+    <item>
+      <link>https://www.toolofthought.com/posts/input-components</link>
+      <title>Input Components</title>
+      <pubDate>Wed, 06 Aug 2025 15:00:00 GMT</pubDate>
+      <description>Paul Mansour</description>
+      <guid>https://www.toolofthought.com/posts/input-components</guid>
+      <category>Example</category>
+      <category>Commentary</category>
+    </item>
+    <item>
+      <link>https://www.toolofthought.com/posts/whats-on-the-menu</link>
+      <title>What's on the Menu?</title>
+      <pubDate>Sat, 21 Jun 2025 15:00:00 GMT</pubDate>
+      <description>Paul Mansour</description>
+      <guid>https://www.toolofthought.com/posts/whats-on-the-menu</guid>
+      <category>Example</category>
+    </item>
+    <item>
+      <link>https://pitr.ca/2025-06-14-queens</link>
+      <title>Solving LinkedIn Queens with APL</title>
+      <pubDate>Sat, 14 Jun 2025 15:00:00 GMT</pubDate>
+      <description>Peter Vernigorov</description>
+      <guid>https://pitr.ca/2025-06-14-queens</guid>
+      <category>Challenge</category>
+    </item>
+    <item>
+      <link>https://www.toolofthought.com/posts/grok-as-apl-interpreter</link>
+      <title>Grok as APL Interpreter</title>
+      <pubDate>Wed, 04 Jun 2025 15:00:00 GMT</pubDate>
+      <description>Paul Mansour</description>
+      <guid>https://www.toolofthought.com/posts/grok-as-apl-interpreter</guid>
+      <category>Commentary</category>
+    </item>
+    <item>
+      <link>https://blog.rubenverg.com/tinyapl_15_extra_arguments</link>
+      <title>TinyAPL part 15: Extra Arguments</title>
+      <pubDate>Thu, 13 Mar 2025 15:00:00 GMT</pubDate>
+      <description>Madeline Vergani</description>
+      <guid>https://blog.rubenverg.com/tinyapl_15_extra_arguments</guid>
+      <category>Implementation</category>
+      <category>Design</category>
+    </item>
+    <item>
+      <link>https://blog.dhsdevelopments.com/finding-words-using-kap</link>
+      <title>Finding words using Kap</title>
+      <pubDate>Tue, 25 Feb 2025 15:00:00 GMT</pubDate>
+      <description>Elias Mårtenson</description>
+      <guid>https://blog.dhsdevelopments.com/finding-words-using-kap</guid>
+      <category>Example</category>
+      <category>Commentary</category>
+    </item>
+    <item>
       <link>https://blog.dhsdevelopments.com/axis-labels-in-kap</link>
       <title>Axis labels in Kap</title>
-      <pubDate>Fri, 17 Jan 2025 15:00:00 GMT</pubDate>
+      <pubDate>Mon, 17 Feb 2025 15:00:00 GMT</pubDate>
       <description>Elias Mårtenson</description>
       <guid>https://blog.dhsdevelopments.com/axis-labels-in-kap</guid>
       <category>Challenge</category>
