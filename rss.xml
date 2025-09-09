@@ -5,6 +5,15 @@
     <atom:link href="https://apl.news/rss.xml" rel="self" type="application/rss+xml"></atom:link>
     <description>APL news aggregator</description>
     <item>
+      <link>https://www.sacrideo.us/multi-dimensional-weighted-random-roll-choice-dice-selection/</link>
+      <title>Multi-dimensional weighted random roll (choice, dice, selection)</title>
+      <pubDate>Sat, 30 Aug 2025 15:00:00 GMT</pubDate>
+      <description>Aaron Hsu</description>
+      <guid>https://www.sacrideo.us/multi-dimensional-weighted-random-roll-choice-dice-selection/</guid>
+      <category>Example</category>
+      <category>Challenge</category>
+    </item>
+    <item>
       <link>https://www.toolofthought.com/posts/on-arguments</link>
       <title>On Arguments</title>
       <pubDate>Fri, 15 Aug 2025 15:00:00 GMT</pubDate>
