@@ -5,6 +5,15 @@
     <atom:link href="https://apl.news/rss.xml" rel="self" type="application/rss+xml"></atom:link>
     <description>APL news aggregator</description>
     <item>
+      <link>https://www.toolofthought.com/posts/variation-on-iota</link>
+      <title>Variation on Iota</title>
+      <pubDate>Wed, 12 Nov 2025 15:00:00 GMT</pubDate>
+      <description>Paul Mansour</description>
+      <guid>https://www.toolofthought.com/posts/variation-on-iota</guid>
+      <category>Example</category>
+      <category>Pointfree</category>
+    </item>
+    <item>
       <link>https://www.sacrideo.us/multi-dimensional-weighted-random-roll-choice-dice-selection/</link>
       <title>Multi-dimensional weighted random roll (choice, dice, selection)</title>
       <pubDate>Sat, 30 Aug 2025 15:00:00 GMT</pubDate>
