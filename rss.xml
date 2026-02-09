@@ -5,6 +5,23 @@
     <atom:link href="https://apl.news/rss.xml" rel="self" type="application/rss+xml"></atom:link>
     <description>APL news aggregator</description>
     <item>
+      <link>https://blog.veitheller.de/A_quick_apology_to_Dyalog_APL.html</link>
+      <title>A quick apology to Dyalog APL</title>
+      <pubDate>Sat, 31 Jan 2026 15:00:00 GMT</pubDate>
+      <description>Veit Heller</description>
+      <guid>https://blog.veitheller.de/A_quick_apology_to_Dyalog_APL.html</guid>
+      <category>Commentary</category>
+    </item>
+    <item>
+      <link>https://blog.veitheller.de/Simple_Sudoku_Solvers_SII,_EI:_Dyalog_APL.html</link>
+      <title>Simple Sudoku Solvers SII, EI: Dyalog APL</title>
+      <pubDate>Tue, 20 Jan 2026 15:00:00 GMT</pubDate>
+      <description>Veit Heller</description>
+      <guid>https://blog.veitheller.de/Simple_Sudoku_Solvers_SII,_EI:_Dyalog_APL.html</guid>
+      <category>Example</category>
+      <category>Language-comparison</category>
+    </item>
+    <item>
       <link>https://www.toolofthought.com/posts/variation-on-iota</link>
       <title>Variation on Iota</title>
       <pubDate>Wed, 12 Nov 2025 15:00:00 GMT</pubDate>
