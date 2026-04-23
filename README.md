@@ -1,8 +1,6 @@
 # [The APL Sign of the Times](https://apl.news)
 
-Supports lynx, w3m, eww, and mothra
-
-For contributing see `update.apl`
+To contribute, edit index.html then run `dyalog LOAD=path/to/apl.news` or on Windows, right-click folder and ("Show more options" and) "Run with Dyalog".
 
 ## To-do
 
