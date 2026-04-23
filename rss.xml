@@ -5,6 +5,15 @@
     <atom:link href="https://apl.news/rss.xml" rel="self" type="application/rss+xml"></atom:link>
     <description>APL news aggregator</description>
     <item>
+      <link>https://homewithinnowhere.com/blog/voxel_game/</link>
+      <title>Notes on writing a voxel game in Dyalog APL</title>
+      <pubDate>Fri, 06 Mar 2026 15:00:00 GMT</pubDate>
+      <description>Kyle Croarkin</description>
+      <guid>https://homewithinnowhere.com/blog/voxel_game/</guid>
+      <category>Example</category>
+      <category>Design</category>
+    </item>
+    <item>
       <link>https://blog.veitheller.de/A_quick_apology_to_Dyalog_APL.html</link>
       <title>A quick apology to Dyalog APL</title>
       <pubDate>Sat, 31 Jan 2026 15:00:00 GMT</pubDate>
