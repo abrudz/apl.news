@@ -30,6 +30,14 @@
       <category>Design</category>
     </item>
     <item>
+      <link>https://blog.wilsonb.com/posts/2026-02-27-easy-random-trees.html</link>
+      <title>Easy Random Trees</title>
+      <pubDate>Fri, 27 Feb 2026 15:00:00 GMT</pubDate>
+      <description>Brandon Wilson</description>
+      <guid>https://blog.wilsonb.com/posts/2026-02-27-easy-random-trees.html</guid>
+      <category>Mathematics</category>
+    </item>
+    <item>
       <link>https://blog.veitheller.de/A_quick_apology_to_Dyalog_APL.html</link>
       <title>A quick apology to Dyalog APL</title>
       <pubDate>Sat, 31 Jan 2026 15:00:00 GMT</pubDate>
@@ -416,6 +424,14 @@
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/modal-dialog-boxes-1</guid>
       <category>Example</category>
+    </item>
+    <item>
+      <link>https://bl0v3.com/Blog/raymarching-in-dyalog-apl/</link>
+      <title>Raymarching meets dyalog APL</title>
+      <pubDate>Sun, 28 Apr 2024 15:00:00 GMT</pubDate>
+      <description>bl0v3</description>
+      <guid>https://bl0v3.com/Blog/raymarching-in-dyalog-apl/</guid>
+      <category>Mathematics</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/abacus-threading-model</link>
