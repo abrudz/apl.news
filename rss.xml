@@ -233,6 +233,16 @@
       <category>Implementation</category>
     </item>
     <item>
+      <link>https://medium.com/@solarbreeze69/presenting-queztcoapl-2cdc1b9d234b</link>
+      <title>Presenting QueztcoAPL!</title>
+      <pubDate>Thu, 28 Nov 2024 15:00:00 GMT</pubDate>
+      <description>solarbreeze</description>
+      <guid>https://medium.com/@solarbreeze69/presenting-queztcoapl-2cdc1b9d234b</guid>
+      <category>Vintage</category>
+      <category>Announcement</category>
+      <category>Example</category>
+    </item>
+    <item>
       <link>https://jcarroll.com.au/2024/11/28/these-languages-are-accumulating/</link>
       <title>These Languages are Accumulating</title>
       <pubDate>Thu, 28 Nov 2024 15:00:00 GMT</pubDate>
@@ -240,16 +250,6 @@
       <guid>https://jcarroll.com.au/2024/11/28/these-languages-are-accumulating/</guid>
       <category>Language-comparison</category>
       <category>Idiom</category>
-    </item>
-    <item>
-      <link>https://medium.com/@solarbreeze69/presenting-queztcoapl-2cdc1b9d234b</link>
-      <title>Presenting QueztcoAPL!</title>
-      <pubDate>Tue, 28 Nov 2023 15:00:00 GMT</pubDate>
-      <description>solarbreeze</description>
-      <guid>https://medium.com/@solarbreeze69/presenting-queztcoapl-2cdc1b9d234b</guid>
-      <category>Vintage</category>
-      <category>Announcement</category>
-      <category>Example</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/find-and-replace-with-interval-index</link>
@@ -298,7 +298,7 @@
     <item>
       <link>https://blog.wilsonb.com/posts/2024-09-27-brainfuck.html</link>
       <title>Implementing Brainfuck</title>
-      <pubDate>Wed, 27 Sep 2023 15:00:00 GMT</pubDate>
+      <pubDate>Fri, 27 Sep 2024 15:00:00 GMT</pubDate>
       <description>Brandon Wilson</description>
       <guid>https://blog.wilsonb.com/posts/2024-09-27-brainfuck.html</guid>
       <category>Example</category>
@@ -710,7 +710,7 @@
     <item>
       <link>https://www.toolofthought.com/posts/testing-guis-wrestling-with-events</link>
       <title>Testing GUIs: Wrestling with Events</title>
-      <pubDate>Thu, 18 May 2023 15:00:00 GMT</pubDate>
+      <pubDate>Fri, 18 Aug 2023 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/testing-guis-wrestling-with-events</guid>
       <category>Testing</category>
@@ -726,17 +726,9 @@
       <category>Language-comparison</category>
     </item>
     <item>
-      <link>https://medium.com/@solarbreeze69/superpet-apl-trek-493689243f05</link>
-      <title>SuperPET APL Trek</title>
-      <pubDate>Tue, 18 Jul 2023 15:00:00 GMT</pubDate>
-      <description>solarbreeze</description>
-      <guid>https://medium.com/@solarbreeze69/superpet-apl-trek-493689243f05</guid>
-      <category>Vintage</category>
-    </item>
-    <item>
       <link>https://www.toolofthought.com/posts/testing-guis</link>
       <title>Testing GUIs</title>
-      <pubDate>Sun, 14 May 2023 15:00:00 GMT</pubDate>
+      <pubDate>Mon, 14 Aug 2023 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/testing-guis</guid>
       <category>Testing</category>
@@ -808,6 +800,14 @@
       <category>Idiom</category>
     </item>
     <item>
+      <link>https://medium.com/@solarbreeze69/superpet-apl-trek-493689243f05</link>
+      <title>SuperPET APL Trek</title>
+      <pubDate>Tue, 18 Jul 2023 15:00:00 GMT</pubDate>
+      <description>solarbreeze</description>
+      <guid>https://medium.com/@solarbreeze69/superpet-apl-trek-493689243f05</guid>
+      <category>Vintage</category>
+    </item>
+    <item>
       <link>https://jcarroll.com.au/2023/07/07/array-languages-r-vs-apl/</link>
       <title>Array Languages: R vs APL</title>
       <pubDate>Fri, 07 Jul 2023 15:00:00 GMT</pubDate>
@@ -877,20 +877,20 @@
       <category>Example</category>
     </item>
     <item>
-      <link>https://www.dyalog.com/blog/2023/04/11-april-2023-a-day-to-celebrate</link>
-      <title>11 April 2023 – A Day to Celebrate!</title>
-      <pubDate>Tue, 11 Apr 2023 15:00:00 GMT</pubDate>
-      <description>Morten Kromberg</description>
-      <guid>https://www.dyalog.com/blog/2023/04/11-april-2023-a-day-to-celebrate</guid>
-      <category>Announcement</category>
-    </item>
-    <item>
       <link>https://www.toolofthought.com/posts/the-dom-via-json</link>
       <title>The DOM via JSON</title>
       <pubDate>Tue, 11 Apr 2023 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/the-dom-via-json</guid>
       <category>Example</category>
+    </item>
+    <item>
+      <link>https://www.dyalog.com/blog/2023/04/11-april-2023-a-day-to-celebrate</link>
+      <title>11 April 2023 – A Day to Celebrate!</title>
+      <pubDate>Tue, 11 Apr 2023 15:00:00 GMT</pubDate>
+      <description>Morten Kromberg</description>
+      <guid>https://www.dyalog.com/blog/2023/04/11-april-2023-a-day-to-celebrate</guid>
+      <category>Announcement</category>
     </item>
     <item>
       <link>https://www.dyalog.com/blog/2023/04/extending-structural-functions-to-scalars</link>
@@ -994,19 +994,19 @@
       <category>Design</category>
     </item>
     <item>
-      <link>https://mathspp.com/blog/connecting-python-and-dyalog-apl-with-sockets</link>
-      <title>Connecting Python and Dyalog APL with sockets</title>
-      <pubDate>Sat, 21 Jan 2023 15:00:00 GMT</pubDate>
-      <description>Rodrigo Girão Serrão</description>
-      <guid>https://mathspp.com/blog/connecting-python-and-dyalog-apl-with-sockets</guid>
-      <category>Example</category>
-    </item>
-    <item>
       <link>https://www.toolofthought.com/posts/text-to-date</link>
       <title>Converting Text to Date</title>
       <pubDate>Mon, 23 Jan 2023 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/text-to-date</guid>
+      <category>Example</category>
+    </item>
+    <item>
+      <link>https://mathspp.com/blog/connecting-python-and-dyalog-apl-with-sockets</link>
+      <title>Connecting Python and Dyalog APL with sockets</title>
+      <pubDate>Sat, 21 Jan 2023 15:00:00 GMT</pubDate>
+      <description>Rodrigo Girão Serrão</description>
+      <guid>https://mathspp.com/blog/connecting-python-and-dyalog-apl-with-sockets</guid>
       <category>Example</category>
     </item>
     <item>
@@ -1262,7 +1262,7 @@
     <item>
       <link>https://github.com/justin2004/weblog/blob/master/using_apl/README.md</link>
       <title>How it Feels to Use APL</title>
-      <pubDate>Thu, 15 Jun 2023 15:00:00 GMT</pubDate>
+      <pubDate>Wed, 15 Jun 2022 15:00:00 GMT</pubDate>
       <description>Justin Dowdy</description>
       <guid>https://github.com/justin2004/weblog/blob/master/using_apl/README.md</guid>
       <category>Example</category>
@@ -1368,7 +1368,7 @@
     <item>
       <link>https://github.com/justin2004/weblog/blob/master/a_random_permutation/README.md</link>
       <title>A Random Permutation</title>
-      <pubDate>Fri, 17 Feb 2023 15:00:00 GMT</pubDate>
+      <pubDate>Thu, 17 Feb 2022 15:00:00 GMT</pubDate>
       <description>Justin Dowdy</description>
       <guid>https://github.com/justin2004/weblog/blob/master/a_random_permutation/README.md</guid>
       <category>Example</category>
