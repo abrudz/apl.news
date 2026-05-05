@@ -1,4 +1,4 @@
- Run args;t;titles;date_author;urls;_;dates;authors;table;rss;_Delay;GetArchives;archives;mask;path
+ Run args;t;titles;date_author;urls;_;dates;authors;table;rss;_Delay;GetArchives;archives;mask;path;file;New_Article
 ⍝ Parsing articles
  :If 0=≢∊args
      path←⊃⎕NPARTS 50 ⎕ATX⊃⎕SI
@@ -6,7 +6,20 @@
      path←⊃args
  :EndIf
 
- t←⎕XML⊃⎕NGET path,'/index.html'
+ file←path,'/index.html'
+
+ :Repeat
+     New_Article←(NOTE:'Close editor as-is to stop.' ⋄ title:'' ⋄ author:'' ⋄ tags:'' ⋄ date:⌊60 ⎕DT'Z' ⋄ url:'https://')
+     '⋄'⎕ED'New_Article'
+     :If ''⊂⍛∊New_Article.(title author tags)
+         ⍞←'Writing any new articles to HTML file now.'
+         :Leave
+     :EndIf
+     file Add New_Article
+ :EndRepeat
+
+ t←⎕XML⊃⎕NGET file
+
  ⍝ 1:title 2:tags 3:date_author 4:link 5:_ 6:_ 7:date 8:author
  table←(⊢⍴⍨6,⍨3÷⍨≢)1 0⊖{⊃⌽⊆⍵}¨0 0 1 1 0/t⌿⍨∨⌿0 ¯1 ¯2⌽⍤0 1⊢t[;2]∊⊂'article'
  ⍝ 1:tags 2:link 3:title 4:date 5:author
