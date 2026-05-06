@@ -3,7 +3,7 @@
 ⍝ tags can also be space-separated: 'example idiom'
 ⍝ date can also be single number (20260504) or text ('20260504' or '2026-05-04')
 
- t←⎕XML⊃⎕NGET file
+ t←⎕XML ⎕OPT'Markup' 'Preserve'⊃⎕NGET file
 
  dateText←t[;3]⌿⍨(4=⊢/t)∧⎕D∊⍨⊃¨3⌷⍤1⊢t
  :If ⍬≡0/ns.date
@@ -24,4 +24,4 @@
  :EndIf
  t(↑⍪new⍪↓)⍨←cut
 
- file 1 ⎕NPUT ⎕OPT'NEOL' 2⍨'<!DOCTYPE html>',10 ⎕UCS⍛,⎕XML t
+ file 1 ⎕NPUT ⎕OPT'NEOL' 2⍨'<br></br>'⎕R'<br/>'⎕XML t
