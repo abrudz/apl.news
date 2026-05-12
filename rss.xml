@@ -5,6 +5,15 @@
     <atom:link href="https://apl.news/rss.xml" rel="self" type="application/rss+xml"></atom:link>
     <description>APL news aggregator</description>
     <item>
+      <link>https://homewithinnowhere.com/posts/2026-05-10-one-line.html</link>
+      <title>Saying Goodbye to one line of APL</title>
+      <pubDate>Sun, 10 May 2026 15:00:00 GMT</pubDate>
+      <description>Kyle Croarkin</description>
+      <guid>https://homewithinnowhere.com/posts/2026-05-10-one-line.html</guid>
+      <category>Design</category>
+      <category>Mathematics</category>
+    </item>
+    <item>
       <link>https://blog.dhsdevelopments.com/kap-performance</link>
       <title>Kap performance</title>
       <pubDate>Mon, 13 Apr 2026 15:00:00 GMT</pubDate>
