@@ -269,6 +269,23 @@
       <category>Cross-Language</category>
     </item>
     <item>
+      <link>https://apl-germany.de/wp-content/uploads/2025/04/APLJournal2024.pdf#page=20</link>
+      <title>Migration from APL+Win to Dyalog</title>
+      <pubDate>Fri, 11 Apr 2025 15:00:00 GMT</pubDate>
+      <description>Markos Mitsos</description>
+      <guid>https://apl-germany.de/wp-content/uploads/2025/04/APLJournal2024.pdf#page=20</guid>
+      <category>Tutorial</category>
+    </item>
+    <item>
+      <link>https://apl-germany.de/wp-content/uploads/2025/04/APLJournal2024.pdf#page=44</link>
+      <title>Development in Dyalog APL with Modern Tools</title>
+      <pubDate>Fri, 11 Apr 2025 15:00:00 GMT</pubDate>
+      <description>Kai Jäger</description>
+      <guid>https://apl-germany.de/wp-content/uploads/2025/04/APLJournal2024.pdf#page=44</guid>
+      <category>Tutorial</category>
+      <category>Opinion</category>
+    </item>
+    <item>
       <link>https://blog.rubenverg.com/tinyapl_15_extra_arguments</link>
       <title>TinyAPL part 15: Extra Arguments</title>
       <pubDate>Thu, 13 Mar 2025 15:00:00 GMT</pubDate>
@@ -592,6 +609,15 @@
       <guid>https://www.toolofthought.com/posts/modal-dialog-boxes-1</guid>
       <category>Web-GUI</category>
       <category>Tutorial</category>
+    </item>
+    <item>
+      <link>https://apl-germany.de/wp-content/uploads/2024/04/APL_Journal_2023.pdf#page=15</link>
+      <title>Seemingly Impossible APL Programs</title>
+      <pubDate>Mon, 29 Apr 2024 15:00:00 GMT</pubDate>
+      <description>Kamila Szewczyk</description>
+      <guid>https://apl-germany.de/wp-content/uploads/2024/04/APL_Journal_2023.pdf#page=15</guid>
+      <category>Numeric-Math</category>
+      <category>Idioms-Techniques</category>
     </item>
     <item>
       <link>https://bl0v3.com/Blog/raymarching-in-dyalog-apl/</link>
@@ -1115,6 +1141,22 @@
       <guid>https://www.toolofthought.com/posts/grade-up-of-grade-down</guid>
       <category>Idioms-Techniques</category>
       <category>Numeric-Math</category>
+    </item>
+    <item>
+      <link>https://apl-germany.de/wp-content/uploads/2023/03/APL_Journal_2022.pdf#page=40</link>
+      <title>APL2Plus™: A New Mainframe Offering</title>
+      <pubDate>Tue, 14 Mar 2023 15:00:00 GMT</pubDate>
+      <description>James A. Brown</description>
+      <guid>https://apl-germany.de/wp-content/uploads/2023/03/APL_Journal_2022.pdf#page=40</guid>
+      <category>Announcement</category>
+    </item>
+    <item>
+      <link>https://apl-germany.de/wp-content/uploads/2023/03/APL_Journal_2022.pdf#page=42</link>
+      <title>Management of Dyalog APL workspaces</title>
+      <pubDate>Tue, 14 Mar 2023 15:00:00 GMT</pubDate>
+      <description>Markos Mitsos</description>
+      <guid>https://apl-germany.de/wp-content/uploads/2023/03/APL_Journal_2022.pdf#page=42</guid>
+      <category>Tutorial</category>
     </item>
     <item>
       <link>https://www.sacrideo.us/2023-apl-problem-solving-competition</link>
