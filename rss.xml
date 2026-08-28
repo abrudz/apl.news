@@ -681,11 +681,11 @@
       <category>Cross-Language</category>
     </item>
     <item>
-      <link>https://palaiologos.rocks/posts/polygon-triangulation/</link>
+      <link>https://iczelia.net/blog/polygon-triangulation/</link>
       <title>Triangulation of convex polygons</title>
       <pubDate>Fri, 23 Feb 2024 15:00:00 GMT</pubDate>
       <description>Kamila Szewczyk</description>
-      <guid>https://palaiologos.rocks/posts/polygon-triangulation/</guid>
+      <guid>https://iczelia.net/blog/polygon-triangulation/</guid>
       <category>Tutorial</category>
       <category>Numeric-Math</category>
     </item>
@@ -831,11 +831,11 @@
       <category>Puzzle-Solving</category>
     </item>
     <item>
-      <link>https://palaiologos.rocks/posts/dan-baronets-microwave/</link>
+      <link>https://iczelia.net/blog/dan-baronets-microwave/</link>
       <title>Dan Baronet’s Microwave</title>
       <pubDate>Wed, 04 Oct 2023 15:00:00 GMT</pubDate>
       <description>Kamila Szewczyk</description>
-      <guid>https://palaiologos.rocks/posts/dan-baronets-microwave/</guid>
+      <guid>https://iczelia.net/blog/dan-baronets-microwave/</guid>
       <category>Puzzle-Solving</category>
       <category>Announcement</category>
     </item>
@@ -949,20 +949,20 @@
       <category>Tutorial</category>
     </item>
     <item>
-      <link>https://palaiologos.rocks/posts/avg/</link>
+      <link>https://iczelia.net/blog/avg/</link>
       <title>The nested means problem</title>
       <pubDate>Sun, 13 Aug 2023 15:00:00 GMT</pubDate>
       <description>Kamila Szewczyk</description>
-      <guid>https://palaiologos.rocks/posts/avg/</guid>
+      <guid>https://iczelia.net/blog/avg/</guid>
       <category>Numeric-Math</category>
       <category>Puzzle-Solving</category>
     </item>
     <item>
-      <link>https://palaiologos.rocks/posts/lc-apl/</link>
+      <link>https://iczelia.net/blog/lc-apl/</link>
       <title>Journey to the Center of the Lambda Calculus</title>
       <pubDate>Sun, 13 Aug 2023 15:00:00 GMT</pubDate>
       <description>Kamila Szewczyk</description>
-      <guid>https://palaiologos.rocks/posts/lc-apl/</guid>
+      <guid>https://iczelia.net/blog/lc-apl/</guid>
       <category>Interpreter-Internals</category>
       <category>Numeric-Math</category>
     </item>
@@ -1682,29 +1682,29 @@
       <category>Tutorial</category>
     </item>
     <item>
-      <link>https://palaiologos.rocks/posts/linalg-apl</link>
+      <link>https://iczelia.net/blog/linalg-apl/</link>
       <title>Implementing the Faddeev-LeVerrier algorithm in APL</title>
       <pubDate>Mon, 10 Jan 2022 15:00:00 GMT</pubDate>
       <description>Kamila Szewczyk</description>
-      <guid>https://palaiologos.rocks/posts/linalg-apl</guid>
+      <guid>https://iczelia.net/blog/linalg-apl/</guid>
       <category>Numeric-Math</category>
       <category>Tutorial</category>
     </item>
     <item>
-      <link>https://palaiologos.rocks/posts/poly-root-apl</link>
+      <link>https://iczelia.net/blog/poly-root-apl/</link>
       <title>Finding roots of a polynomial - numerical methods in APL</title>
       <pubDate>Sun, 09 Jan 2022 15:00:00 GMT</pubDate>
       <description>Kamila Szewczyk</description>
-      <guid>https://palaiologos.rocks/posts/poly-root-apl</guid>
+      <guid>https://iczelia.net/blog/poly-root-apl/</guid>
       <category>Numeric-Math</category>
       <category>Tutorial</category>
     </item>
     <item>
-      <link>https://palaiologos.rocks/posts/taylor-apl</link>
+      <link>https://iczelia.net/blog/taylor-apl/</link>
       <title>Implementing Taylor Series in APL</title>
       <pubDate>Thu, 06 Jan 2022 15:00:00 GMT</pubDate>
       <description>Kamila Szewczyk</description>
-      <guid>https://palaiologos.rocks/posts/taylor-apl</guid>
+      <guid>https://iczelia.net/blog/taylor-apl/</guid>
       <category>Numeric-Math</category>
       <category>Tutorial</category>
     </item>
