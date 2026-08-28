@@ -5,6 +5,40 @@
     <atom:link href="https://apl.news/rss.xml" rel="self" type="application/rss+xml"></atom:link>
     <description>APL news aggregator</description>
     <item>
+      <link>https://ap29600.github.io/boolean_scans.html</link>
+      <title>Symmetries in boolean scans</title>
+      <pubDate>Wed, 26 Aug 2026 15:00:00 GMT</pubDate>
+      <description>Andrea Piseri</description>
+      <guid>https://ap29600.github.io/boolean_scans.html</guid>
+      <category>Implementation</category>
+      <category>Mathematics</category>
+    </item>
+    <item>
+      <link>https://loriculus.org/blog/chess-moves-apl/</link>
+      <title>Chess moves in APL</title>
+      <pubDate>Sun, 16 Aug 2026 15:00:00 GMT</pubDate>
+      <description>Rohan Prinja</description>
+      <guid>https://loriculus.org/blog/chess-moves-apl/</guid>
+      <category>Example</category>
+    </item>
+    <item>
+      <link>https://loriculus.org/blog/validate-sudoku-apl/</link>
+      <title>Validating a Sudoku board in APL</title>
+      <pubDate>Wed, 12 Aug 2026 15:00:00 GMT</pubDate>
+      <description>Rohan Prinja</description>
+      <guid>https://loriculus.org/blog/validate-sudoku-apl/</guid>
+      <category>Example</category>
+      <category>Challenge</category>
+    </item>
+    <item>
+      <link>https://loriculus.org/blog/maximum-nesting-depth/</link>
+      <title>Maximum nested paren depth in APL</title>
+      <pubDate>Sat, 01 Aug 2026 15:00:00 GMT</pubDate>
+      <description>Rohan Prinja</description>
+      <guid>https://loriculus.org/blog/maximum-nesting-depth/</guid>
+      <category>Example</category>
+    </item>
+    <item>
       <link>https://butwhyisthat.substack.com/p/ecfp</link>
       <title>Extended-Connectivity Fingerprints in APL</title>
       <pubDate>Wed, 22 Jul 2026 15:00:00 GMT</pubDate>
@@ -12,6 +46,41 @@
       <guid>https://butwhyisthat.substack.com/p/ecfp</guid>
       <category>Design</category>
       <category>Mathematics</category>
+    </item>
+    <item>
+      <link>https://loriculus.org/blog/run-length-encoding-apl/</link>
+      <title>Run-length encoding in APL</title>
+      <pubDate>Mon, 20 Jul 2026 15:00:00 GMT</pubDate>
+      <description>Rohan Prinja</description>
+      <guid>https://loriculus.org/blog/run-length-encoding-apl/</guid>
+      <category>Example</category>
+      <category>Idiom</category>
+    </item>
+    <item>
+      <link>https://loriculus.org/blog/mask-partition-apl/</link>
+      <title>Partition arrays with a mask in APL</title>
+      <pubDate>Sun, 19 Jul 2026 15:00:00 GMT</pubDate>
+      <description>Rohan Prinja</description>
+      <guid>https://loriculus.org/blog/mask-partition-apl/</guid>
+      <category>Example</category>
+      <category>Idiom</category>
+    </item>
+    <item>
+      <link>https://loriculus.org/blog/apl-problems/</link>
+      <title>Solutions to some APL problems</title>
+      <pubDate>Tue, 14 Jul 2026 15:00:00 GMT</pubDate>
+      <description>Rohan Prinja</description>
+      <guid>https://loriculus.org/blog/apl-problems/</guid>
+      <category>Challenge</category>
+      <category>Example</category>
+    </item>
+    <item>
+      <link>https://loriculus.org/blog/useful-apl-idioms/</link>
+      <title>Useful APL snippets</title>
+      <pubDate>Mon, 13 Jul 2026 15:00:00 GMT</pubDate>
+      <description>Rohan Prinja</description>
+      <guid>https://loriculus.org/blog/useful-apl-idioms/</guid>
+      <category>Idiom</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/csv-files-reconsidered</link>
