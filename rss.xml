@@ -10,8 +10,9 @@
       <pubDate>Wed, 26 Aug 2026 15:00:00 GMT</pubDate>
       <description>Andrea Piseri</description>
       <guid>https://ap29600.github.io/boolean_scans.html</guid>
-      <category>Implementation</category>
-      <category>Mathematics</category>
+      <category>Idioms-Techniques</category>
+      <category>Interpreter-Internals</category>
+      <category>Numeric-Math</category>
     </item>
     <item>
       <link>https://loriculus.org/blog/chess-moves-apl/</link>
@@ -19,7 +20,8 @@
       <pubDate>Sun, 16 Aug 2026 15:00:00 GMT</pubDate>
       <description>Rohan Prinja</description>
       <guid>https://loriculus.org/blog/chess-moves-apl/</guid>
-      <category>Example</category>
+      <category>Puzzle-Solving</category>
+      <category>Tutorial</category>
     </item>
     <item>
       <link>https://loriculus.org/blog/validate-sudoku-apl/</link>
@@ -27,8 +29,8 @@
       <pubDate>Wed, 12 Aug 2026 15:00:00 GMT</pubDate>
       <description>Rohan Prinja</description>
       <guid>https://loriculus.org/blog/validate-sudoku-apl/</guid>
-      <category>Example</category>
-      <category>Challenge</category>
+      <category>Tutorial</category>
+      <category>Puzzle-Solving</category>
     </item>
     <item>
       <link>https://loriculus.org/blog/maximum-nesting-depth/</link>
@@ -36,7 +38,9 @@
       <pubDate>Sat, 01 Aug 2026 15:00:00 GMT</pubDate>
       <description>Rohan Prinja</description>
       <guid>https://loriculus.org/blog/maximum-nesting-depth/</guid>
-      <category>Example</category>
+      <category>Puzzle-Solving</category>
+      <category>Tutorial</category>
+      <category>Idioms-Techniques</category>
     </item>
     <item>
       <link>https://butwhyisthat.substack.com/p/ecfp</link>
@@ -44,8 +48,9 @@
       <pubDate>Wed, 22 Jul 2026 15:00:00 GMT</pubDate>
       <description>Manas Mahale</description>
       <guid>https://butwhyisthat.substack.com/p/ecfp</guid>
-      <category>Design</category>
-      <category>Mathematics</category>
+      <category>Tutorial</category>
+      <category>Numeric-Math</category>
+      <category>Cross-Language</category>
     </item>
     <item>
       <link>https://loriculus.org/blog/run-length-encoding-apl/</link>
@@ -53,8 +58,9 @@
       <pubDate>Mon, 20 Jul 2026 15:00:00 GMT</pubDate>
       <description>Rohan Prinja</description>
       <guid>https://loriculus.org/blog/run-length-encoding-apl/</guid>
-      <category>Example</category>
-      <category>Idiom</category>
+      <category>Tutorial</category>
+      <category>Idioms-Techniques</category>
+      <category>Cross-Language</category>
     </item>
     <item>
       <link>https://loriculus.org/blog/mask-partition-apl/</link>
@@ -62,8 +68,8 @@
       <pubDate>Sun, 19 Jul 2026 15:00:00 GMT</pubDate>
       <description>Rohan Prinja</description>
       <guid>https://loriculus.org/blog/mask-partition-apl/</guid>
-      <category>Example</category>
-      <category>Idiom</category>
+      <category>Tutorial</category>
+      <category>Idioms-Techniques</category>
     </item>
     <item>
       <link>https://loriculus.org/blog/apl-problems/</link>
@@ -71,8 +77,8 @@
       <pubDate>Tue, 14 Jul 2026 15:00:00 GMT</pubDate>
       <description>Rohan Prinja</description>
       <guid>https://loriculus.org/blog/apl-problems/</guid>
-      <category>Challenge</category>
-      <category>Example</category>
+      <category>Puzzle-Solving</category>
+      <category>Idioms-Techniques</category>
     </item>
     <item>
       <link>https://loriculus.org/blog/useful-apl-idioms/</link>
@@ -80,7 +86,7 @@
       <pubDate>Mon, 13 Jul 2026 15:00:00 GMT</pubDate>
       <description>Rohan Prinja</description>
       <guid>https://loriculus.org/blog/useful-apl-idioms/</guid>
-      <category>Idiom</category>
+      <category>Idioms-Techniques</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/csv-files-reconsidered</link>
@@ -88,8 +94,9 @@
       <pubDate>Thu, 21 May 2026 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/csv-files-reconsidered</guid>
-      <category>Design</category>
-      <category>Implementation</category>
+      <category>Opinion</category>
+      <category>Data-Query</category>
+      <category>Language-Design</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/apl-makes-us-smile</link>
@@ -97,8 +104,8 @@
       <pubDate>Thu, 21 May 2026 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/apl-makes-us-smile</guid>
-      <category>Design</category>
-      <category>Example</category>
+      <category>Opinion</category>
+      <category>Idioms-Techniques</category>
     </item>
     <item>
       <link>https://maxcan-code.github.io/blog/2026/05/19/power-user-apl.html</link>
@@ -106,8 +113,8 @@
       <pubDate>Tue, 19 May 2026 15:00:00 GMT</pubDate>
       <description>Max Sun</description>
       <guid>https://maxcan-code.github.io/blog/2026/05/19/power-user-apl.html</guid>
-      <category>Example</category>
-      <category>Design</category>
+      <category>Tutorial</category>
+      <category>Idioms-Techniques</category>
     </item>
     <item>
       <link>https://homewithinnowhere.com/posts/2026-05-10-one-line.html</link>
@@ -115,8 +122,8 @@
       <pubDate>Sun, 10 May 2026 15:00:00 GMT</pubDate>
       <description>Kyle Croarkin</description>
       <guid>https://homewithinnowhere.com/posts/2026-05-10-one-line.html</guid>
-      <category>Design</category>
-      <category>Mathematics</category>
+      <category>Opinion</category>
+      <category>Web-GUI</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/a-query-in-r</link>
@@ -124,8 +131,8 @@
       <pubDate>Fri, 08 May 2026 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/a-query-in-r</guid>
-      <category>Commentary</category>
-      <category>Language-comparison</category>
+      <category>Cross-Language</category>
+      <category>Data-Query</category>
     </item>
     <item>
       <link>https://blog.dhsdevelopments.com/a-little-comparison-between-r-and-kap</link>
@@ -133,8 +140,8 @@
       <pubDate>Sat, 02 May 2026 15:00:00 GMT</pubDate>
       <description>Elias Mårtenson</description>
       <guid>https://blog.dhsdevelopments.com/a-little-comparison-between-r-and-kap</guid>
-      <category>Language-comparison</category>
-      <category>Example</category>
+      <category>Cross-Language</category>
+      <category>Data-Query</category>
     </item>
     <item>
       <link>https://blog.dhsdevelopments.com/kap-performance</link>
@@ -142,7 +149,7 @@
       <pubDate>Mon, 13 Apr 2026 15:00:00 GMT</pubDate>
       <description>Elias Mårtenson</description>
       <guid>https://blog.dhsdevelopments.com/kap-performance</guid>
-      <category>Implementation</category>
+      <category>Interpreter-Internals</category>
     </item>
     <item>
       <link>https://blog.dhsdevelopments.com/new-gui-for-kap</link>
@@ -150,7 +157,8 @@
       <pubDate>Thu, 02 Apr 2026 15:00:00 GMT</pubDate>
       <description>Elias Mårtenson</description>
       <guid>https://blog.dhsdevelopments.com/new-gui-for-kap</guid>
-      <category>Implementation</category>
+      <category>Announcement</category>
+      <category>Web-GUI</category>
     </item>
     <item>
       <link>https://homewithinnowhere.com/blog/voxel_game/</link>
@@ -158,8 +166,8 @@
       <pubDate>Fri, 06 Mar 2026 15:00:00 GMT</pubDate>
       <description>Kyle Croarkin</description>
       <guid>https://homewithinnowhere.com/blog/voxel_game/</guid>
-      <category>Example</category>
-      <category>Design</category>
+      <category>Tutorial</category>
+      <category>Web-GUI</category>
     </item>
     <item>
       <link>https://blog.wilsonb.com/posts/2026-02-27-easy-random-trees.html</link>
@@ -167,7 +175,8 @@
       <pubDate>Fri, 27 Feb 2026 15:00:00 GMT</pubDate>
       <description>Brandon Wilson</description>
       <guid>https://blog.wilsonb.com/posts/2026-02-27-easy-random-trees.html</guid>
-      <category>Mathematics</category>
+      <category>Numeric-Math</category>
+      <category>Tutorial</category>
     </item>
     <item>
       <link>https://blog.veitheller.de/A_quick_apology_to_Dyalog_APL.html</link>
@@ -175,7 +184,8 @@
       <pubDate>Sat, 31 Jan 2026 15:00:00 GMT</pubDate>
       <description>Veit Heller</description>
       <guid>https://blog.veitheller.de/A_quick_apology_to_Dyalog_APL.html</guid>
-      <category>Commentary</category>
+      <category>Opinion</category>
+      <category>Puzzle-Solving</category>
     </item>
     <item>
       <link>https://blog.veitheller.de/Simple_Sudoku_Solvers_SII,_EI:_Dyalog_APL.html</link>
@@ -183,8 +193,8 @@
       <pubDate>Tue, 20 Jan 2026 15:00:00 GMT</pubDate>
       <description>Veit Heller</description>
       <guid>https://blog.veitheller.de/Simple_Sudoku_Solvers_SII,_EI:_Dyalog_APL.html</guid>
-      <category>Example</category>
-      <category>Language-comparison</category>
+      <category>Tutorial</category>
+      <category>Puzzle-Solving</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/variation-on-iota</link>
@@ -192,8 +202,7 @@
       <pubDate>Wed, 12 Nov 2025 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/variation-on-iota</guid>
-      <category>Example</category>
-      <category>Pointfree</category>
+      <category>Idioms-Techniques</category>
     </item>
     <item>
       <link>https://www.sacrideo.us/multi-dimensional-weighted-random-roll-choice-dice-selection/</link>
@@ -201,8 +210,8 @@
       <pubDate>Sat, 30 Aug 2025 15:00:00 GMT</pubDate>
       <description>Aaron Hsu</description>
       <guid>https://www.sacrideo.us/multi-dimensional-weighted-random-roll-choice-dice-selection/</guid>
-      <category>Example</category>
-      <category>Challenge</category>
+      <category>Idioms-Techniques</category>
+      <category>Numeric-Math</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/on-arguments</link>
@@ -210,8 +219,8 @@
       <pubDate>Fri, 15 Aug 2025 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/on-arguments</guid>
-      <category>Example</category>
-      <category>Commentary</category>
+      <category>Opinion</category>
+      <category>Idioms-Techniques</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/menus-revisited</link>
@@ -219,7 +228,8 @@
       <pubDate>Sat, 09 Aug 2025 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/menus-revisited</guid>
-      <category>Example</category>
+      <category>Web-GUI</category>
+      <category>Tutorial</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/input-components</link>
@@ -227,8 +237,8 @@
       <pubDate>Wed, 06 Aug 2025 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/input-components</guid>
-      <category>Example</category>
-      <category>Commentary</category>
+      <category>Web-GUI</category>
+      <category>Tutorial</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/whats-on-the-menu</link>
@@ -236,7 +246,9 @@
       <pubDate>Sat, 21 Jun 2025 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/whats-on-the-menu</guid>
-      <category>Example</category>
+      <category>Web-GUI</category>
+      <category>Tutorial</category>
+      <category>Language-Design</category>
     </item>
     <item>
       <link>https://pitr.ca/2025-06-14-queens</link>
@@ -244,7 +256,8 @@
       <pubDate>Sat, 14 Jun 2025 15:00:00 GMT</pubDate>
       <description>Peter Vernigorov</description>
       <guid>https://pitr.ca/2025-06-14-queens</guid>
-      <category>Challenge</category>
+      <category>Puzzle-Solving</category>
+      <category>Tutorial</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/grok-as-apl-interpreter</link>
@@ -252,7 +265,8 @@
       <pubDate>Wed, 04 Jun 2025 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/grok-as-apl-interpreter</guid>
-      <category>Commentary</category>
+      <category>Opinion</category>
+      <category>Cross-Language</category>
     </item>
     <item>
       <link>https://blog.rubenverg.com/tinyapl_15_extra_arguments</link>
@@ -260,8 +274,9 @@
       <pubDate>Thu, 13 Mar 2025 15:00:00 GMT</pubDate>
       <description>Madeline Vergani</description>
       <guid>https://blog.rubenverg.com/tinyapl_15_extra_arguments</guid>
-      <category>Implementation</category>
-      <category>Design</category>
+      <category>Announcement</category>
+      <category>Interpreter-Internals</category>
+      <category>Language-Design</category>
     </item>
     <item>
       <link>https://blog.dhsdevelopments.com/finding-words-using-kap</link>
@@ -269,8 +284,8 @@
       <pubDate>Tue, 25 Feb 2025 15:00:00 GMT</pubDate>
       <description>Elias Mårtenson</description>
       <guid>https://blog.dhsdevelopments.com/finding-words-using-kap</guid>
-      <category>Example</category>
-      <category>Commentary</category>
+      <category>Tutorial</category>
+      <category>Cross-Language</category>
     </item>
     <item>
       <link>https://blog.dhsdevelopments.com/axis-labels-in-kap</link>
@@ -278,7 +293,9 @@
       <pubDate>Mon, 17 Feb 2025 15:00:00 GMT</pubDate>
       <description>Elias Mårtenson</description>
       <guid>https://blog.dhsdevelopments.com/axis-labels-in-kap</guid>
-      <category>Challenge</category>
+      <category>Tutorial</category>
+      <category>Data-Query</category>
+      <category>Cross-Language</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/html-tables-revisited</link>
@@ -286,8 +303,8 @@
       <pubDate>Sun, 16 Feb 2025 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/html-tables-revisited</guid>
-      <category>Example</category>
-      <category>Commentary</category>
+      <category>Web-GUI</category>
+      <category>Tutorial</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/rethinking-vset-and-vget</link>
@@ -295,8 +312,8 @@
       <pubDate>Wed, 05 Feb 2025 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/rethinking-vset-and-vget</guid>
-      <category>Design</category>
-      <category>Commentary</category>
+      <category>Language-Design</category>
+      <category>Opinion</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/version-20-goodies</link>
@@ -304,7 +321,8 @@
       <pubDate>Fri, 31 Jan 2025 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/version-20-goodies</guid>
-      <category>Language-comparison</category>
+      <category>Tutorial</category>
+      <category>Language-Design</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/new-tricks-for-old-dogs</link>
@@ -312,7 +330,8 @@
       <pubDate>Wed, 29 Jan 2025 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/new-tricks-for-old-dogs</guid>
-      <category>Language-comparison</category>
+      <category>Opinion</category>
+      <category>Language-Design</category>
     </item>
     <item>
       <link>https://blog.dhsdevelopments.com/advent-of-code-2024-part-2</link>
@@ -320,7 +339,8 @@
       <pubDate>Sun, 12 Jan 2025 15:00:00 GMT</pubDate>
       <description>Elias Mårtenson</description>
       <guid>https://blog.dhsdevelopments.com/advent-of-code-2024-part-2</guid>
-      <category>Challenge</category>
+      <category>Puzzle-Solving</category>
+      <category>Tutorial</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/html-templates</link>
@@ -328,7 +348,8 @@
       <pubDate>Tue, 07 Jan 2025 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/html-templates</guid>
-      <category>Example</category>
+      <category>Opinion</category>
+      <category>Web-GUI</category>
     </item>
     <item>
       <link>https://blog.dhsdevelopments.com/advent-of-code-2024</link>
@@ -336,7 +357,8 @@
       <pubDate>Sat, 28 Dec 2024 15:00:00 GMT</pubDate>
       <description>Elias Mårtenson</description>
       <guid>https://blog.dhsdevelopments.com/advent-of-code-2024</guid>
-      <category>Challenge</category>
+      <category>Puzzle-Solving</category>
+      <category>Tutorial</category>
     </item>
     <item>
       <link>https://blog.wilsonb.com/posts/2024-12-14-aoc-14.html</link>
@@ -344,8 +366,8 @@
       <pubDate>Sat, 14 Dec 2024 15:00:00 GMT</pubDate>
       <description>Brandon Wilson</description>
       <guid>https://blog.wilsonb.com/posts/2024-12-14-aoc-14.html</guid>
-      <category>Mathematics</category>
-      <category>Challenge</category>
+      <category>Puzzle-Solving</category>
+      <category>Numeric-Math</category>
     </item>
     <item>
       <link>https://blog.wilsonb.com/posts/2024-12-14-aoc-13.html</link>
@@ -353,8 +375,8 @@
       <pubDate>Sat, 14 Dec 2024 15:00:00 GMT</pubDate>
       <description>Brandon Wilson</description>
       <guid>https://blog.wilsonb.com/posts/2024-12-14-aoc-13.html</guid>
-      <category>Mathematics</category>
-      <category>Challenge</category>
+      <category>Puzzle-Solving</category>
+      <category>Numeric-Math</category>
     </item>
     <item>
       <link>https://blog.rubenverg.com/tinyapl_14_dictionaries</link>
@@ -362,7 +384,8 @@
       <pubDate>Sat, 30 Nov 2024 15:00:00 GMT</pubDate>
       <description>Madeline Vergani</description>
       <guid>https://blog.rubenverg.com/tinyapl_14_dictionaries</guid>
-      <category>Implementation</category>
+      <category>Interpreter-Internals</category>
+      <category>Language-Design</category>
     </item>
     <item>
       <link>https://medium.com/@solarbreeze69/presenting-queztcoapl-2cdc1b9d234b</link>
@@ -370,9 +393,8 @@
       <pubDate>Thu, 28 Nov 2024 15:00:00 GMT</pubDate>
       <description>solarbreeze</description>
       <guid>https://medium.com/@solarbreeze69/presenting-queztcoapl-2cdc1b9d234b</guid>
-      <category>Vintage</category>
       <category>Announcement</category>
-      <category>Example</category>
+      <category>Interpreter-Internals</category>
     </item>
     <item>
       <link>https://jcarroll.com.au/2024/11/28/these-languages-are-accumulating/</link>
@@ -380,8 +402,8 @@
       <pubDate>Thu, 28 Nov 2024 15:00:00 GMT</pubDate>
       <description>Jonathan Carroll</description>
       <guid>https://jcarroll.com.au/2024/11/28/these-languages-are-accumulating/</guid>
-      <category>Language-comparison</category>
-      <category>Idiom</category>
+      <category>Cross-Language</category>
+      <category>Idioms-Techniques</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/find-and-replace-with-interval-index</link>
@@ -389,8 +411,8 @@
       <pubDate>Thu, 07 Nov 2024 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/find-and-replace-with-interval-index</guid>
-      <category>Education</category>
-      <category>Example</category>
+      <category>Tutorial</category>
+      <category>Idioms-Techniques</category>
     </item>
     <item>
       <link>https://blog.dhsdevelopments.com/an-imperative-introduction-to-array-programming</link>
@@ -398,9 +420,8 @@
       <pubDate>Wed, 30 Oct 2024 15:00:00 GMT</pubDate>
       <description>Elias Mårtenson</description>
       <guid>https://blog.dhsdevelopments.com/an-imperative-introduction-to-array-programming</guid>
-      <category>Design</category>
-      <category>Language-comparison</category>
-      <category>Education</category>
+      <category>Tutorial</category>
+      <category>Idioms-Techniques</category>
     </item>
     <item>
       <link>https://blog.rubenverg.com/tinyapl_13_biggest_mistake_biggest_change</link>
@@ -408,7 +429,8 @@
       <pubDate>Sun, 27 Oct 2024 15:00:00 GMT</pubDate>
       <description>Madeline Vergani</description>
       <guid>https://blog.rubenverg.com/tinyapl_13_biggest_mistake_biggest_change</guid>
-      <category>Implementation</category>
+      <category>Interpreter-Internals</category>
+      <category>Language-Design</category>
     </item>
     <item>
       <link>https://jcarroll.com.au/2024/10/26/polyglot-maxxie-and-minnie/</link>
@@ -416,8 +438,8 @@
       <pubDate>Sat, 26 Oct 2024 15:00:00 GMT</pubDate>
       <description>Jonathan Carroll</description>
       <guid>https://jcarroll.com.au/2024/10/26/polyglot-maxxie-and-minnie/</guid>
-      <category>Language-comparison</category>
-      <category>Challenge</category>
+      <category>Cross-Language</category>
+      <category>Puzzle-Solving</category>
     </item>
     <item>
       <link>https://blog.rubenverg.com/tinyapl_12_at_depth_ordering</link>
@@ -425,7 +447,8 @@
       <pubDate>Wed, 02 Oct 2024 15:00:00 GMT</pubDate>
       <description>Madeline Vergani</description>
       <guid>https://blog.rubenverg.com/tinyapl_12_at_depth_ordering</guid>
-      <category>Implementation</category>
+      <category>Interpreter-Internals</category>
+      <category>Language-Design</category>
     </item>
     <item>
       <link>https://blog.wilsonb.com/posts/2024-09-27-brainfuck.html</link>
@@ -433,8 +456,8 @@
       <pubDate>Fri, 27 Sep 2024 15:00:00 GMT</pubDate>
       <description>Brandon Wilson</description>
       <guid>https://blog.wilsonb.com/posts/2024-09-27-brainfuck.html</guid>
-      <category>Example</category>
-      <category>Design</category>
+      <category>Tutorial</category>
+      <category>Interpreter-Internals</category>
     </item>
     <item>
       <link>https://blog.rubenverg.com/tinyapl_11_bases_searching</link>
@@ -442,7 +465,8 @@
       <pubDate>Fri, 13 Sep 2024 15:00:00 GMT</pubDate>
       <description>Madeline Vergani</description>
       <guid>https://blog.rubenverg.com/tinyapl_11_bases_searching</guid>
-      <category>Implementation</category>
+      <category>Interpreter-Internals</category>
+      <category>Language-Design</category>
     </item>
     <item>
       <link>https://blog.rubenverg.com/tinyapl_10_wraps_structs_stdlib</link>
@@ -450,7 +474,8 @@
       <pubDate>Tue, 03 Sep 2024 15:00:00 GMT</pubDate>
       <description>Madeline Vergani</description>
       <guid>https://blog.rubenverg.com/tinyapl_10_wraps_structs_stdlib</guid>
-      <category>Implementation</category>
+      <category>Interpreter-Internals</category>
+      <category>Language-Design</category>
     </item>
     <item>
       <link>https://blog.rubenverg.com/tinyapl_9_more_tacit</link>
@@ -458,7 +483,9 @@
       <pubDate>Sat, 10 Aug 2024 15:00:00 GMT</pubDate>
       <description>Madeline Vergani</description>
       <guid>https://blog.rubenverg.com/tinyapl_9_more_tacit</guid>
-      <category>Implementation</category>
+      <category>Interpreter-Internals</category>
+      <category>Idioms-Techniques</category>
+      <category>Language-Design</category>
     </item>
     <item>
       <link>https://blog.rubenverg.com/tinyapl_8_rank_web</link>
@@ -466,7 +493,8 @@
       <pubDate>Sat, 03 Aug 2024 15:00:00 GMT</pubDate>
       <description>Madeline Vergani</description>
       <guid>https://blog.rubenverg.com/tinyapl_8_rank_web</guid>
-      <category>Implementation</category>
+      <category>Interpreter-Internals</category>
+      <category>Web-GUI</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/rumba-threading-model</link>
@@ -474,7 +502,8 @@
       <pubDate>Sun, 28 Jul 2024 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/rumba-threading-model</guid>
-      <category>Implementation</category>
+      <category>Language-Design</category>
+      <category>Interpreter-Internals</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/revisiting-rumba</link>
@@ -482,7 +511,8 @@
       <pubDate>Wed, 17 Jul 2024 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/revisiting-rumba</guid>
-      <category>Implementation</category>
+      <category>Announcement</category>
+      <category>Interpreter-Internals</category>
     </item>
     <item>
       <link>https://blog.rubenverg.com/tinyapl_7_quads_key_index</link>
@@ -490,7 +520,8 @@
       <pubDate>Thu, 30 May 2024 15:00:00 GMT</pubDate>
       <description>Madeline Vergani</description>
       <guid>https://blog.rubenverg.com/tinyapl_7_quads_key_index</guid>
-      <category>Implementation</category>
+      <category>Interpreter-Internals</category>
+      <category>Language-Design</category>
     </item>
     <item>
       <link>https://blog.rubenverg.com/tinyapl_6_tests_docs_each</link>
@@ -498,7 +529,7 @@
       <pubDate>Tue, 21 May 2024 15:00:00 GMT</pubDate>
       <description>Madeline Vergani</description>
       <guid>https://blog.rubenverg.com/tinyapl_6_tests_docs_each</guid>
-      <category>Implementation</category>
+      <category>Interpreter-Internals</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/a-high-performance-data-grid-in-html</link>
@@ -506,7 +537,8 @@
       <pubDate>Mon, 20 May 2024 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/a-high-performance-data-grid-in-html</guid>
-      <category>Example</category>
+      <category>Web-GUI</category>
+      <category>Tutorial</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/modal-dialog-boxes-progressbar-more</link>
@@ -514,7 +546,8 @@
       <pubDate>Sat, 18 May 2024 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/modal-dialog-boxes-progressbar-more</guid>
-      <category>Example</category>
+      <category>Tutorial</category>
+      <category>Web-GUI</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/modal-dialog-boxes-progressbar</link>
@@ -522,7 +555,8 @@
       <pubDate>Tue, 14 May 2024 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/modal-dialog-boxes-progressbar</guid>
-      <category>Example</category>
+      <category>Web-GUI</category>
+      <category>Tutorial</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/uncle-bob-and-the-primeagen</link>
@@ -530,8 +564,7 @@
       <pubDate>Tue, 07 May 2024 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/uncle-bob-and-the-primeagen</guid>
-      <category>Commentary</category>
-      <category>Testing</category>
+      <category>Opinion</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/modal-dialog-boxes-prompt</link>
@@ -539,7 +572,8 @@
       <pubDate>Mon, 06 May 2024 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/modal-dialog-boxes-prompt</guid>
-      <category>Example</category>
+      <category>Web-GUI</category>
+      <category>Tutorial</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/modal-dialog-boxes-confirm</link>
@@ -547,7 +581,8 @@
       <pubDate>Tue, 30 Apr 2024 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/modal-dialog-boxes-confirm</guid>
-      <category>Example</category>
+      <category>Web-GUI</category>
+      <category>Tutorial</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/modal-dialog-boxes-1</link>
@@ -555,7 +590,8 @@
       <pubDate>Mon, 29 Apr 2024 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/modal-dialog-boxes-1</guid>
-      <category>Example</category>
+      <category>Web-GUI</category>
+      <category>Tutorial</category>
     </item>
     <item>
       <link>https://bl0v3.com/Blog/raymarching-in-dyalog-apl/</link>
@@ -563,7 +599,8 @@
       <pubDate>Sun, 28 Apr 2024 15:00:00 GMT</pubDate>
       <description>bl0v3</description>
       <guid>https://bl0v3.com/Blog/raymarching-in-dyalog-apl/</guid>
-      <category>Mathematics</category>
+      <category>Tutorial</category>
+      <category>Numeric-Math</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/abacus-threading-model</link>
@@ -571,7 +608,8 @@
       <pubDate>Sun, 28 Apr 2024 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/abacus-threading-model</guid>
-      <category>Example</category>
+      <category>Web-GUI</category>
+      <category>Interpreter-Internals</category>
     </item>
     <item>
       <link>https://grahamenos.com/apl-min-plus.html</link>
@@ -579,8 +617,7 @@
       <pubDate>Thu, 04 Apr 2024 15:00:00 GMT</pubDate>
       <description>Graham Enos</description>
       <guid>https://grahamenos.com/apl-min-plus.html</guid>
-      <category>Example</category>
-      <category>Mathematics</category>
+      <category>Numeric-Math</category>
     </item>
     <item>
       <link>https://www.dyalog.com/blog/2024/03/the-apl-quest-series/</link>
@@ -589,8 +626,7 @@
       <description>Adám Brudzewsky</description>
       <guid>https://www.dyalog.com/blog/2024/03/the-apl-quest-series/</guid>
       <category>Announcement</category>
-      <category>Anecdote</category>
-      <category>Commentary</category>
+      <category>Puzzle-Solving</category>
     </item>
     <item>
       <link>https://blog.rubenverg.com/tinyapl_5_array_notation_reductions</link>
@@ -598,7 +634,8 @@
       <pubDate>Thu, 14 Mar 2024 15:00:00 GMT</pubDate>
       <description>Madeline Vergani</description>
       <guid>https://blog.rubenverg.com/tinyapl_5_array_notation_reductions</guid>
-      <category>Implementation</category>
+      <category>Interpreter-Internals</category>
+      <category>Language-Design</category>
     </item>
     <item>
       <link>https://blog.rubenverg.com/tinyapl_4_parsing</link>
@@ -606,7 +643,7 @@
       <pubDate>Mon, 11 Mar 2024 15:00:00 GMT</pubDate>
       <description>Madeline Vergani</description>
       <guid>https://blog.rubenverg.com/tinyapl_4_parsing</guid>
-      <category>Implementation</category>
+      <category>Interpreter-Internals</category>
     </item>
     <item>
       <link>https://blog.dhsdevelopments.com/array-languages-vs</link>
@@ -614,9 +651,8 @@
       <pubDate>Sun, 25 Feb 2024 15:00:00 GMT</pubDate>
       <description>Elias Mårtenson</description>
       <guid>https://blog.dhsdevelopments.com/array-languages-vs</guid>
-      <category>Design</category>
-      <category>Implementation</category>
-      <category>Language-comparison</category>
+      <category>Opinion</category>
+      <category>Cross-Language</category>
     </item>
     <item>
       <link>https://palaiologos.rocks/posts/polygon-triangulation/</link>
@@ -624,7 +660,8 @@
       <pubDate>Fri, 23 Feb 2024 15:00:00 GMT</pubDate>
       <description>Kamila Szewczyk</description>
       <guid>https://palaiologos.rocks/posts/polygon-triangulation/</guid>
-      <category>Mathematics</category>
+      <category>Tutorial</category>
+      <category>Numeric-Math</category>
     </item>
     <item>
       <link>https://scharenbroch.dev/projects/apl-interpreter/</link>
@@ -632,7 +669,8 @@
       <pubDate>Thu, 11 Jan 2024 15:00:00 GMT</pubDate>
       <description>Lucas Scharenbroch</description>
       <guid>https://scharenbroch.dev/projects/apl-interpreter/</guid>
-      <category>Implementation</category>
+      <category>Interpreter-Internals</category>
+      <category>Cross-Language</category>
     </item>
     <item>
       <link>https://github.com/justin2004/weblog/blob/master/design_implications/README.md</link>
@@ -640,9 +678,9 @@
       <pubDate>Tue, 09 Jan 2024 15:00:00 GMT</pubDate>
       <description>Justin Dowdy</description>
       <guid>https://github.com/justin2004/weblog/blob/master/design_implications/README.md</guid>
-      <category>Language-comparison</category>
-      <category>Example</category>
-      <category>Commentary</category>
+      <category>Opinion</category>
+      <category>Language-Design</category>
+      <category>Cross-Language</category>
     </item>
     <item>
       <link>https://medium.com/@solarbreeze69/exploring-the-apl-one-liner-solutions-to-logikers-christmas-challenge-2023-on-the-commodore-64-b027e6ee486b</link>
@@ -651,9 +689,8 @@
       <pubDate>Fri, 05 Jan 2024 15:00:00 GMT</pubDate>
       <description>solarbreeze</description>
       <guid>https://medium.com/@solarbreeze69/exploring-the-apl-one-liner-solutions-to-logikers-christmas-challenge-2023-on-the-commodore-64-b027e6ee486b</guid>
-      <category>Vintage</category>
-      <category>Challenge</category>
-      <category>Language-comparison</category>
+      <category>Puzzle-Solving</category>
+      <category>Cross-Language</category>
     </item>
     <item>
       <link>https://medium.com/@solarbreeze69/two-apl-solutions-to-logikers-vintage-computing-christmas-challenge-2023-014feacc8a8f</link>
@@ -662,8 +699,7 @@
       <pubDate>Wed, 27 Dec 2023 15:00:00 GMT</pubDate>
       <description>solarbreeze</description>
       <guid>https://medium.com/@solarbreeze69/two-apl-solutions-to-logikers-vintage-computing-christmas-challenge-2023-014feacc8a8f</guid>
-      <category>Vintage</category>
-      <category>Challenge</category>
+      <category>Puzzle-Solving</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/making-sharpplot-charts-interactive</link>
@@ -671,8 +707,8 @@
       <pubDate>Thu, 21 Dec 2023 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/making-sharpplot-charts-interactive</guid>
-      <category>Design</category>
-      <category>Implementation</category>
+      <category>Web-GUI</category>
+      <category>Tutorial</category>
     </item>
     <item>
       <link>https://xpqz.github.io/Advent-of-Code-day-8/</link>
@@ -680,7 +716,9 @@
       <pubDate>Mon, 11 Dec 2023 15:00:00 GMT</pubDate>
       <description>Stefan Kruger</description>
       <guid>https://xpqz.github.io/Advent-of-Code-day-8/</guid>
-      <category>Challenge</category>
+      <category>Puzzle-Solving</category>
+      <category>Tutorial</category>
+      <category>Numeric-Math</category>
     </item>
     <item>
       <link>https://jcarroll.com.au/2023/12/10/advent-of-array-elegance/</link>
@@ -688,7 +726,8 @@
       <pubDate>Sun, 10 Dec 2023 15:00:00 GMT</pubDate>
       <description>Jonathan Carroll</description>
       <guid>https://jcarroll.com.au/2023/12/10/advent-of-array-elegance/</guid>
-      <category>Language-comparison</category>
+      <category>Puzzle-Solving</category>
+      <category>Cross-Language</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/on-categorical-data</link>
@@ -696,7 +735,9 @@
       <pubDate>Wed, 06 Dec 2023 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/on-categorical-data</guid>
-      <category>Mathematics</category>
+      <category>Tutorial</category>
+      <category>Data-Query</category>
+      <category>Numeric-Math</category>
     </item>
     <item>
       <link>https://xpqz.github.io/Advent-of-Code-Day-3/</link>
@@ -704,7 +745,9 @@
       <pubDate>Tue, 05 Dec 2023 15:00:00 GMT</pubDate>
       <description>Stefan Kruger</description>
       <guid>https://xpqz.github.io/Advent-of-Code-Day-3/</guid>
-      <category>Challenge</category>
+      <category>Puzzle-Solving</category>
+      <category>Tutorial</category>
+      <category>Idioms-Techniques</category>
     </item>
     <item>
       <link>https://xpqz.github.io/AoC-day1/</link>
@@ -712,7 +755,8 @@
       <pubDate>Fri, 01 Dec 2023 15:00:00 GMT</pubDate>
       <description>Stefan Kruger</description>
       <guid>https://xpqz.github.io/AoC-day1/</guid>
-      <category>Challenge</category>
+      <category>Puzzle-Solving</category>
+      <category>Tutorial</category>
     </item>
     <item>
       <link>https://scharenbroch.dev/blog/apl-tutorial/</link>
@@ -720,7 +764,8 @@
       <pubDate>Mon, 27 Nov 2023 15:00:00 GMT</pubDate>
       <description>Lucas Scharenbroch</description>
       <guid>https://scharenbroch.dev/blog/apl-tutorial/</guid>
-      <category>Education</category>
+      <category>Tutorial</category>
+      <category>Idioms-Techniques</category>
     </item>
     <item>
       <link>https://blog.rubenverg.com/tinyapl_3_more_primitives</link>
@@ -728,7 +773,8 @@
       <pubDate>Tue, 21 Nov 2023 15:00:00 GMT</pubDate>
       <description>Madeline Vergani</description>
       <guid>https://blog.rubenverg.com/tinyapl_3_more_primitives</guid>
-      <category>Implementation</category>
+      <category>Interpreter-Internals</category>
+      <category>Tutorial</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/high-rank-arrays</link>
@@ -736,8 +782,9 @@
       <pubDate>Wed, 15 Nov 2023 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/high-rank-arrays</guid>
-      <category>Commentary</category>
-      <category>Design</category>
+      <category>Opinion</category>
+      <category>Data-Query</category>
+      <category>Language-Design</category>
     </item>
     <item>
       <link>https://blog.dhsdevelopments.com/n-tuples-and-the-introduction-of-null-values-in-kap</link>
@@ -745,7 +792,8 @@
       <pubDate>Mon, 06 Nov 2023 15:00:00 GMT</pubDate>
       <description>Elias Mårtenson</description>
       <guid>https://blog.dhsdevelopments.com/n-tuples-and-the-introduction-of-null-values-in-kap</guid>
-      <category>Design</category>
+      <category>Language-Design</category>
+      <category>Interpreter-Internals</category>
     </item>
     <item>
       <link>https://jcarroll.com.au/2023/10/09/hooray-array/</link>
@@ -753,7 +801,8 @@
       <pubDate>Mon, 09 Oct 2023 15:00:00 GMT</pubDate>
       <description>Jonathan Carroll</description>
       <guid>https://jcarroll.com.au/2023/10/09/hooray-array/</guid>
-      <category>Language-comparison</category>
+      <category>Cross-Language</category>
+      <category>Puzzle-Solving</category>
     </item>
     <item>
       <link>https://palaiologos.rocks/posts/dan-baronets-microwave/</link>
@@ -761,8 +810,8 @@
       <pubDate>Wed, 04 Oct 2023 15:00:00 GMT</pubDate>
       <description>Kamila Szewczyk</description>
       <guid>https://palaiologos.rocks/posts/dan-baronets-microwave/</guid>
-      <category>Mathematics</category>
-      <category>Anecdote</category>
+      <category>Puzzle-Solving</category>
+      <category>Announcement</category>
     </item>
     <item>
       <link>https://medium.com/@solarbreeze69/draculark-a-mudlarking-vampire-hunting-game-bbf40361bf1a</link>
@@ -770,8 +819,7 @@
       <pubDate>Fri, 29 Sep 2023 15:00:00 GMT</pubDate>
       <description>solarbreeze</description>
       <guid>https://medium.com/@solarbreeze69/draculark-a-mudlarking-vampire-hunting-game-bbf40361bf1a</guid>
-      <category>Vintage</category>
-      <category>Implementation</category>
+      <category>Announcement</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/charting-and-tidy-data</link>
@@ -779,7 +827,8 @@
       <pubDate>Thu, 28 Sep 2023 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/charting-and-tidy-data</guid>
-      <category>Commentary</category>
+      <category>Web-GUI</category>
+      <category>Data-Query</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/project-playfair</link>
@@ -787,7 +836,8 @@
       <pubDate>Wed, 27 Sep 2023 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/project-playfair</guid>
-      <category>Design</category>
+      <category>Web-GUI</category>
+      <category>Opinion</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/ordered-namespaces</link>
@@ -795,7 +845,8 @@
       <pubDate>Tue, 26 Sep 2023 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/ordered-namespaces</guid>
-      <category>Example</category>
+      <category>Tutorial</category>
+      <category>Idioms-Techniques</category>
     </item>
     <item>
       <link>https://blog.rubenverg.com/tinyapl_2_functions_operators</link>
@@ -803,8 +854,8 @@
       <pubDate>Sat, 23 Sep 2023 15:00:00 GMT</pubDate>
       <description>Madeline Vergani</description>
       <guid>https://blog.rubenverg.com/tinyapl_2_functions_operators</guid>
-      <category>Design</category>
-      <category>Implementation</category>
+      <category>Interpreter-Internals</category>
+      <category>Tutorial</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/towards-a-chart-wizard</link>
@@ -812,7 +863,8 @@
       <pubDate>Wed, 20 Sep 2023 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/towards-a-chart-wizard</guid>
-      <category>Design</category>
+      <category>Web-GUI</category>
+      <category>Language-Design</category>
     </item>
     <item>
       <link>https://blog.rubenverg.com/float_indexing</link>
@@ -820,8 +872,9 @@
       <pubDate>Fri, 01 Sep 2023 15:00:00 GMT</pubDate>
       <description>Madeline Vergani</description>
       <guid>https://blog.rubenverg.com/float_indexing</guid>
-      <category>Design</category>
-      <category>Humour</category>
+      <category>Language-Design</category>
+      <category>Opinion</category>
+      <category>Puzzle-Solving</category>
     </item>
     <item>
       <link>https://jcarroll.com.au/2023/08/29/now-you-re-thinking-with-arrays/</link>
@@ -829,7 +882,8 @@
       <pubDate>Tue, 29 Aug 2023 15:00:00 GMT</pubDate>
       <description>Jonathan Carroll</description>
       <guid>https://jcarroll.com.au/2023/08/29/now-you-re-thinking-with-arrays/</guid>
-      <category>Language-comparison</category>
+      <category>Cross-Language</category>
+      <category>Opinion</category>
     </item>
     <item>
       <link>https://blog.wilsonb.com/posts/2023-08-29-mundane-exotic-number-system.html</link>
@@ -837,7 +891,8 @@
       <pubDate>Tue, 29 Aug 2023 15:00:00 GMT</pubDate>
       <description>Brandon Wilson</description>
       <guid>https://blog.wilsonb.com/posts/2023-08-29-mundane-exotic-number-system.html</guid>
-      <category>Mathematics</category>
+      <category>Numeric-Math</category>
+      <category>Tutorial</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/testing-guis-wrestling-with-events</link>
@@ -845,7 +900,8 @@
       <pubDate>Fri, 18 Aug 2023 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/testing-guis-wrestling-with-events</guid>
-      <category>Testing</category>
+      <category>Web-GUI</category>
+      <category>Tutorial</category>
     </item>
     <item>
       <link>https://mathspp.com/blog/what-learning-apl-taught-me-about-python</link>
@@ -853,9 +909,9 @@
       <pubDate>Tue, 15 Aug 2023 15:00:00 GMT</pubDate>
       <description>Rodrigo Girão Serrão</description>
       <guid>https://mathspp.com/blog/what-learning-apl-taught-me-about-python</guid>
-      <category>Example</category>
-      <category>Anecdote</category>
-      <category>Language-comparison</category>
+      <category>Cross-Language</category>
+      <category>Opinion</category>
+      <category>Idioms-Techniques</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/testing-guis</link>
@@ -863,7 +919,8 @@
       <pubDate>Mon, 14 Aug 2023 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/testing-guis</guid>
-      <category>Testing</category>
+      <category>Web-GUI</category>
+      <category>Tutorial</category>
     </item>
     <item>
       <link>https://palaiologos.rocks/posts/avg/</link>
@@ -871,8 +928,8 @@
       <pubDate>Sun, 13 Aug 2023 15:00:00 GMT</pubDate>
       <description>Kamila Szewczyk</description>
       <guid>https://palaiologos.rocks/posts/avg/</guid>
-      <category>Mathematics</category>
-      <category>Challenge</category>
+      <category>Numeric-Math</category>
+      <category>Puzzle-Solving</category>
     </item>
     <item>
       <link>https://palaiologos.rocks/posts/lc-apl/</link>
@@ -880,8 +937,8 @@
       <pubDate>Sun, 13 Aug 2023 15:00:00 GMT</pubDate>
       <description>Kamila Szewczyk</description>
       <guid>https://palaiologos.rocks/posts/lc-apl/</guid>
-      <category>Implementation</category>
-      <category>Mathematics</category>
+      <category>Interpreter-Internals</category>
+      <category>Numeric-Math</category>
     </item>
     <item>
       <link>https://ap29600.github.io/apl_problemsolving_23.html</link>
@@ -889,8 +946,7 @@
       <pubDate>Fri, 11 Aug 2023 15:00:00 GMT</pubDate>
       <description>Andrea Piseri</description>
       <guid>https://ap29600.github.io/apl_problemsolving_23.html</guid>
-      <category>Commentary</category>
-      <category>Example</category>
+      <category>Puzzle-Solving</category>
     </item>
     <item>
       <link>https://blog.rubenverg.com/tinyapl_1_arrays</link>
@@ -898,8 +954,9 @@
       <pubDate>Sat, 05 Aug 2023 15:00:00 GMT</pubDate>
       <description>Madeline Vergani</description>
       <guid>https://blog.rubenverg.com/tinyapl_1_arrays</guid>
-      <category>Design</category>
-      <category>Implementation</category>
+      <category>Interpreter-Internals</category>
+      <category>Tutorial</category>
+      <category>Language-Design</category>
     </item>
     <item>
       <link>https://blog.wilsonb.com/posts/2023-08-04-what-does-grade-grade-even-mean.html</link>
@@ -907,9 +964,8 @@
       <pubDate>Fri, 04 Aug 2023 15:00:00 GMT</pubDate>
       <description>Brandon Wilson</description>
       <guid>https://blog.wilsonb.com/posts/2023-08-04-what-does-grade-grade-even-mean.html</guid>
-      <category>Example</category>
-      <category>Commentary</category>
-      <category>Challenge</category>
+      <category>Idioms-Techniques</category>
+      <category>Numeric-Math</category>
     </item>
     <item>
       <link>https://blog.rubenverg.com/suggestivity_and_idioms</link>
@@ -917,9 +973,8 @@
       <pubDate>Thu, 27 Jul 2023 15:00:00 GMT</pubDate>
       <description>Madeline Vergani</description>
       <guid>https://blog.rubenverg.com/suggestivity_and_idioms</guid>
-      <category>Example</category>
-      <category>Commentary</category>
-      <category>Idiom</category>
+      <category>Idioms-Techniques</category>
+      <category>Opinion</category>
     </item>
     <item>
       <link>https://blog.wilsonb.com/posts/2023-07-24-suggestivity-and-idioms.html</link>
@@ -927,9 +982,9 @@
       <pubDate>Mon, 24 Jul 2023 15:00:00 GMT</pubDate>
       <description>Brandon Wilson</description>
       <guid>https://blog.wilsonb.com/posts/2023-07-24-suggestivity-and-idioms.html</guid>
-      <category>Example</category>
-      <category>Commentary</category>
-      <category>Idiom</category>
+      <category>Idioms-Techniques</category>
+      <category>Language-Design</category>
+      <category>Opinion</category>
     </item>
     <item>
       <link>https://medium.com/@solarbreeze69/superpet-apl-trek-493689243f05</link>
@@ -937,7 +992,7 @@
       <pubDate>Tue, 18 Jul 2023 15:00:00 GMT</pubDate>
       <description>solarbreeze</description>
       <guid>https://medium.com/@solarbreeze69/superpet-apl-trek-493689243f05</guid>
-      <category>Vintage</category>
+      <category>Opinion</category>
     </item>
     <item>
       <link>https://jcarroll.com.au/2023/07/07/array-languages-r-vs-apl/</link>
@@ -945,7 +1000,8 @@
       <pubDate>Fri, 07 Jul 2023 15:00:00 GMT</pubDate>
       <description>Jonathan Carroll</description>
       <guid>https://jcarroll.com.au/2023/07/07/array-languages-r-vs-apl/</guid>
-      <category>Language-comparison</category>
+      <category>Cross-Language</category>
+      <category>Tutorial</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/boolean-techniques</link>
@@ -953,9 +1009,7 @@
       <pubDate>Sat, 13 May 2023 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/boolean-techniques</guid>
-      <category>Example</category>
-      <category>Commentary</category>
-      <category>Idiom</category>
+      <category>Idioms-Techniques</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/dont-trap-when-you-can-verify</link>
@@ -963,7 +1017,7 @@
       <pubDate>Thu, 11 May 2023 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/dont-trap-when-you-can-verify</guid>
-      <category>Design</category>
+      <category>Opinion</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/excel-column-names</link>
@@ -971,8 +1025,8 @@
       <pubDate>Mon, 08 May 2023 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/excel-column-names</guid>
-      <category>Challenge</category>
-      <category>Commentary</category>
+      <category>Tutorial</category>
+      <category>Numeric-Math</category>
     </item>
     <item>
       <link>https://www.sacrideo.us/suggestivity-and-idioms-in-apl/</link>
@@ -980,8 +1034,8 @@
       <pubDate>Tue, 02 May 2023 15:00:00 GMT</pubDate>
       <description>Aaron Hsu</description>
       <guid>https://www.sacrideo.us/suggestivity-and-idioms-in-apl/</guid>
-      <category>Example</category>
-      <category>Idiom</category>
+      <category>Idioms-Techniques</category>
+      <category>Opinion</category>
     </item>
     <item>
       <link>https://www.sacrideo.us/flat-program-organization-an-email-response/</link>
@@ -989,7 +1043,7 @@
       <pubDate>Fri, 21 Apr 2023 15:00:00 GMT</pubDate>
       <description>Aaron Hsu</description>
       <guid>https://www.sacrideo.us/flat-program-organization-an-email-response/</guid>
-      <category>Commentary</category>
+      <category>Opinion</category>
     </item>
     <item>
       <link>https://www.dyalog.com/blog/2023/04/formal-proposal-for-apl-array-notation-seeking-feedback</link>
@@ -997,7 +1051,7 @@
       <pubDate>Fri, 21 Apr 2023 15:00:00 GMT</pubDate>
       <description>Morten Kromberg</description>
       <guid>https://www.dyalog.com/blog/2023/04/formal-proposal-for-apl-array-notation-seeking-feedback</guid>
-      <category>Design</category>
+      <category>Language-Design</category>
       <category>Announcement</category>
     </item>
     <item>
@@ -1006,7 +1060,8 @@
       <pubDate>Wed, 12 Apr 2023 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/dom-via-json-performance</guid>
-      <category>Example</category>
+      <category>Web-GUI</category>
+      <category>Interpreter-Internals</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/the-dom-via-json</link>
@@ -1014,7 +1069,8 @@
       <pubDate>Tue, 11 Apr 2023 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/the-dom-via-json</guid>
-      <category>Example</category>
+      <category>Tutorial</category>
+      <category>Web-GUI</category>
     </item>
     <item>
       <link>https://www.dyalog.com/blog/2023/04/11-april-2023-a-day-to-celebrate</link>
@@ -1030,8 +1086,8 @@
       <pubDate>Sat, 01 Apr 2023 15:00:00 GMT</pubDate>
       <description>Morten Kromberg</description>
       <guid>https://www.dyalog.com/blog/2023/04/extending-structural-functions-to-scalars</guid>
-      <category>Design</category>
       <category>Announcement</category>
+      <category>Language-Design</category>
     </item>
     <item>
       <link>https://www.dyalog.com/blog/2023/03/apl-seeds-23-wednesday-22-march</link>
@@ -1047,7 +1103,9 @@
       <pubDate>Mon, 27 Mar 2023 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/validating-dates</guid>
-      <category>Example</category>
+      <category>Numeric-Math</category>
+      <category>Data-Query</category>
+      <category>Idioms-Techniques</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/grade-up-of-grade-down</link>
@@ -1055,8 +1113,8 @@
       <pubDate>Tue, 21 Mar 2023 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/grade-up-of-grade-down</guid>
-      <category>Example</category>
-      <category>Challenge</category>
+      <category>Idioms-Techniques</category>
+      <category>Numeric-Math</category>
     </item>
     <item>
       <link>https://www.sacrideo.us/2023-apl-problem-solving-competition</link>
@@ -1065,7 +1123,7 @@
       <description>Aaron Hsu</description>
       <guid>https://www.sacrideo.us/2023-apl-problem-solving-competition</guid>
       <category>Announcement</category>
-      <category>Commentary</category>
+      <category>Puzzle-Solving</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/how-would-you-write-this</link>
@@ -1073,8 +1131,8 @@
       <pubDate>Sun, 05 Mar 2023 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/how-would-you-write-this</guid>
-      <category>Design</category>
-      <category>Idiom</category>
+      <category>Opinion</category>
+      <category>Idioms-Techniques</category>
     </item>
     <item>
       <link>https://razetime.github.io/blog/2023/03/02/apl-assumptions.html</link>
@@ -1082,7 +1140,7 @@
       <pubDate>Thu, 02 Mar 2023 15:00:00 GMT</pubDate>
       <description>Raghu Ranganathan</description>
       <guid>https://razetime.github.io/blog/2023/03/02/apl-assumptions.html</guid>
-      <category>Commentary</category>
+      <category>Opinion</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/text2date</link>
@@ -1091,6 +1149,7 @@
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/text2date</guid>
       <category>Announcement</category>
+      <category>Data-Query</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/error-trapping</link>
@@ -1098,7 +1157,7 @@
       <pubDate>Mon, 20 Feb 2023 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/error-trapping</guid>
-      <category>Example</category>
+      <category>Tutorial</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/provanto</link>
@@ -1106,7 +1165,7 @@
       <pubDate>Mon, 13 Feb 2023 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/provanto</guid>
-      <category>Design</category>
+      <category>Announcement</category>
     </item>
     <item>
       <link>https://blog.dhsdevelopments.com/returning-from-functions-in-kap</link>
@@ -1114,8 +1173,8 @@
       <pubDate>Sat, 04 Feb 2023 15:00:00 GMT</pubDate>
       <description>Elias Mårtenson</description>
       <guid>https://blog.dhsdevelopments.com/returning-from-functions-in-kap</guid>
-      <category>Design</category>
-      <category>Example</category>
+      <category>Language-Design</category>
+      <category>Announcement</category>
     </item>
     <item>
       <link>https://www.dyalog.com/blog/2023/01/structural-vs-mathematical-under</link>
@@ -1123,7 +1182,8 @@
       <pubDate>Thu, 26 Jan 2023 15:00:00 GMT</pubDate>
       <description>Morten Kromberg</description>
       <guid>https://www.dyalog.com/blog/2023/01/structural-vs-mathematical-under</guid>
-      <category>Design</category>
+      <category>Opinion</category>
+      <category>Language-Design</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/text-to-date</link>
@@ -1131,7 +1191,9 @@
       <pubDate>Mon, 23 Jan 2023 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/text-to-date</guid>
-      <category>Example</category>
+      <category>Tutorial</category>
+      <category>Data-Query</category>
+      <category>Opinion</category>
     </item>
     <item>
       <link>https://mathspp.com/blog/connecting-python-and-dyalog-apl-with-sockets</link>
@@ -1139,7 +1201,8 @@
       <pubDate>Sat, 21 Jan 2023 15:00:00 GMT</pubDate>
       <description>Rodrigo Girão Serrão</description>
       <guid>https://mathspp.com/blog/connecting-python-and-dyalog-apl-with-sockets</guid>
-      <category>Example</category>
+      <category>Tutorial</category>
+      <category>Cross-Language</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/an-issue-with-xml-revisited</link>
@@ -1147,7 +1210,8 @@
       <pubDate>Mon, 09 Jan 2023 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/an-issue-with-xml-revisited</guid>
-      <category>Design</category>
+      <category>Tutorial</category>
+      <category>Idioms-Techniques</category>
     </item>
     <item>
       <link>https://medium.com/@solarbreeze69/an-apl-solution-to-logikers-vintage-computing-christmas-challenge-2022-d8d9751e6eb6</link>
@@ -1156,8 +1220,7 @@
       <pubDate>Wed, 28 Dec 2022 15:00:00 GMT</pubDate>
       <description>solarbreeze</description>
       <guid>https://medium.com/@solarbreeze69/an-apl-solution-to-logikers-vintage-computing-christmas-challenge-2022-d8d9751e6eb6</guid>
-      <category>Vintage</category>
-      <category>Challenge</category>
+      <category>Puzzle-Solving</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/anatomy-of-a-query-iii</link>
@@ -1165,8 +1228,8 @@
       <pubDate>Tue, 27 Dec 2022 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/anatomy-of-a-query-iii</guid>
-      <category>Example</category>
-      <category>Idiom</category>
+      <category>Data-Query</category>
+      <category>Tutorial</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/anatomy-of-a-query-ii</link>
@@ -1174,8 +1237,8 @@
       <pubDate>Tue, 20 Dec 2022 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/anatomy-of-a-query-ii</guid>
-      <category>Example</category>
-      <category>Idiom</category>
+      <category>Data-Query</category>
+      <category>Tutorial</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/secret-santa</link>
@@ -1183,7 +1246,8 @@
       <pubDate>Mon, 12 Dec 2022 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/secret-santa</guid>
-      <category>Challenge</category>
+      <category>Tutorial</category>
+      <category>Numeric-Math</category>
     </item>
     <item>
       <link>https://blog.dhsdevelopments.com/kap-solution-to-day-2-of-advent-of-code</link>
@@ -1191,7 +1255,8 @@
       <pubDate>Sun, 04 Dec 2022 15:00:00 GMT</pubDate>
       <description>Elias Mårtenson</description>
       <guid>https://blog.dhsdevelopments.com/kap-solution-to-day-2-of-advent-of-code</guid>
-      <category>Challenge</category>
+      <category>Puzzle-Solving</category>
+      <category>Tutorial</category>
     </item>
     <item>
       <link>https://razetime.github.io/blog/2022/12/01/apl-willans.html</link>
@@ -1199,7 +1264,8 @@
       <pubDate>Thu, 01 Dec 2022 15:00:00 GMT</pubDate>
       <description>Raghu Ranganathan</description>
       <guid>https://razetime.github.io/blog/2022/12/01/apl-willans.html</guid>
-      <category>Example</category>
+      <category>Numeric-Math</category>
+      <category>Tutorial</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/parsing-markdown</link>
@@ -1207,7 +1273,8 @@
       <pubDate>Mon, 24 Oct 2022 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/parsing-markdown</guid>
-      <category>Example</category>
+      <category>Tutorial</category>
+      <category>Web-GUI</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/anatomy-of-a-query</link>
@@ -1215,8 +1282,8 @@
       <pubDate>Sun, 23 Oct 2022 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/anatomy-of-a-query</guid>
-      <category>Example</category>
-      <category>Idiom</category>
+      <category>Data-Query</category>
+      <category>Tutorial</category>
     </item>
     <item>
       <link>https://optima-systems.co.uk/dyalog22-apl-user-meeting-portugal</link>
@@ -1225,7 +1292,6 @@
       <description>Paul Grosvenor</description>
       <guid>https://optima-systems.co.uk/dyalog22-apl-user-meeting-portugal</guid>
       <category>Announcement</category>
-      <category>Commentary</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/composerules-revisited</link>
@@ -1233,7 +1299,8 @@
       <pubDate>Fri, 07 Oct 2022 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/composerules-revisited</guid>
-      <category>Example</category>
+      <category>Idioms-Techniques</category>
+      <category>Web-GUI</category>
     </item>
     <item>
       <link>https://razetime.github.io/blog/2022/10/03/apl-balanced-trees.html</link>
@@ -1241,7 +1308,8 @@
       <pubDate>Mon, 03 Oct 2022 15:00:00 GMT</pubDate>
       <description>Raghu Ranganathan</description>
       <guid>https://razetime.github.io/blog/2022/10/03/apl-balanced-trees.html</guid>
-      <category>Example</category>
+      <category>Tutorial</category>
+      <category>Numeric-Math</category>
     </item>
     <item>
       <link>https://futhark-lang.org/blog/2022-10-03-futhark-on-arraycast.html</link>
@@ -1249,7 +1317,9 @@
       <pubDate>Mon, 03 Oct 2022 15:00:00 GMT</pubDate>
       <description>Troels Henriksen</description>
       <guid>https://futhark-lang.org/blog/2022-10-03-futhark-on-arraycast.html</guid>
-      <category>Commentary</category>
+      <category>Language-Design</category>
+      <category>Cross-Language</category>
+      <category>Opinion</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/constructing-css-in-apl</link>
@@ -1257,7 +1327,8 @@
       <pubDate>Fri, 30 Sep 2022 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/constructing-css-in-apl</guid>
-      <category>Example</category>
+      <category>Web-GUI</category>
+      <category>Tutorial</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/threading-the-htmlrenderer</link>
@@ -1265,7 +1336,8 @@
       <pubDate>Thu, 22 Sep 2022 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/threading-the-htmlrenderer</guid>
-      <category>Example</category>
+      <category>Web-GUI</category>
+      <category>Tutorial</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/a-document-object-model-in-apl</link>
@@ -1273,8 +1345,9 @@
       <pubDate>Wed, 21 Sep 2022 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/a-document-object-model-in-apl</guid>
-      <category>Example</category>
-      <category>Design</category>
+      <category>Web-GUI</category>
+      <category>Tutorial</category>
+      <category>Language-Design</category>
     </item>
     <item>
       <link>http://blog.vmchale.com/article/apl-different</link>
@@ -1282,7 +1355,9 @@
       <pubDate>Fri, 26 Aug 2022 15:00:00 GMT</pubDate>
       <description>Vanessa McHale</description>
       <guid>http://blog.vmchale.com/article/apl-different</guid>
-      <category>Commentary</category>
+      <category>Opinion</category>
+      <category>Idioms-Techniques</category>
+      <category>Cross-Language</category>
     </item>
     <item>
       <link>https://www.dyalog.com/blog/2022/08/maintaining-pynapl-part-2-apl-arrays-python-objects-and-json</link>
@@ -1291,7 +1366,9 @@
       <pubDate>Wed, 24 Aug 2022 15:00:00 GMT</pubDate>
       <description>Rodrigo Girão Serrão</description>
       <guid>https://www.dyalog.com/blog/2022/08/maintaining-pynapl-part-2-apl-arrays-python-objects-and-json</guid>
-      <category>Anecdote</category>
+      <category>Cross-Language</category>
+      <category>Tutorial</category>
+      <category>Data-Query</category>
     </item>
     <item>
       <link>http://apl2000.com</link>
@@ -1307,8 +1384,8 @@
       <pubDate>Sat, 06 Aug 2022 15:00:00 GMT</pubDate>
       <description>Felix Flath</description>
       <guid>https://isaac-flath.github.io/APL-Exploration/posts/knapsack2.html</guid>
-      <category>Example</category>
-      <category>Challenge</category>
+      <category>Tutorial</category>
+      <category>Numeric-Math</category>
     </item>
     <item>
       <link>https://isaac-flath.github.io/APL-Exploration/posts/knapsack.html</link>
@@ -1316,8 +1393,8 @@
       <pubDate>Sat, 06 Aug 2022 15:00:00 GMT</pubDate>
       <description>Felix Flath</description>
       <guid>https://isaac-flath.github.io/APL-Exploration/posts/knapsack.html</guid>
-      <category>Example</category>
-      <category>Challenge</category>
+      <category>Tutorial</category>
+      <category>Numeric-Math</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/on-control-structures</link>
@@ -1325,7 +1402,9 @@
       <pubDate>Mon, 01 Aug 2022 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/on-control-structures</guid>
-      <category>Design</category>
+      <category>Opinion</category>
+      <category>Language-Design</category>
+      <category>Idioms-Techniques</category>
     </item>
     <item>
       <link>https://blog.dhsdevelopments.com/control-structures-in-kap</link>
@@ -1333,7 +1412,9 @@
       <pubDate>Sat, 23 Jul 2022 15:00:00 GMT</pubDate>
       <description>Elias Mårtenson</description>
       <guid>https://blog.dhsdevelopments.com/control-structures-in-kap</guid>
-      <category>Design</category>
+      <category>Language-Design</category>
+      <category>Opinion</category>
+      <category>Interpreter-Internals</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/leetcode-601</link>
@@ -1341,7 +1422,8 @@
       <pubDate>Sat, 09 Jul 2022 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/leetcode-601</guid>
-      <category>Challenge</category>
+      <category>Data-Query</category>
+      <category>Puzzle-Solving</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/trains</link>
@@ -1349,7 +1431,8 @@
       <pubDate>Fri, 08 Jul 2022 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/trains</guid>
-      <category>Pointfree</category>
+      <category>Idioms-Techniques</category>
+      <category>Data-Query</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/leetcode-569</link>
@@ -1357,7 +1440,9 @@
       <pubDate>Thu, 07 Jul 2022 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/leetcode-569</guid>
-      <category>Challenge</category>
+      <category>Data-Query</category>
+      <category>Puzzle-Solving</category>
+      <category>Numeric-Math</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/leetcode-571</link>
@@ -1365,7 +1450,8 @@
       <pubDate>Wed, 06 Jul 2022 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/leetcode-571</guid>
-      <category>Challenge</category>
+      <category>Data-Query</category>
+      <category>Puzzle-Solving</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/leetcode-262-trips-and-users</link>
@@ -1373,7 +1459,8 @@
       <pubDate>Sun, 26 Jun 2022 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/leetcode-262-trips-and-users</guid>
-      <category>Challenge</category>
+      <category>Data-Query</category>
+      <category>Puzzle-Solving</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/leetcode-185</link>
@@ -1381,7 +1468,9 @@
       <pubDate>Sat, 25 Jun 2022 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/leetcode-185</guid>
-      <category>Challenge</category>
+      <category>Data-Query</category>
+      <category>Puzzle-Solving</category>
+      <category>Language-Design</category>
     </item>
     <item>
       <link>https://vector.org.uk/a-vendor-agnostic-logo-for-apl</link>
@@ -1397,7 +1486,7 @@
       <pubDate>Wed, 15 Jun 2022 15:00:00 GMT</pubDate>
       <description>Justin Dowdy</description>
       <guid>https://github.com/justin2004/weblog/blob/master/using_apl/README.md</guid>
-      <category>Example</category>
+      <category>Opinion</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/operators-in-a-dsl</link>
@@ -1405,7 +1494,9 @@
       <pubDate>Sat, 28 May 2022 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/operators-in-a-dsl</guid>
-      <category>Idiom</category>
+      <category>Language-Design</category>
+      <category>Opinion</category>
+      <category>Data-Query</category>
     </item>
     <item>
       <link>https://blog.dhsdevelopments.com/commentary-on-array-cast</link>
@@ -1413,7 +1504,7 @@
       <pubDate>Wed, 18 May 2022 15:00:00 GMT</pubDate>
       <description>Elias Mårtenson</description>
       <guid>https://blog.dhsdevelopments.com/commentary-on-array-cast</guid>
-      <category>Commentary</category>
+      <category>Opinion</category>
     </item>
     <item>
       <link>https://www.dyalog.com/blog/2022/05/maintaining-pynapl-part-1-the-beginning</link>
@@ -1421,7 +1512,7 @@
       <pubDate>Mon, 09 May 2022 15:00:00 GMT</pubDate>
       <description>Rodrigo Girão Serrão</description>
       <guid>https://www.dyalog.com/blog/2022/05/maintaining-pynapl-part-1-the-beginning</guid>
-      <category>Anecdote</category>
+      <category>Cross-Language</category>
     </item>
     <item>
       <link>https://mathspp.com/blog/solving-wordle-with-apl</link>
@@ -1429,8 +1520,8 @@
       <pubDate>Mon, 28 Mar 2022 15:00:00 GMT</pubDate>
       <description>Rodrigo Girão Serrão</description>
       <guid>https://mathspp.com/blog/solving-wordle-with-apl</guid>
-      <category>Example</category>
-      <category>Challenge</category>
+      <category>Puzzle-Solving</category>
+      <category>Tutorial</category>
     </item>
     <item>
       <link>https://mathspp.com/blog/why-apl-is-a-language-worth-knowing</link>
@@ -1438,7 +1529,8 @@
       <pubDate>Thu, 24 Mar 2022 15:00:00 GMT</pubDate>
       <description>Rodrigo Girão Serrão</description>
       <guid>https://mathspp.com/blog/why-apl-is-a-language-worth-knowing</guid>
-      <category>Commentary</category>
+      <category>Opinion</category>
+      <category>Cross-Language</category>
     </item>
     <item>
       <link>https://blog.dhsdevelopments.com/lazy-evaluation-helping-implementation-of-transform-by-mask-in-kap</link>
@@ -1447,7 +1539,8 @@
       <pubDate>Sun, 13 Mar 2022 15:00:00 GMT</pubDate>
       <description>Elias Mårtenson</description>
       <guid>https://blog.dhsdevelopments.com/lazy-evaluation-helping-implementation-of-transform-by-mask-in-kap</guid>
-      <category>Design</category>
+      <category>Interpreter-Internals</category>
+      <category>Language-Design</category>
     </item>
     <item>
       <link>https://blog.dhsdevelopments.com/an-example-of-lazy-evaluation-in-kap</link>
@@ -1455,7 +1548,8 @@
       <pubDate>Sat, 12 Mar 2022 15:00:00 GMT</pubDate>
       <description>Elias Mårtenson</description>
       <guid>https://blog.dhsdevelopments.com/an-example-of-lazy-evaluation-in-kap</guid>
-      <category>Example</category>
+      <category>Interpreter-Internals</category>
+      <category>Language-Design</category>
     </item>
     <item>
       <link>https://outerproduct.net/2022-03-07_death-to-%E2%97%8B.html</link>
@@ -1463,7 +1557,8 @@
       <pubDate>Mon, 07 Mar 2022 15:00:00 GMT</pubDate>
       <description>Moonchild</description>
       <guid>https://outerproduct.net/2022-03-07_death-to-%E2%97%8B.html</guid>
-      <category>Design</category>
+      <category>Language-Design</category>
+      <category>Opinion</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/session-configuration</link>
@@ -1471,7 +1566,8 @@
       <pubDate>Sun, 06 Mar 2022 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/session-configuration</guid>
-      <category>Design</category>
+      <category>Language-Design</category>
+      <category>Opinion</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/a-new-workspace-file-format</link>
@@ -1479,7 +1575,7 @@
       <pubDate>Sat, 26 Feb 2022 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/a-new-workspace-file-format</guid>
-      <category>Design</category>
+      <category>Language-Design</category>
     </item>
     <item>
       <link>https://mathspp.com/blog/til/034</link>
@@ -1487,7 +1583,8 @@
       <pubDate>Wed, 23 Feb 2022 15:00:00 GMT</pubDate>
       <description>Rodrigo Girão Serrão</description>
       <guid>https://mathspp.com/blog/til/034</guid>
-      <category>Mathematics</category>
+      <category>Tutorial</category>
+      <category>Numeric-Math</category>
     </item>
     <item>
       <link>https://mathspp.com/blog/til/033</link>
@@ -1495,7 +1592,8 @@
       <pubDate>Tue, 22 Feb 2022 15:00:00 GMT</pubDate>
       <description>Rodrigo Girão Serrão</description>
       <guid>https://mathspp.com/blog/til/033</guid>
-      <category>Mathematics</category>
+      <category>Tutorial</category>
+      <category>Numeric-Math</category>
     </item>
     <item>
       <link>https://github.com/justin2004/weblog/blob/master/a_random_permutation/README.md</link>
@@ -1503,8 +1601,8 @@
       <pubDate>Thu, 17 Feb 2022 15:00:00 GMT</pubDate>
       <description>Justin Dowdy</description>
       <guid>https://github.com/justin2004/weblog/blob/master/a_random_permutation/README.md</guid>
-      <category>Example</category>
-      <category>Anecdote</category>
+      <category>Idioms-Techniques</category>
+      <category>Opinion</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/aaronhsuquote</link>
@@ -1512,7 +1610,7 @@
       <pubDate>Thu, 27 Jan 2022 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/aaronhsuquote</guid>
-      <category>Commentary</category>
+      <category>Opinion</category>
     </item>
     <item>
       <link>https://www.toolofthought.com/posts/vfi-with-csv</link>
@@ -1520,8 +1618,8 @@
       <pubDate>Tue, 25 Jan 2022 15:00:00 GMT</pubDate>
       <description>Paul Mansour</description>
       <guid>https://www.toolofthought.com/posts/vfi-with-csv</guid>
-      <category>Example</category>
-      <category>Idiom</category>
+      <category>Tutorial</category>
+      <category>Data-Query</category>
     </item>
     <item>
       <link>https://mathspp.com/blog/til/021</link>
@@ -1529,7 +1627,8 @@
       <pubDate>Mon, 10 Jan 2022 15:00:00 GMT</pubDate>
       <description>Rodrigo Girão Serrã</description>
       <guid>https://mathspp.com/blog/til/021</guid>
-      <category>Mathematics</category>
+      <category>Numeric-Math</category>
+      <category>Tutorial</category>
     </item>
     <item>
       <link>https://palaiologos.rocks/posts/linalg-apl</link>
@@ -1537,7 +1636,8 @@
       <pubDate>Mon, 10 Jan 2022 15:00:00 GMT</pubDate>
       <description>Kamila Szewczyk</description>
       <guid>https://palaiologos.rocks/posts/linalg-apl</guid>
-      <category>Mathematics</category>
+      <category>Numeric-Math</category>
+      <category>Tutorial</category>
     </item>
     <item>
       <link>https://palaiologos.rocks/posts/poly-root-apl</link>
@@ -1545,7 +1645,8 @@
       <pubDate>Sun, 09 Jan 2022 15:00:00 GMT</pubDate>
       <description>Kamila Szewczyk</description>
       <guid>https://palaiologos.rocks/posts/poly-root-apl</guid>
-      <category>Mathematics</category>
+      <category>Numeric-Math</category>
+      <category>Tutorial</category>
     </item>
     <item>
       <link>https://palaiologos.rocks/posts/taylor-apl</link>
@@ -1553,7 +1654,8 @@
       <pubDate>Thu, 06 Jan 2022 15:00:00 GMT</pubDate>
       <description>Kamila Szewczyk</description>
       <guid>https://palaiologos.rocks/posts/taylor-apl</guid>
-      <category>Mathematics</category>
+      <category>Numeric-Math</category>
+      <category>Tutorial</category>
     </item>
     <item>
       <link>https://optima-systems.co.uk/creating-a-graphical-user-interface-gui-in-dyalog-apl-part-1</link>
@@ -1562,7 +1664,8 @@
       <pubDate>Fri, 28 May 2021 15:00:00 GMT</pubDate>
       <description>Sam Gutsell</description>
       <guid>https://optima-systems.co.uk/creating-a-graphical-user-interface-gui-in-dyalog-apl-part-1</guid>
-      <category>Example</category>
+      <category>Web-GUI</category>
+      <category>Tutorial</category>
     </item>
   </channel>
 </rss>
