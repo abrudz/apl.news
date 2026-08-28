@@ -1,0 +1,28 @@
+{
+  "_comment": "Source registry for check-sources.mjs. Each entry is either a 'feed' (RSS/Atom) or a 'scrape' (fetch an HTML listing page and extract article links matching `pattern`, resolved against the page's origin). Optional `exclude` drops matching URLs; optional `filter` keeps ONLY items whose URL or title matches it (to narrow multi-topic blogs to APL). Prefer APL-tag-filtered endpoints where a source offers them. See README.md.",
+  "sources": [
+    { "name": "Tool of Thought (Paul Mansour)", "type": "scrape", "url": "https://www.toolofthought.com/", "pattern": "/posts/[a-z0-9][a-z0-9-]*" },
+    { "name": "dhsdevelopments / KAP (Elias Mårtenson)", "type": "feed", "url": "https://blog.dhsdevelopments.com/feed/" },
+    { "name": "TinyAPL (Ruben Verg)", "type": "feed", "url": "https://blog.rubenverg.com/feed" },
+    { "name": "Dyalog blog", "type": "feed", "url": "https://www.dyalog.com/blog/feed/" },
+    { "name": "Jonathan Carroll (APL tag)", "type": "feed", "url": "https://jcarroll.com.au/tags/apl/index.xml" },
+    { "name": "sacrideo (Aaron Hsu, APL tag)", "type": "feed", "url": "https://www.sacrideo.us/tag/apl/feed/" },
+    { "name": "mathspp (Rodrigo Girão Serrão, APL tag)", "type": "scrape", "url": "https://mathspp.com/blog/tag:apl", "pattern": "/blog/[a-z0-9][a-z0-9/-]*", "exclude": "/blog/(problems|tags)(/|$)|/blog/(pydonts|til|twitter-threads)$" },
+    { "name": "Brandon Wilson", "type": "scrape", "url": "https://blog.wilsonb.com/", "pattern": "/posts/\\d{4}-\\d{2}-\\d{2}-[a-z0-9-]+\\.html" },
+    { "name": "loriculus (Rohan Prinja)", "type": "scrape", "url": "https://loriculus.org/blog/", "pattern": "/blog/[a-z0-9][a-z0-9-]*/", "exclude": "/blog/tag/" },
+    { "name": "iczelia / formerly palaiologos.rocks (Kamila Szewczyk, APL tag)", "type": "scrape", "url": "https://iczelia.net/blog/tag/apl/", "pattern": "/blog/[a-z0-9][a-z0-9-]*/", "exclude": "/blog/tag" },
+    { "name": "razetime (Raghu Ranganathan)", "type": "feed", "url": "https://razetime.github.io/feed.xml" },
+    { "name": "xpqz (Stefan Kruger)", "type": "feed", "url": "https://xpqz.github.io/feed.xml" },
+    { "name": "Veit Heller (APL only)", "type": "feed", "url": "https://blog.veitheller.de/feed.rss", "filter": "apl" },
+    { "name": "Graham Enos (APL only)", "type": "feed", "url": "https://grahamenos.com/atom.xml", "filter": "apl" },
+    { "name": "bl0v3", "type": "feed", "url": "https://bl0v3.com/atom.xml" },
+    { "name": "solarbreeze (Medium, APL only)", "type": "feed", "url": "https://medium.com/feed/@solarbreeze69", "filter": "apl" },
+    { "name": "But why is that? (Substack)", "type": "feed", "url": "https://butwhyisthat.substack.com/feed" },
+    { "name": "RareSchool (#APL label)", "type": "feed", "url": "https://blog.rareschool.com/feeds/posts/default/-/%23APL" },
+    { "name": "puntoblogspot (apl/j/k label)", "type": "feed", "url": "https://puntoblogspot.blogspot.com/feeds/posts/default/-/apl%2Fj%2Fk" }
+  ],
+  "manual": [
+    { "name": "APL Journal (APL Germany e.V.)", "url": "https://apl-germany.de/apl-journal/", "reason": "Annual PDF, not a feed. Check once a year and filter to English APL articles." },
+    { "name": "One-off / low-frequency sources", "url": "", "reason": "github.com READMEs, optima-systems.co.uk, apl2000.com, pitr.ca, blog.vmchale.com, homewithinnowhere.com, scharenbroch.dev, futhark-lang.org, outerproduct.net, isaac-flath.github.io, maxcan-code.github.io, ap29600.github.io — no reliable per-source APL feed; add as needed." }
+  ]
+}
