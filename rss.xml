@@ -5,6 +5,15 @@
     <atom:link href="https://apl.news/rss.xml" rel="self" type="application/rss+xml"></atom:link>
     <description>APL news aggregator</description>
     <item>
+      <link>https://blog.wilsonb.com/#2026-11-14-stopping-population-collapse-with-coin-flips</link>
+      <title>Stopping Population Collapse with Coin Flips</title>
+      <pubDate>Sat, 14 Nov 2026 15:00:00 GMT</pubDate>
+      <description>Brandon Wilson</description>
+      <guid>https://blog.wilsonb.com/#2026-11-14-stopping-population-collapse-with-coin-flips</guid>
+      <category>Numeric-Math</category>
+      <category>Tutorial</category>
+    </item>
+    <item>
       <link>https://ap29600.github.io/boolean_scans.html</link>
       <title>Symmetries in boolean scans</title>
       <pubDate>Wed, 26 Aug 2026 15:00:00 GMT</pubDate>
